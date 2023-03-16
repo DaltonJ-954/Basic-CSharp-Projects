@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yj/1xETNA5CZPe/by4Nqohp/7xbDOv+YOwphf+WJhOJMBh7kPe0s1DDwJOFFSe6QJRl4pRLtaRi7lfvJFZcUng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\source\\repos\\acme_Accounting\\acme_Accounting\\acme_Accounting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
