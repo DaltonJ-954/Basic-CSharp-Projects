@@ -11,3 +11,17 @@ C:\Users\scall\source\repos\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp
 C:\Users\scall\source\repos\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.dll
 C:\Users\scall\source\repos\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.pdb
 C:\Users\scall\source\repos\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\bin\Debug\netcoreapp3.1\acme_Accounting.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\acme_Accounting\acme_Accounting\obj\Debug\netcoreapp3.1\acme_Accounting.genruntimeconfig.cache
