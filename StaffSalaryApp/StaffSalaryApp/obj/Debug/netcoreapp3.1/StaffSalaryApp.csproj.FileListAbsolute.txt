@@ -1,0 +1,14 @@
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.exe
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.deps.json
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.runtimeconfig.json
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.runtimeconfig.dev.json
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.dll
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\bin\Debug\netcoreapp3.1\StaffSalaryApp.pdb
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.csproj.AssemblyReference.cache
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.AssemblyInfoInputs.cache
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.AssemblyInfo.cs
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.dll
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.pdb
+C:\Users\scall\source\repos\StaffSalaryApp\StaffSalaryApp\obj\Debug\netcoreapp3.1\StaffSalaryApp.genruntimeconfig.cache
