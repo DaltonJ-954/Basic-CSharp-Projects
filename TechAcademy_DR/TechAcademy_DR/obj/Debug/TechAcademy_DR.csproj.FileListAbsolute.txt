@@ -1,0 +1,7 @@
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\obj\Debug\TechAcademy_DR.csproj.AssemblyReference.cache
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\obj\Debug\TechAcademy_DR.csproj.CoreCompileInputs.cache
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\bin\Debug\TechAcademy_DR.exe.config
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\bin\Debug\TechAcademy_DR.exe
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\bin\Debug\TechAcademy_DR.pdb
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\obj\Debug\TechAcademy_DR.exe
+C:\Users\scall\source\repos\TechAcademy_DR\TechAcademy_DR\obj\Debug\TechAcademy_DR.pdb
