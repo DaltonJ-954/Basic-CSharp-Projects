@@ -16,42 +16,39 @@ namespace CarInsuranceQuoteApp
             Console.WriteLine("What is your age?");
             int age = Convert.ToInt32(Console.ReadLine());
 
-            if (age >= 15)
-            {
-                Console.WriteLine("You are of legal age.");
-            }
-            else
-            {
-                Console.WriteLine("You must be at least 15+ to qualify.");
-            }
+            //if (age > 15)
+            //{
+            //    Console.WriteLine("You are of legal age.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You must be at least 15+ to qualify.");
+            //}
 
             Console.WriteLine("Have you ever had a DUI?");
-            bool Yes = true;
-            bool No = false;
+            bool DUI = Convert.ToBoolean(Console.ReadLine());
 
-            if (Yes != true)
+            //if (Yes != true)
                 
-            {
-                Console.WriteLine("You cannot have any DUIs on recored.");
-            }
-            else
-            {
-                Console.WriteLine("You have qualified");
-            }
+            //{
+            //    Console.WriteLine("You cannot have any DUIs on recored.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You have qualified");
+            //}
 
             Console.WriteLine("How many speeding tickets do you have?");
             int sum = Convert.ToInt32(Console.ReadLine());
 
-            if (sum <= 3)
+            bool sampleBool = true;
+            if (age > 15 && DUI && sum > 3 != sampleBool)
             {
-                Console.WriteLine("You've passed the ticket requirement.");
-            }
-            else
-            {
-                Console.WriteLine("You are over the limit of tickets to qualify.");
+                
             }
 
-
+            Console.WriteLine("Qualified?");
+            bool approved = Convert.ToBoolean(Console.ReadLine());
 
             Console.ReadLine();
         }
