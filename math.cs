@@ -1,5 +1,8 @@
-int num1 = 7;
-int num2 = 9;
-int total = num1 * num2;
-Console.WriteLine(total);
-Console.ReadLine();
+if (1 == 1)
+{
+    Console.WriteLine("1 equals 1");
+}
+else
+{
+    Console.WriteLine("1 does not equal 1")
+}
