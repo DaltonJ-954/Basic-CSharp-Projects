@@ -5,3 +5,10 @@ C:\Users\scall\source\repos\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\
 C:\Users\scall\source\repos\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.exe
 C:\Users\scall\source\repos\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.pdb
 C:\Users\scall\source\repos\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\bin\Debug\CarInsuranceQuoteApp.exe.config
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\bin\Debug\CarInsuranceQuoteApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\bin\Debug\CarInsuranceQuoteApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsuranceQuoteApp\CarInsuranceQuoteApp\obj\Debug\CarInsuranceQuoteApp.pdb

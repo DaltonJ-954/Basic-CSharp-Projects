@@ -27,8 +27,10 @@ namespace CarInsuranceQuoteApp
 
             Console.WriteLine("Have you ever had a DUI?");
             bool Yes = true;
+            bool No = false;
 
-            if (Yes)
+            if (Yes != true)
+                
             {
                 Console.WriteLine("You cannot have any DUIs on recored.");
             }
