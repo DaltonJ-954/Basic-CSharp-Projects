@@ -10,16 +10,20 @@ namespace CarInsuranceQuoteApp
     {
         static void Main()
         {
+            //This  calls the WriteLine() methods to display output to the console.
             Console.WriteLine("Many Miles Insurance Co. \n");
             Console.WriteLine("Get Insurance Quote Here! \n");
 
             Console.WriteLine("What is your age?");
+            // The Convert method converts the "age" string to a integer.
             int age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Have you ever had a DUI?");
+            // The Convert method converts the "DUI" string to a boolean.
             bool DUI = Convert.ToBoolean(Console.ReadLine());
-            
+            // Another string converted to integer.
             Console.WriteLine("How many speeding tickets do you have?");
+            // Another string converted to integer.
             int sum = Convert.ToInt32(Console.ReadLine());
 
             bool sampleBool = true;
