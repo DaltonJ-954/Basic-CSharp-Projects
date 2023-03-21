@@ -26,14 +26,15 @@ namespace CarInsuranceQuoteApp
             // Another string converted to integer.
             int sum = Convert.ToInt32(Console.ReadLine());
 
-            bool sampleBool = true;
-            if (age > 15 && DUI && sum > 3 != sampleBool)
+            
+            if (age > 15 && !DUI && sum <=3)
             {
-                
+                Console.WriteLine("Qualified.");
             }
-
-            Console.WriteLine("Qualified?");
-            bool approved = Convert.ToBoolean(Console.ReadLine());
+            else
+            {
+                Console.WriteLine("User is not qualified.");
+            }
 
             Console.ReadLine();
         }
