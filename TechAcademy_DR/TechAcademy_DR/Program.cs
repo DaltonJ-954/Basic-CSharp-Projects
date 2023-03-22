@@ -27,7 +27,7 @@ namespace TechAcademy_DR
             // An int(integer) is a variable that must be a specified data type
             Convert.ToInt32(page);
 
-            Console.WriteLine("Do you need help with anything?");
+            Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.");
             //  Boolean type is declared with the bool keyword and can only take the values true or false
             Console.ReadLine();
 
