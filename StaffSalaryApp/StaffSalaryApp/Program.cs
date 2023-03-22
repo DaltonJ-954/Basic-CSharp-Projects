@@ -21,15 +21,15 @@ namespace StaffSalaryApp
             int HoursWorked2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Annual salary of Person 1: ");
-            decimal one = HourlyRate * HoursWorked * 52;
-            Console.WriteLine(one);
+            decimal Person1 = HourlyRate * HoursWorked * 52;
+            Console.WriteLine(Person1);
 
             Console.WriteLine("Annual salary of Person 2: ");
-            decimal two = HourlyRate2 * HoursWorked2 * 52;
-            Console.WriteLine(two);
+            decimal Person2 = HourlyRate2 * HoursWorked2 * 52;
+            Console.WriteLine(Person2);
 
             Console.WriteLine("Does Person 1 make more money than Person 2?");
-            Console.WriteLine(one > two);
+            Console.WriteLine(Person1 < Person2);
 
             Console.ReadKey();
         }
