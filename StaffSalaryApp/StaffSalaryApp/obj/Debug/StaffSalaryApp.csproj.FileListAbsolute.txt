@@ -1,0 +1,7 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\bin\Debug\StaffSalaryApp.exe.config
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\bin\Debug\StaffSalaryApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\bin\Debug\StaffSalaryApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\obj\Debug\StaffSalaryApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\obj\Debug\StaffSalaryApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\obj\Debug\StaffSalaryApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StaffSalaryApp\StaffSalaryApp\obj\Debug\StaffSalaryApp.pdb
