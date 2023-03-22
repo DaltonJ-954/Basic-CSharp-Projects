@@ -15,6 +15,7 @@ namespace PackageExpress
             // If statement returning back data that determines if weight is heavier or lighter than 50 lbs.
             if (packWeight > 50)
             {
+                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day!");
                 // Terminates this process and returns an exit code to the operating system.
                 System.Environment.Exit(1);
             }
