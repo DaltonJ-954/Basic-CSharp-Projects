@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ivJ77paQLhUnbIvGWnMUoQxutj3y3iyJOQkj0AtEmVnHN3XZg/ibDvbxqTATKYpH0J+9LfQGXC+fGTc1kw1B6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Branching\\Branching\\Branching.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

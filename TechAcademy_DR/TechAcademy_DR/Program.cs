@@ -23,13 +23,13 @@ namespace TechAcademy_DR
 
             Console.WriteLine("What page number?");
             // Strings are used for storing text.
-            string page = Console.ReadLine();
+            int page = Convert.ToInt32(Console.ReadLine());
             // An int(integer) is a variable that must be a specified data type
-            Convert.ToInt32(page);
+            
 
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.");
             //  Boolean type is declared with the bool keyword and can only take the values true or false
-            Console.ReadLine();
+            bool help = Convert.ToBoolean(Console.ReadLine());
 
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics");
             Console.ReadLine();
@@ -39,8 +39,7 @@ namespace TechAcademy_DR
             Console.ReadLine();
 
             Console.WriteLine("How many hours did you study today?");
-            string hours = Console.ReadLine();
-            Convert.ToInt32(hours);
+            int hours = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
 
             Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly.\nHave a great day!");
