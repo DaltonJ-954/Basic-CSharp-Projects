@@ -15,10 +15,12 @@ namespace TechAcademy_DR
             Console.WriteLine("Student Daily Report");
 
             Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
             // The ReadLine method returns one line from the file.
             Console.ReadLine();
 
             Console.WriteLine("What course are you on?");
+            string course = Console.ReadLine();
             Console.ReadLine();
 
             Console.WriteLine("What page number?");
@@ -31,10 +33,11 @@ namespace TechAcademy_DR
             //  Boolean type is declared with the bool keyword and can only take the values true or false
             bool help = Convert.ToBoolean(Console.ReadLine());
 
+            string experience = Console.ReadLine();
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics");
             Console.ReadLine();
 
-
+            string feedback = Console.ReadLine();
             Console.WriteLine("Is there any other feedback you'd like to provide? Please give specifics");
             Console.ReadLine();
 
