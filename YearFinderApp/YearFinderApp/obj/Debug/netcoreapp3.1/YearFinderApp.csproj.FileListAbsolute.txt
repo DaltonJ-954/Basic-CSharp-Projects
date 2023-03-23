@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\bin\Debug\netcoreapp3.1\YearFinderApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\YearFinderApp\YearFinderApp\obj\Debug\netcoreapp3.1\YearFinderApp.genruntimeconfig.cache
