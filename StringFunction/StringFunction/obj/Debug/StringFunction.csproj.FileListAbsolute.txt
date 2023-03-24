@@ -1,0 +1,7 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\bin\Debug\StringFunction.exe.config
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\bin\Debug\StringFunction.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\bin\Debug\StringFunction.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\obj\Debug\StringFunction.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\obj\Debug\StringFunction.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\obj\Debug\StringFunction.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StringFunction\StringFunction\obj\Debug\StringFunction.pdb
