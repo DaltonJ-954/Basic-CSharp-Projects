@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\bin\Debug\netcoreapp3.1\ArraySelector.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.genruntimeconfig.cache
