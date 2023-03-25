@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\bin\Debug\netcoreapp3.1\Iteratoin.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Iteratoin\Iteratoin\obj\Debug\netcoreapp3.1\Iteratoin.genruntimeconfig.cache

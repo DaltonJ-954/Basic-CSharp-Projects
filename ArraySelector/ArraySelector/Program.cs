@@ -8,7 +8,9 @@ using System.Collections.Generic;
             Console.WriteLine("Select an index with the deisred string array to the screen");
             // String array method is a C# method that's similar to an array of strings
             string[] snakes = { "Rattlesnake", "Python", "Cobra", "GrassSnake", "Boa Constrictor", "Adder", "Anaconda" };
-            int snakeSelect = Convert.ToInt32(Console.ReadLine());
+            
+        
+        int snakeSelect = Convert.ToInt32(Console.ReadLine());
             
             // If statement  to search for arrays through choosing a particular index.
             if (snakeSelect > 6 || snakeSelect < 0)

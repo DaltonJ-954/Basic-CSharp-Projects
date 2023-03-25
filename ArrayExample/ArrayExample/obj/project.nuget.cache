@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EmBoMz/gHvTUVEwJAug9GyivjnjLdd2K3MvNPR14fIK49N9ScZw6QOZJLrDSADIdU4EmRReGqChTbXPzZfaDwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ArrayExample\\ArrayExample\\ArrayExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

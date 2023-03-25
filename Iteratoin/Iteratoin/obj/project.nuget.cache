@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l97bs2ef9hWKqgom1aYaq8uMjSnCU6paxaIyy9i7kIv9sy8aA15BrqgspOOrQohjYWlN5bP23/SR0o31tmEyKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Iteratoin\\Iteratoin\\Iteratoin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
