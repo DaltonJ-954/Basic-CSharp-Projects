@@ -106,48 +106,6 @@ using System.Linq;
                 snubs.Add(team);
             }
         }
-
-        //if (myTeams.Contains(select))
-        //{
-        //    for (int i = 0; i < myTeams.Count(); i++)
-        //    {
-        //        if (myTeams[i] == select)
-        //        {
-        //            Console.WriteLine(i);
-        //        }
-        //        foreach (string team in myTeams)
-        //        {
-        //            //If the item does not exist, add it to "snubs"
-        //            if (!snubs.Contains(team))
-        //            {
-        //                snubs.AddRange(myTeams);
-        //            }
-        //        }
-        //        foreach (myTeams)
-        //        {
-        //            if(team != select)
-        //            {
-        //                Console.WriteLine("This team is appears multiple times");
-        //            }
-        //            else
-        //            {
-        //                Console.WriteLine("This team appears once");
-        //            }
-        //        }
-        //    }
-        //}
-        //else
-        //{
-        //    Console.WriteLine("Team not in list");
-        //}
-        ////Display items in the list
-        //foreach (string loss in snubs)
-        //{
-        //    Console.WriteLine("A fan of the {0}", loss);
-        //}
-
-
-
         Console.ReadLine();
     } 
     }
