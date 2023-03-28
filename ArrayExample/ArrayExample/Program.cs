@@ -10,29 +10,23 @@ using System.Linq;
         string[] animals = { "horses", "turtles", "dogs", "birds", "bears" };
         // Writes the specified data, followed by the current line terminator, to the standard output stream
         Console.WriteLine("What is your favorite type of animal?: " + animals);
+        // The string fav is created for user input.
+        string fav = Console.ReadLine();
         // The foreach statement executes a statement or a block of statements for each element in an instance of the type
-        foreach (string type in animals)
+        for (int i = 0; i != animals.Length; i++)
             // In C#, if statement is used to indicate which statement will execute according to the value of the given boolean expression
-            if (type == "dogs")
             {
-                Console.WriteLine("My favorite type of animal are " + type);
+            animals[i] = animals[i] + fav;
             }
         // The for statement executes a statement or a block of statements while a specified Boolean expression evaluates to true. 
-        for (int a = 0; a < animals.Length; a++)
+        for (int a = 0; a != animals.Length; a++)
         {
             Console.WriteLine(animals[a]);
         }
         // This is a loop that results in a loop using the leass than(<) sign.
-        while (animals.Length < 6)
+        while (animals.Length > 5)
         {
             Console.WriteLine("To infininty and beyond!");
-            break;
-        }
-        // This is a loop that results in a loop using the leass than and equal(<=) sign.
-        while (animals.Length <= 6)
-        {
-            Console.WriteLine("Is it safe not to loop infinitely anymore?");
-            break;
         }
         // Reads the next line of characters from the standard input stream.
         Console.ReadLine();
@@ -42,44 +36,48 @@ using System.Linq;
             "banana", "apple", "plum", "orange", "grape"
         };
         Console.WriteLine("Pick a fruit");
+        // The string pick is created for user input.
         string pick = Console.ReadLine();
-        foreach (string fruit in fruits)
+        for (int x = 0; x < fruits.Count; x++)
         {
-            if (fruits.Contains(pick))
+            if (fruits[x] == pick)
             {
-                Console.WriteLine("That fruit is in the list");
-            }
-            else
-            {
-                Console.WriteLine("That fruit is not in the list");
+                // This block of code adds an index number equal to the user input string pick.
+                Console.WriteLine("Your item is found at index:" + x);
                 break;
             }
         }
-        Console.ReadLine();
-
+        // A not statement that's declaring a user input string isn't in the fruits list.
+        if (!fruits.Contains(pick))
+        {
+            Console.WriteLine("Match is not found");
+        }
+        Console.ReadLine();               
 
         List<string> desserts = new List<string>
         {
             "shortbread", "cookies", "icecream", "pumpkinpie", "cake", "brownies", "cake", "danish"
         };
-        Console.WriteLine("What dessert do you prefer the most");
-        string sweets = Console.ReadLine();
-        foreach (string sweet in desserts)
-        {
-            if (desserts.Contains(sweets))
-            {
-                Console.WriteLine(sweets + " is is in the list");
-                break;
-            }
-            else
-            {
-                Console.WriteLine(sweets + " is not in the list");
-                break;
-            }
-        }
+
         for (int i = 0; i < desserts.Count(); i++)
         {
+            // A for loop that is reading through the list of strings in the desserts list of arrays.
             Console.WriteLine(desserts[i]);
+        }
+        Console.WriteLine("What dessert do you prefer the most");
+        // The string sweets is created for user input.
+        string sweets = Console.ReadLine();
+        for (int t = 0; t < desserts.Count; t++)
+        {
+            if (desserts[t] == sweets)
+            {
+                // A local variable being concotenated int a string with and int (t).
+                Console.WriteLine(sweets + " is is in the list " + t);
+            }
+        }
+        if (!desserts.Contains(sweets))
+        {
+            Console.WriteLine("This is not in the list");
         }
         Console.ReadLine();
 
@@ -90,6 +88,7 @@ using System.Linq;
             };
         List<string> snubs = new List<string>();
         Console.WriteLine("Choose a team");
+        // The string select is created for user input.
         string select = Console.ReadLine();
         // The foreach is creating a local string in the variable list myTeams.
         foreach (string team in myTeams)
