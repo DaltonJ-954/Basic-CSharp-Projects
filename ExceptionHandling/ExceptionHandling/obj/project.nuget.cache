@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ceXEEyidZ685sfi+RwUZiq9zU4Hl0uvVUMOcNhE+/zjdJTt0v3u4pkGNgbwPsU7PBSBBcJ/L05RMGmJA+Elhfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\source\\repos\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
