@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scall\\source\\repos\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
+      "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
       "projectName": "ExceptionHandling",
-      "projectPath": "C:\\Users\\scall\\source\\repos\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
+      "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
       "packagesPath": "C:\\Users\\scall\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scall\\source\\repos\\ExceptionHandling\\ExceptionHandling\\obj\\",
+      "outputPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ExceptionHandling\\ExceptionHandling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
