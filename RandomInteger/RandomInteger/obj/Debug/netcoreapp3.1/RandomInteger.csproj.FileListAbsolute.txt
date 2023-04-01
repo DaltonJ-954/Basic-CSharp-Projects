@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\bin\Debug\netcoreapp3.1\RandomInteger.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.genruntimeconfig.cache
