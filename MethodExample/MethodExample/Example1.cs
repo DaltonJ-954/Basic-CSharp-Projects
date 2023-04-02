@@ -6,18 +6,17 @@ namespace MethodExample
 {
     class Example
     {
-        public int Born;
-        public int Age;
-        public double Date;
-
-        public Example (int argBorn, int argAge, int argDate)
+        // Defining the fields of the class
+        public int Girls;
+        public int Boys;
+        // Defining the Example method
+        public Example ()
         {
-            Born = argBorn;
-            Age = argAge;
-            Date = argDate;
-            Console.WriteLine();
-            Console.ReadLine();
-
+            // Setting the fields values
+            Boys = 43;
+            Girls = 35;
+            // Console.WriteLine  is used to print data along with printing the new line.
+            Console.WriteLine(Boys + Girls);
         }
     }
 
