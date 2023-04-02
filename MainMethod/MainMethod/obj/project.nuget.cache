@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xiYrYPKhzkbkvKjo+utXl8KxGXWXk3Kp4zxXxpUZvDKqh59nwAE0Glf3reVtIY2g4S+obwIPx8Lt2dezSqLi/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MainMethod\\MainMethod\\MainMethod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

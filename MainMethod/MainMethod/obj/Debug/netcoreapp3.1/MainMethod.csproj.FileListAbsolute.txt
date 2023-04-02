@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\bin\Debug\netcoreapp3.1\MainMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MainMethod\MainMethod\obj\Debug\netcoreapp3.1\MainMethod.genruntimeconfig.cache
