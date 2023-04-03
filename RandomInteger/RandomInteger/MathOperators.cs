@@ -8,10 +8,22 @@ namespace RandomInteger
     class MathOperators
     {
         // An method for adding.
-        public int Addition;
+        public int Addition (int num1)
+        {
+            return num1 + 7;
+        }
+
+
         // An method for subtracting.
-        public int Subtraction;
+        public int Subtraction (int num1)
+        {
+            return num1 - 2;
+        }
+
         // An method for multiplying.
-        public int Multiplication;
+        public int Multiplication(int num1)
+        {
+            return num1 * 5;
+        }
     }
 }

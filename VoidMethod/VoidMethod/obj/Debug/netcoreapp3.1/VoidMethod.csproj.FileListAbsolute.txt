@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\bin\Debug\netcoreapp3.1\VoidMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VoidMethod\VoidMethod\obj\Debug\netcoreapp3.1\VoidMethod.genruntimeconfig.cache

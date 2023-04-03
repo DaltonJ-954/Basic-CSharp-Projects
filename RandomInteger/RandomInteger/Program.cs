@@ -10,17 +10,13 @@ namespace RandomInteger
             MathOperators operation = new MathOperators();
 
             Console.WriteLine("Create a addtion operator.");
-            // Varible using all three methods of the class to perform mathmatical operations.
-            operation.Addition = 23 + 7;
-            Console.WriteLine(operation.Addition);
+            int sum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(operation.Addition(sum));
 
-            Console.WriteLine("Create a subtraction operator.");
-            operation.Subtraction = 46 - 13;
-            Console.WriteLine(operation.Subtraction);
+            
+            Console.WriteLine(operation.Subtraction(sum));
 
-            Console.WriteLine("Create a multiplication operator.");
-            operation.Multiplication = 33 * 419;
-            Console.WriteLine(operation.Multiplication);
+            Console.WriteLine(operation.Multiplication(sum));
 
             Console.ReadLine();
         }

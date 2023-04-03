@@ -13,28 +13,30 @@ namespace MainMethod
             // Variable that are declared
             int theYear = 2022;
             decimal theMotor = 6.3m;
-            string car = "Camero";
+            string car = "4";
 
-            Mathmatical (theYear, theMotor, car);
+            Console.WriteLine(Mathmatical(theYear));
+            Console.WriteLine(Mathmatical(theMotor));
+            Console.WriteLine(Mathmatical(car));
         }
 
         // Methods are generally the block of codes or statements in a program that gives the user the ability to reuse and preserve memory.
-        public static void Mathmatical(int theNumber)
+        public static int Mathmatical(int theNumber)
         {
             int result = theNumber * theNumber;
-            Console.WriteLine("The square of " + theNumber + " is: " + result);
-            Console.ReadLine();
+            return result;
         }
-        public static void Mathmatical(decimal theLength, int theWidth)
+        public static int Mathmatical(decimal theLength)
         {
-            decimal area = theWidth * theLength;
-            Console.WriteLine("The area is: " + area);
-            Console.ReadLine();
+            int area = Convert.ToInt32(34 * theLength);
+            
+            return area;
         }
-        public static void Mathmatical (int theYear, decimal theMotor, string car)
+
+        public static int Mathmatical(string car)
         {
-            Console.WriteLine("I purchased a " + theYear + ", " + car + " " + theMotor + " automobile.");
-            Console.ReadLine();
+            int word = Convert.ToInt32(car) + 9;
+            return word;
         }
 
     }
