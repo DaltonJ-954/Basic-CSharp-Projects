@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\bin\Debug\netcoreapp3.1\MethodVoid.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MethodVoid\MethodVoid\obj\Debug\netcoreapp3.1\MethodVoid.genruntimeconfig.cache

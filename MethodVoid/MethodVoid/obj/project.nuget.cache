@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ne2it0m8C7pAr/1t3XI54PNxs8BtbfpzWDH+ch/7GdUE90ayXAPrFIfW6ODn5pXqWY1W73pVxLOSexJpHikPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MethodVoid\\MethodVoid\\MethodVoid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
