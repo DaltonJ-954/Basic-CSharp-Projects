@@ -6,9 +6,9 @@ namespace MethodVoid
 {
     class ExampleVoid
     {
-        public void intMethod() // A class method
+        public void intMethod(int num1) // A class method
         {
-            int num1 = 43; // A variable being declared as an integer
+            num1 = 43; // A variable being declared as an integer
             Console.WriteLine(num1 / 2); // Console WriteLine outputting the operation value
         }
 

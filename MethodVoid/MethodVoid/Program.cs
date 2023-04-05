@@ -7,14 +7,14 @@ namespace MethodVoid
         static void Main(string[] args)
         {
             ExampleVoid intNum = new ExampleVoid();
-            intNum.intMethod();
+            Console.WriteLine("Input a number that will be divided 2: ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            intNum.intMethod(num1);
 
 
             try
             {
-                Console.WriteLine("Please enter a number: ");
-                int split = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine(split / 2);
+                
             }
             catch
             {
