@@ -19,21 +19,21 @@ namespace MethodVoid
         }
     }
 
-    static class OverLoad // This class is used to demonstrate the overload method as well as declaring it to be static.
+    static class OverLoad // This class is used to demonstrate the overload method.
     {
-        public void overLoadInt(int sum1) // The method passes off as a integer parameter
+        public static void staticoverLoadInt(int sum1) // The method passes off as a integer parameter
         {
-            return;
+            Console.WriteLine(sum1);
         }
 
-        public void overLoadStr(string okay) // The method passes off as a string parameter
+        public static void overLoadStr(string okay) // The method passes off as a string parameter
         {
-            return;
+            Console.WriteLine("Tech");
         }
 
-        public void overLoadCombo(int sum2, string okay) // The method passes off an integer and string parameter
+        public static void overLoadCombo(int sum2, string okay) // The method passes off an integer and string parameter
         {
-            return; // In C#, a method can return any type of data including objects. In other words, methods are allowed to return objects without any compile time error.
+            Console.WriteLine(sum2 + " " + okay); // In C#, a method can return any type of data including objects.
         }
     }
 

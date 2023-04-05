@@ -22,11 +22,10 @@ namespace MethodVoid
             }
             Console.ReadKey();
 
-            OverLoad loader = new OverLoad();
 
-            loader.overLoadInt(34);
-            loader.overLoadStr("Tech");
-            loader.overLoadCombo(2023, "Academy");
+            OverLoad.staticoverLoadInt(34);
+            OverLoad.overLoadStr("Tech");
+            OverLoad.overLoadCombo(2023,"Academy");
 
             Console.WriteLine();
             Console.ReadKey();

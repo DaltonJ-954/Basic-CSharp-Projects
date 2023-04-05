@@ -21,7 +21,7 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
-        
+
 
         //public static Deck Shuffle(Deck deck, int times)
         //{
