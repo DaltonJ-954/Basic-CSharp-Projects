@@ -4,11 +4,11 @@ using System.Text;
 
 namespace AbstractMethod
 {
-    public class Employee : Person // Employee class that inherits from the abstract Person class
+    public class Employee : Person, IQuittable  // Employee class that inherits from the abstract Person class
     {
         public void SayName() // Method
         {
-
+            return;
         }
     }
 }
