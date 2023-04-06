@@ -8,7 +8,6 @@ namespace MethodVoid
     {
         public void intMethod(int num1) // A class method
         {
-            num1 = 43; // A variable being declared as an integer
             Console.WriteLine(num1 / 2); // Console WriteLine outputting the operation value
         }
 
@@ -31,7 +30,7 @@ namespace MethodVoid
             Console.WriteLine("Tech");
         }
 
-        public static void overLoadCombo(int sum2, string okay) // The method passes off an integer and string parameter
+        public static void overLoadStr(int sum2, string okay) // The method passes off an integer and string parameter
         {
             Console.WriteLine(sum2 + " " + okay); // In C#, a method can return any type of data including objects.
         }

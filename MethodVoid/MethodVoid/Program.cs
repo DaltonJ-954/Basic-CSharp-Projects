@@ -10,22 +10,14 @@ namespace MethodVoid
             Console.WriteLine("Input a number that will be divided 2: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
             intNum.intMethod(num1);
-
-
-            try
-            {
-                
-            }
-            catch
-            {
-                return;
-            }
             Console.ReadKey();
 
+            intNum.Addition(out int box);
+            Console.WriteLine(box);
 
             OverLoad.staticoverLoadInt(34);
             OverLoad.overLoadStr("Tech");
-            OverLoad.overLoadCombo(2023,"Academy");
+            OverLoad.overLoadStr(2023,"Academy");
 
             Console.WriteLine();
             Console.ReadKey();

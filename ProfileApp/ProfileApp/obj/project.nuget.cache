@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8PGrZSd1+wny+wi7HMltjn/JF87qCgy6fsPG86H1GtO+MZNgyPAO902q5QXd0lqqaLVBPFpSnXdQc+/DBOKcDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ProfileApp\\ProfileApp\\ProfileApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
