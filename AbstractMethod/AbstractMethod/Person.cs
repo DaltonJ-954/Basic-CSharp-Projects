@@ -4,12 +4,12 @@ using System.Text;
 
 namespace AbstractMethod
 {
-    public abstract class Person
+    public abstract class Person // An abstract class
     {
-        public string firstName { get; set; }
+        public string firstName { get; set; } // Properties
         public string lastName { get; set; }
 
-        public void SayName()
+        public void SayName() // Method
         {
 
         }

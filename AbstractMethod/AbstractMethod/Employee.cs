@@ -4,9 +4,9 @@ using System.Text;
 
 namespace AbstractMethod
 {
-    public class Employee : Person
+    public class Employee : Person // Employee class that inherits from the abstract Person class
     {
-        public void SayName()
+        public void SayName() // Method
         {
 
         }
