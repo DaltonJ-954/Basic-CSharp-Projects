@@ -1,0 +1,13 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\bin\Debug\netcoreapp3.1\AbstractMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.genruntimeconfig.cache

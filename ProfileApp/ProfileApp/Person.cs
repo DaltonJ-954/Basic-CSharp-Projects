@@ -14,7 +14,7 @@ namespace ProfileApp
         //    FirstName = first;
         //    LastName = last;
         //}
-        public void SayName()
+        public void SayName() // Void class
         {
             Console.WriteLine($"Name: " + FirstName + " " + LastName + ".");
         }
