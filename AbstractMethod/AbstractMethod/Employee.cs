@@ -8,7 +8,7 @@ namespace AbstractMethod
     {
         public override void SayName() // Method
         {
-            Console.WriteLine("Tech Academy");
+            Console.WriteLine(this.firstName + " " + this.lastName );
         }
     }
 }

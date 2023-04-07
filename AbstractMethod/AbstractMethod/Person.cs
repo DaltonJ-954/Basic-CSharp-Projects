@@ -9,9 +9,6 @@ namespace AbstractMethod
         public string firstName { get; set; } // Properties
         public string lastName { get; set; }
 
-        public abstract void SayName() // Method
-        {
-            
-        }
+        public abstract void SayName(); // Method
     }
 }
