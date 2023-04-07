@@ -6,9 +6,9 @@ namespace AbstractMethod
 {
     public class Employee : Person, IQuittable  // Employee class that inherits from the abstract Person class
     {
-        public void SayName() // Method
+        public override void SayName() // Method
         {
-            return;
+            Console.WriteLine("Tech Academy");
         }
     }
 }

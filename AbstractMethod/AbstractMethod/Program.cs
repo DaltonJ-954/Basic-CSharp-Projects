@@ -13,7 +13,7 @@ namespace AbstractMethod
             Console.WriteLine("" + employee.firstName + " " + employee.lastName + "");
 
             IQuittable quittable = new Employee();
-            quittable.Quit();
+            employee.SayName();
             Console.ReadLine();
         }
     }
