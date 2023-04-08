@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\bin\Debug\netcoreapp3.1\OperatorProps.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OperatorProps\OperatorProps\obj\Debug\netcoreapp3.1\OperatorProps.genruntimeconfig.cache
