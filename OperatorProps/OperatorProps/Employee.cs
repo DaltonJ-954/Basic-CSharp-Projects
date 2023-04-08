@@ -1,26 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Diagnostics;
+using System.Linq.Expressions;
 
 namespace OperatorProps
 {
     class Employee
     {
-        // Three Properties in the Employee class
+        // Three Properties in the Employee class.
         public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
-        public Employee (string FirstName, int ID) // Constructor pulling two variables in it's parameter from the Property field
+        public static bool operator ==(Employee employee, Employee employee2) // Constructor pulling two variables in it's parameter from the Property field.
         {
-            this.FirstName = FirstName;
-            this.ID = ID;
+            if (employee.ID.Equals(employee2.ID)) // Comparing both ID values in the two instances to be true.
+            {
+                return true;
+            }
+            return false;
         }
-        public Employee (int ID, string FirstName, string LastName) // Constructor that has all three variables in it's parameter
+        public static bool operator !=(Employee employee, Employee employee2) // Constructor pulling two variables in it's parameter from the Property field
         {
-            this.ID = ID;
-            this.FirstName = FirstName;
-            this.LastName = LastName;
+            if (!employee.ID.Equals(employee2.ID)) // Comparing both ID values in the two instances to not  be true.
+            {
+                return true;
+            }
+            return false;
         }
+
+        //public bool Equals (Employee other)
+        //{
+        //    return other.ID.Equals(this.ID);
+        //}
+
+        ////public override bool Equals (object obj)
+        ////{
+        ////    Employee employee = obj as Employee;
+        ////    if (employee != null)
+        ////    {
+        ////        return employee.ID.Equals(this.ID);
+        ////    }
+        ////    return false;
+        ////}
     }
 }

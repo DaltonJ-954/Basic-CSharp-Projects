@@ -6,18 +6,25 @@ namespace OperatorProps
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee(33498, "Dalton", "Walls");
-            Employee employee10 = new Employee(97204, "Tech", "Academy");
+            Employee employee = new Employee(); // Instantited.
+            employee.ID = 1;
+            employee.FirstName = "Dalton";
+            employee.LastName = "Walls";
 
-            if (employee.FirstName == employee10.FirstName)
+            Employee employee2 = new Employee(); // Second Instantiation.
+            employee2.ID = 3;
+            employee2.FirstName = "Dalton";
+            employee2.LastName = "Walls";
+
+            if (employee == employee2) // If/Else statement comparison of the two instances.
             {
-                Console.WriteLine("These two strings have the same value");
+                Console.WriteLine("The employee is equal to employee2.");
             }
             else
             {
-                Console.WriteLine("These two strings are not of the same value");
+                Console.WriteLine("The employee does not equal employee2");
             }
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
