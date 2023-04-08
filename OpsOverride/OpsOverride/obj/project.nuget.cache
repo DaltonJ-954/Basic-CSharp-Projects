@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ujc5H2SBJ41NPmrqq7PgamPvPzXpy5mWaPnNVoCpUFY66dIJoUhtxN7Mv2dN6RCylDm4UWpYjmzmFnThlTN4hw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\OpsOverride\\OpsOverride\\OpsOverride.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

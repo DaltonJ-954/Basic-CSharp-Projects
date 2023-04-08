@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yu6ZpyLbMYUGc/EhwW9mgPeFNOoAUoIQQmhbMi3O6XqjTmYGqy5DuJGe9b+iHwtp2u8x/ZID6gP9L4DZD0kahw==",
+  "dgSpecHash": "XTC738/QxMxlncxJJcXmf81Z0CeBBl26ZCd9ezjkPlKloovaTxPbaTJFLVvFPgRvrkwWMq54p4XBRCDn0KTo4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\OperatorProps\\OperatorProps\\OperatorProps.csproj",
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\OperatorProps\\OperatorProps\\OverrideOps.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],

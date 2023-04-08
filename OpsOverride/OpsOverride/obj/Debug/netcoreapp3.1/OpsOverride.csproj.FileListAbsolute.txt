@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\bin\Debug\netcoreapp3.1\OpsOverride.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OpsOverride\OpsOverride\obj\Debug\netcoreapp3.1\OpsOverride.genruntimeconfig.cache
