@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NspPxXNaJyg3I3ZrW/tc6o+uj6IMay4Lamdcen9m5tB7O3gyaPDhWE/UPC+rZycODTnxgsDKp3NL5WwlCvfsvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Struct001\\Struct001\\Struct001.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
