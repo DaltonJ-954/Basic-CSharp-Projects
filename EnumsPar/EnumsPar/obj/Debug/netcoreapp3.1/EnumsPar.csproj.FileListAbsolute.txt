@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\bin\Debug\netcoreapp3.1\EnumsPar.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\EnumsPar\EnumsPar\obj\Debug\netcoreapp3.1\EnumsPar.genruntimeconfig.cache
