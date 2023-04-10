@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "x2wumxDYCbIrWpF535sEC2CS/Q7909iLsR2KkubuUL2lt7FfOerzrjY14UjNk9T38vT8Jl4uqQXvzrgGcrGUyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LambdaEx\\LambdaEx\\LambdaEx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

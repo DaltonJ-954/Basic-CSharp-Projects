@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\bin\Debug\netcoreapp3.1\LambdaEx.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LambdaEx\LambdaEx\obj\Debug\netcoreapp3.1\LambdaEx.genruntimeconfig.cache
