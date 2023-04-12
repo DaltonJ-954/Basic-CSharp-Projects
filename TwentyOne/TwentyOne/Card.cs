@@ -29,7 +29,7 @@ namespace TwentyOne
         Eight,
         Nine,
         Ten,
-        Jac,
+        Jack,
         Queen,
         King,
         Ace
