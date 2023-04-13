@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\bin\Debug\netcoreapp3.1\DateAndTime.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.csproj.AssemblyReference.cache
