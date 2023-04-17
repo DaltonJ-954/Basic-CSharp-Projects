@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\bin\Debug\netcoreapp3.1\TryCatchAge.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.genruntimeconfig.cache

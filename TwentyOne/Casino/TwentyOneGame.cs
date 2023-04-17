@@ -13,7 +13,7 @@ namespace Casino.TwentyOne
         public override void Play()
         {
             Dealer = new TwentyOneDealer();
-            foreach (Player player in Players)111111111111111111111111111111111111111111111111111111111111111111``````````````````````````````````
+            foreach (Player player in Players)
             {
                 player.Hand = new List<Card>();
                 player.Stay = false;
@@ -21,12 +21,23 @@ namespace Casino.TwentyOne
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
-            Dealer.Deck.Shuffle(2);
-            Console.WriteLine("Place your bet!");
+            Dealer.Deck.Shuffle(4);
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bets!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException();
+                }
+
                 bool successfullyBet = player.Bet(bet);
                 if (!successfullyBet)
                 {
