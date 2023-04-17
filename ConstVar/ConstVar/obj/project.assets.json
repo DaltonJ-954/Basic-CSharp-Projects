@@ -1,29 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Casino/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Casino.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Casino.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Casino/1.0.0": {
-      "type": "project",
-      "path": "../Casino/Casino.csproj",
-      "msbuildProject": "../Casino/Casino.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Casino >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\scall\\.nuget\\packages\\": {},
@@ -32,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
-      "projectName": "TwentyOne",
-      "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
+      "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj",
+      "projectName": "ConstVar",
+      "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj",
       "packagesPath": "C:\\Users\\scall\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\obj\\",
+      "outputPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,11 +38,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj": {
-              "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

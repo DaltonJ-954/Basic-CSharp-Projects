@@ -1,32 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj": {}
+    "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj",
-        "projectName": "Casino",
-        "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj",
-        "frameworks": {
-          "net472": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj": {
+    "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
-        "projectName": "TwentyOne",
-        "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\TwentyOne.csproj",
+        "projectUniqueName": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj",
+        "projectName": "ConstVar",
+        "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\ConstVar.csproj",
         "packagesPath": "C:\\Users\\scall\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\TwentyOne\\obj\\",
+        "outputPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ConstVar\\ConstVar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -46,11 +31,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj": {
-                "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TwentyOne\\Casino\\Casino.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

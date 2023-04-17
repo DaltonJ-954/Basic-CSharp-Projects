@@ -4,7 +4,7 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino.TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway
     {
@@ -13,7 +13,7 @@ namespace TwentyOne
         public override void Play()
         {
             Dealer = new TwentyOneDealer();
-            foreach (Player player in Players)
+            foreach (Player player in Players)111111111111111111111111111111111111111111111111111111111111111111``````````````````````````````````
             {
                 player.Hand = new List<Card>();
                 player.Stay = false;
