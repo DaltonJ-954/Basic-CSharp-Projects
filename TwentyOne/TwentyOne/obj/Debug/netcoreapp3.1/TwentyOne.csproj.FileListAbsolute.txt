@@ -15,3 +15,9 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyO
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\Casino.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\Casino.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\obj\Debug\netcoreapp3.1\TwentyOne.csproj.CopyComplete
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\TwentyOne\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

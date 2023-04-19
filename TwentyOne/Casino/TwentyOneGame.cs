@@ -35,7 +35,7 @@ namespace Casino.TwentyOne
                 }
                 if (bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Security! Kick this person out!");
                 }
 
                 bool successfullyBet = player.Bet(bet);
@@ -107,7 +107,7 @@ namespace Casino.TwentyOne
                     Console.WriteLine("{0} Busted! You lose your bet of {1}. Your balance is now {2}.", player.Name, Bets[player], player.Balance);
                     Console.WriteLine("Do you want to play again?");
                     answer = Convert.ToString(Console.ReadLine());
-                    if (answer == "yes" || answer == "yeah" || answer == "yep")
+                    if (answer == "yes" || answer == "yeah" || answer == "yep" || answer == "y" || answer == "yea" || answer == "")
                     {
                         player.isActivelyPlaying = true;
                         return;

@@ -4,3 +4,5 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\bin\Debug\System.Data.SqlClient.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\bin\Debug\System.Data.SqlClient.xml

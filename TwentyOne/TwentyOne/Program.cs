@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Data.SqlClient;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
 using Casino.TwentyOne;
+using TwentyOne;
 
 namespace Casino.TwentyOne
 {
@@ -14,11 +15,22 @@ namespace Casino.TwentyOne
         {
             const string casinoName = "Grand Hotel and Casino";
 
-
-
             Console.WriteLine("Welcome to the {0}", casinoName);
             string playerName = Console.ReadLine();
-
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach (var exception in Exceptions)
+                {
+                    Console.WriteLine(exception.Id + " | ");
+                    Console.WriteLine(exception.ExceptionType + " | ");
+                    Console.WriteLine(exception.ExceptionMessage + " | ");
+                    Console.WriteLine(exception.TimeStamp + " | ");
+                    Console.WriteLine();
+                }
+                Console.ReadLine();
+                return;
+            }
             bool validAnswer = false;
             int bank = 0;
             while (!validAnswer)
@@ -47,15 +59,17 @@ namespace Casino.TwentyOne
                     {
                         game.Play();
                     }
-                    catch (FraudException)
+                    catch (FraudException ex)
                     {
-                        Console.WriteLine("Security! Kick this person out!");
+                        Console.WriteLine(ex.Message);
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("An error has occured. Please contact your System Administrator.");
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
@@ -65,6 +79,66 @@ namespace Casino.TwentyOne
             }
             Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.ReadLine();
+        }
+
+        private static void UpdateDbWithException(Exception ex)
+        {
+            string connectionString = @"Data Source =(localdb)\MSSQLLocalDB; Initial Catalog = TwentyOneGame;
+                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False;
+                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite;
+                                        MultiSubnetFailover = False";
+             
+            string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                    (@ExceptionType, @ExceptionMessage, @TimeStamp)";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand commamnd = new SqlCommand(queryString, connection);
+                commamnd.Parameters.Add("@ExceptionType", System.Data.SqlDbType.VarChar);
+                commamnd.Parameters.Add("@ExceptionMessage", System.Data.SqlDbType.VarChar);
+                commamnd.Parameters.Add("@TimeStamp", System.Data.SqlDbType.DateTime);
+
+                commamnd.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                commamnd.Parameters["@ExceptionMessage"].Value = ex.Message;
+                commamnd.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                connection.Open();
+                commamnd.ExecuteNonQuery();
+                connection.Close();
+            }
+        }
+        private static List<ExceptionEntity> ReadExceptions()
+        {
+            string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = TwentyOneGame; 
+                                        Integrated Security = True; Connect Timeout = 30; Encrypt = False; 
+                                        TrustServerCertificate = False; ApplicationIntent = ReadWrite; 
+                                        MultiSubnetFailover = False";
+
+            string quertString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(quertString, connection);
+
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+            }
+
+            return Exceptions;
         }
     }
 }
