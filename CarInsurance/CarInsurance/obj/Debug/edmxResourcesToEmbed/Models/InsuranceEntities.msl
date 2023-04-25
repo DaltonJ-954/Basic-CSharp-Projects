@@ -3,7 +3,7 @@
   <EntityContainerMapping StorageEntityContainer="InsuranceModelStoreContainer" CdmEntityContainer="InsuranceEntities">
     <EntitySetMapping Name="Insurees">
       <EntityTypeMapping TypeName="InsuranceModel.Insuree">
-        <MappingFragment StoreEntitySet="Insurees">
+        <MappingFragment StoreEntitySet="Insuree">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
           <ScalarProperty Name="LastName" ColumnName="LastName" />
@@ -15,7 +15,7 @@
           <ScalarProperty Name="DUI" ColumnName="DUI" />
           <ScalarProperty Name="SpeedingTickets" ColumnName="SpeedingTickets" />
           <ScalarProperty Name="CoverageType" ColumnName="CoverageType" />
-          <ScalarProperty Name="Quote" ColumnName="QUOTE" />
+          <ScalarProperty Name="Quote" ColumnName="Quote" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

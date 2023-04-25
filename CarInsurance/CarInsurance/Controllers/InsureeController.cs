@@ -14,12 +14,62 @@ namespace CarInsurance.Controllers
     {
         private InsuranceEntities db = new InsuranceEntities();
 
+        public decimal Quote(Insuree customer)
+        {
+            decimal quote = 50;
+            int age = DateTime.Now.Year - customer.DateOfBirth.Year;
+                if (age <= 18)
+            {
+                quote += 100;
+            }
+                if (age >= 19 && age <= 25)
+            {
+                quote += 50;
+            }
+                if (age >= 26)
+            {
+                quote += 24;
+            }
+                if (customer.CarYear < 2000)
+            {
+                quote += 25;
+            }
+                if (customer.CarYear > 2015)
+            {
+                quote += 25;
+            }
+                if (customer.CarMake == "Porsche")
+            {
+                quote += 25;
+                if (customer.CarModel == "911 Carrera")
+                {
+                    quote += 25;
+                }
+            }
+                if (customer.SpeedingTickets > 0)
+            {
+                quote += customer.SpeedingTickets * 10;
+            }
+                if (customer.DUI == true)
+            {
+                quote = quote * 1.25m;
+            }
+                if (customer.CoverageType == true)
+            {
+                quote = quote * 1.50m;
+            }
+            return quote;
+        }
+
         // GET: Insuree
         public ActionResult Index()
         {
             return View(db.Insurees.ToList());
         }
-
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
+        }
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -50,6 +100,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = Quote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");

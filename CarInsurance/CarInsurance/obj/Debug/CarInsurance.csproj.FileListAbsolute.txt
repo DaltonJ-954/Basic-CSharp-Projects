@@ -51,6 +51,8 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarI
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\roslyn\VBCSCompiler.exe
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\Antlr3.Runtime.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.SqlServer.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarI
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\System.Web.WebPages.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\System.Web.WebPages.Razor.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\WebGrease.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.xml
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.SqlServer.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\System.Web.Helpers.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\System.Web.Mvc.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\System.Web.Optimization.xml
@@ -77,7 +81,3 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarI
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.SqlServer.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.xml
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\EntityFramework.SqlServer.xml
