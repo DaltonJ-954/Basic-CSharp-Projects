@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e1+c5izv/0dLS5pCViZT5o1qth6ysmSKNCoYC97Hb/ctqa1LUdo/1lGQMRYJ2jIA8drr1+j6eMAYs+QCIYvcwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Scores\\Scores\\Scores.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
