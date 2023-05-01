@@ -12,7 +12,7 @@ This is a repository for learning C# and the .NET language. Create web-pages and
 This project illustrates what the MVC pattern helps in the development of web apps.
 
 ## CarInsurance
-A MVC car insurance web application that creates a database of insurees.
+This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. An adminb page was added that allows staff to view issued quotes.
 
 ## StudentInfo
  This code first console application is a domain driven design, and was used to create a student database for illustration.
