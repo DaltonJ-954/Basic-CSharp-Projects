@@ -18,7 +18,7 @@ namespace NewsletterAppMVC.Controllers
         }
 
         [HttpPost]
-        public ActionResult SignUp(string firstName, string lastName, string emailAddress)
+        public ActionResult SignUp(string firstName, string lastName, string favTopic, string emailAddress)
         {
             if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName) || string.IsNullOrEmpty(emailAddress))
             {
@@ -28,12 +28,13 @@ namespace NewsletterAppMVC.Controllers
             {
                 using (NewsletterEntities db = new NewsletterEntities())
                 {
-                    var signup = new SignUp();
+                    var signup = new SignUp(); // SignUp instance.
                     signup.FirstName = firstName;
                     signup.LastName = lastName;
+                    signup.FavTopic = favTopic;
                     signup.EmailAddress = emailAddress;
 
-                    db.SignUps.Add(signup);
+                    db.SignUps.Add(signup); // Data added to the signup variable inside that parameter.
                     db.SaveChanges();
                 }
                 //string queryString = @"INSERT INTO SignUps (FirstName, LastName, EmailAddress) VALUES

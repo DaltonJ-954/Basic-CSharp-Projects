@@ -26,6 +26,7 @@ namespace NewsletterAppMVC.Controllers
                     signupVm.Id = signup.Id;
                     signupVm.FirstName = signup.FirstName;
                     signupVm.LastName = signup.LastName;
+                    signupVm.FavTopic = signup.FavTopic;
                     signupVm.EmailAddress = signup.EmailAddress;
                     signupVms.Add(signupVm);
                 }
