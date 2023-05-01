@@ -15,7 +15,7 @@ This project illustrates what the MVC pattern helps in the development of web ap
 This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. An adminb page was added that allows staff to view issued quotes.
 
 ## StudentInfo
- This code first console application is a domain driven design, and was used to create a student database for illustration.
+ This code first console application is a domain driven design, and was used to create a simple student database for illustration.
  
  ## NewsletterAppMVC
- A newletter signup application that utilizes the MVC pattern also. Shows how the framework makes creating a web app, much more easier by pre-loading some of the neccessary files for you.
+ A newletter signup application that utilizes the MVC pattern also. Shows how the framework makes creating a web app, much more easier. This app allows the user to enter their first and last name, as well as their email address for news information.
