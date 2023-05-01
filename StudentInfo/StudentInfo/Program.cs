@@ -1,26 +1,40 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System;
+using System.Data.Entity;
+using System.ComponentModel.DataAnnotations;
 
 namespace StudentInfo
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            using (var db = new Context())
+            {
+                Console.WriteLine("Enter the name of a student.");
+                var student1 = Console.ReadLine();
+                Console.WriteLine("Enter the date of birth of a student.");
+                var dob1 = Console.ReadLine();
+                Console.WriteLine("Enter the email of a student.");
+                var email1 = Console.ReadLine();
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+
+                var newStudent = new Student { Name = student1, DOB = dob1, Email = email1 };
+                db.Students.Add(newStudent);
+                db.SaveChanges();
+            }
+        }
+    }
+    public class Student
+    {
+        [Key]
+        public int StudentID { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string DOB { get; set; }
+    }
+
+    public class Context : DbContext
+    {
+        public DbSet<Student> Students { get; set; }
     }
 }
