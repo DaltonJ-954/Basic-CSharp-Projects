@@ -72,8 +72,11 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStuden
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\Newtonsoft.Json.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\Antlr3.Runtime.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\obj\Debug\TechAcademyStudentsMVC.csproj.AssemblyReference.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\obj\Debug\TechAcademyStudentsMVC.csproj.CoreCompileInputs.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\obj\Debug\TechAcademyStudentsMVC.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\obj\Debug\TechAcademyStudentsMVC.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\obj\Debug\TechAcademyStudentsMVC.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\EntityFramework.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\EntityFramework.xml
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TechAcademyStudentsMVC\TechAcademyStudentsMVC\bin\EntityFramework.SqlServer.xml

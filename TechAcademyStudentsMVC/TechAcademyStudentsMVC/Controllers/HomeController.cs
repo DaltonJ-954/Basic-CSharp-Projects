@@ -28,20 +28,6 @@ namespace TechAcademyStudentsMVC.Controllers
             return View();
         }
 
-        public ActionResult Instructor(int id)
-        {
-            ViewBag.Id = id;
-
-            Instructor dayTimeInstructor = new Instructor
-            {
-                Id = 1,
-                FirstName = "Dalton",
-                LastName = "Walls"
-            };
-
-            return View(dayTimeInstructor);
-        }
-
         public ActionResult Instructors()
         {
             List<Instructor> instructors = new List<Instructor>
@@ -55,15 +41,15 @@ namespace TechAcademyStudentsMVC.Controllers
                 new Instructor
                 {
                     Id = 2,
-                    FirstName = "Freddy",
-                    LastName = "Mercury"
+                    FirstName = "Nikola",
+                    LastName = "Tesla"
                 },
                 new Instructor
                 {
                     Id = 3,
-                    FirstName = "Nikola",
-                    LastName = "Tesla"
-                },
+                    FirstName = "Bruce",
+                    LastName = "Wayans"
+                }
             };
             return View(instructors);
         }
