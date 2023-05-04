@@ -17,7 +17,7 @@ namespace Scores
 
             double tScore = 0.0;
 
-            Console.WriteLine("\nStudent score: \n");
+            Console.WriteLine("\nStudent scores: \n");
             foreach (string line in lines)
             {
                 Console.WriteLine("\n" + line);

@@ -25,11 +25,12 @@ class Program
 
         // This is an even a more cleaner line of code.
         int[] numArray2 = { 5, 2, 10, 200, 5000, 48, 345, 2100 };
+        numArray2[0] = 23;
 
         // This allows you to modify data in individual indexs.
-        numArray2[5] = 2023;
 
-        Console.WriteLine(numArray2[5]);
+        Console.WriteLine(numArray1[3]);
+        Console.WriteLine(numArray2[0]);
         Console.ReadLine();
 
     }

@@ -16,6 +16,7 @@ namespace MVC101.Controllers
             user.FirstName = "Marion";
             user.LastName = "Oddly";
             user.Age = 25;
+            user.Email = "bobbyHead@gmail.com";
             return View(user);
         }
 

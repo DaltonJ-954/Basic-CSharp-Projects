@@ -7,10 +7,10 @@ namespace DateAndTime
         static void Main(string[] args)
         {
             DateTime exact = DateTime.Now; // Instantiated DateTime method
+            Console.WriteLine("The date is?");
             Console.WriteLine(exact);
-            Console.ReadLine();
 
-            Console.WriteLine("Enter a number."); // Prompt user input
+            Console.WriteLine("Enter a number to be added to the current date."); // Prompt user input
             int currently = Convert.ToInt32(Console.ReadLine()); // Converts a string to integer
             Console.WriteLine(exact.AddHours(currently));
             Console.ReadLine();

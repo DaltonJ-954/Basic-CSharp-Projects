@@ -12,7 +12,7 @@ namespace StudentInfo
             {
                 Console.WriteLine("Enter the name of a student.");
                 var student1 = Console.ReadLine();
-                Console.WriteLine("Enter the date of birth of a student.");
+                Console.WriteLine("Enter the student date of birth.");
                 var dob1 = Console.ReadLine();
                 Console.WriteLine("Enter the email of a student.");
                 var email1 = Console.ReadLine();
