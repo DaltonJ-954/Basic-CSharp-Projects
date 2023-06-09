@@ -7,6 +7,7 @@ This is a repository for learning C# and the .NET language. Create web-pages and
 * [CarInsurance](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/CarInsurance/CarInsurance)
 + [StudentInfo](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/StudentInfo)
 - [NewsletterAppMVC](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/NewsletterAppMVC)
+* [FamousQuoteApp] (https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/FamousQuoteApp)
 
 ## TechAcademyStudentsMVC
 This project illustrates what the MVC pattern helps in the development of web apps.
