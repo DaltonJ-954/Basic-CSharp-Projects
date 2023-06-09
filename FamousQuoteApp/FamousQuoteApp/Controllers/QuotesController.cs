@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using FamousQuoteApp.Data;
 using FamousQuoteApp.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FamousQuoteApp.Controllers
 {
@@ -34,7 +35,7 @@ namespace FamousQuoteApp.Controllers
         // GET: Quotes/ShowSearchForm
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
         {
-            return View("Index", await _context.Quote.ToListAsync());
+            return View("Index", await _context.Quote.Where(j => j.PopularQuote.Contains(SearchPhrase)).ToListAsync());
         }
 
         // GET: Quotes/Details/5
@@ -56,6 +57,8 @@ namespace FamousQuoteApp.Controllers
         }
 
         // GET: Quotes/Create
+
+        [Authorize]
         public IActionResult Create()
         {
             return View();
@@ -78,6 +81,7 @@ namespace FamousQuoteApp.Controllers
         }
 
         // GET: Quotes/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -96,6 +100,7 @@ namespace FamousQuoteApp.Controllers
         // POST: Quotes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,PopularQuote,WhoQuotedIt")] Quote quote)
@@ -129,6 +134,7 @@ namespace FamousQuoteApp.Controllers
         }
 
         // GET: Quotes/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -147,6 +153,7 @@ namespace FamousQuoteApp.Controllers
         }
 
         // POST: Quotes/Delete/5
+        [Authorize]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

@@ -15,9 +15,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.PopularQuote)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.WhoQuotedIt)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -26,9 +23,6 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.PopularQuote)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.WhoQuotedIt)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
