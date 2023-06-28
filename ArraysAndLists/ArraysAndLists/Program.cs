@@ -33,5 +33,5 @@ class Program
         Console.WriteLine(numArray2[0]);
         Console.ReadLine();
 
-    }
+    } 
 }
