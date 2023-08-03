@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\bin\Debug\netcoreapp3.1\OverLoadApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.genruntimeconfig.cache

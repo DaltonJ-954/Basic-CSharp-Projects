@@ -10,7 +10,7 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Gues number?");
+            Console.WriteLine("Guess number?");
             int number = Convert.ToInt32(Console.ReadLine());
             bool isGuessed = number == 12;
 

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RHbMWfRBUGEc6tvW4f0MeV2HWnGt7Dulgo9Inz9dp2I+zM43Fl9BMu9xyTUumF1yjKwWB7fECMoPLGtUpF6ctg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\InheritanceApp\\InheritanceApp\\InheritanceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

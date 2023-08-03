@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\bin\Debug\netcoreapp3.1\InheritanceApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\InheritanceApp\InheritanceApp\obj\Debug\netcoreapp3.1\InheritanceApp.genruntimeconfig.cache

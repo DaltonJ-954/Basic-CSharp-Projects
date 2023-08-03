@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d6p6v2pmI/rAp8IzW9oOCZPFXz6fhTsvKA2M97NsDlfDtHvDKpnRa/VsLMnhgrS7pDzlZp0urGBPKiG1hk3GMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\OverLoadApp\\OverLoadApp\\OverLoadApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
