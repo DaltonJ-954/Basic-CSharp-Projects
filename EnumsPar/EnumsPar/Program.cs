@@ -16,13 +16,13 @@ namespace EnumsPar
     {
         static void Main(string[] args)
         {
-            string day = "Wednesday";
+            string day = "Friday";
             try
             {
                 
                 Console.WriteLine("Enter the current day of the week.");
                 DaysOfWeek today = (DaysOfWeek)Enum.Parse(typeof(DaysOfWeek), day);
-                if (today == DaysOfWeek.Wednesday)
+                if (today == DaysOfWeek.Friday)
                 {
                     Console.WriteLine("It's Wednesday");
                 }
