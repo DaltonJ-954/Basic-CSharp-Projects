@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tjHOZ+h9G/GCWhfB2zjyrYSlWgZ+/JP8YlKj0ADTmQPmg0WH3ze41sTh/OUEnKGhZ4sF1fnbnCsoyKEUTdzOzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Game_of_Dice\\Game_of_Dice\\Game_of_Dice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
