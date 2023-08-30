@@ -8,7 +8,8 @@ namespace AbstractMethod
     {
         public override void SayName() // Method
         {
-            Console.WriteLine(this.firstName + " " + this.lastName );
+            Console.WriteLine(this.firstName + " " + this.lastName + " "  + this.rank + " ");
+
         }
     }
 }

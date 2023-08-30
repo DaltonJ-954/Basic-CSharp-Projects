@@ -23,7 +23,6 @@ namespace Game_of_Dice
                 Console.WriteLine("Press any key to roll the dice.");
                 Console.ReadKey();
 
-
                 playerRandNum = random.Next(2, 12); // Integer variable using an instantiated variable that genreates numbers from the parameters.
                 Console.WriteLine($"{myName} rolled a {playerRandNum}.");
 
@@ -56,7 +55,7 @@ namespace Game_of_Dice
                 Console.WriteLine();
             }
 
-            if (playerPoints > enemyPoints) // An if/else if statement that determines the winner.
+            if (playerPoints >= 5) // An if/else if statement that determines the winner.
             {
                 Console.WriteLine($"{myName} win!");
             }

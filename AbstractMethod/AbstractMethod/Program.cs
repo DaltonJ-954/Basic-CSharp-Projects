@@ -9,8 +9,10 @@ namespace AbstractMethod
             Employee employee = new Employee(); // Instantiated from the Employee class
             employee.firstName = "Sample"; // employee object that calls on the properties of the Person class
             employee.lastName = "Student";
+            employee.rank = "Elite";
+            employee.gender = "Female";
             employee.SayName();
-            Console.WriteLine("" + employee.firstName + " " + employee.lastName + "");
+            Console.WriteLine("" + employee.firstName + " " + employee.lastName + " " + employee.gender + " ");
 
             IQuittable quittable = new Employee();
             Console.ReadLine();

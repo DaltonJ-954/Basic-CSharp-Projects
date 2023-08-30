@@ -8,6 +8,8 @@ namespace AbstractMethod
     {
         public string firstName { get; set; } // Properties
         public string lastName { get; set; }
+        public string rank { get; set; }
+        public string gender { get; set; }
 
         public abstract void SayName(); // Method
     }

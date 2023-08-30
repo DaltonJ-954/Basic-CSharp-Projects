@@ -7,7 +7,6 @@ namespace FamousQuoteApp.Models
 {
     public class Quote
     {
-
         public int Id { get; set; }
         public string PopularQuote { get; set; }
         public string WhoQuotedIt { get; set; }

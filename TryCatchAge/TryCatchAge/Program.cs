@@ -18,6 +18,10 @@ namespace TryCatchAge
                     throw new Exception("Age cannot be negative.");
                 }
                 Console.WriteLine($"Your age is: {age}");
+                if (age > 150)
+                {
+                    throw new Exception($"You will not live that long");
+                }
             }
             catch (FormatException)
             {
