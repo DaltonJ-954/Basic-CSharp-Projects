@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\bin\Debug\netcoreapp3.1\LocalATM.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.genruntimeconfig.cache

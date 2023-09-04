@@ -7,12 +7,13 @@ namespace AbstractMethod
         static void Main(string[] args)
         {
             Employee employee = new Employee(); // Instantiated from the Employee class
-            employee.firstName = "Sample"; // employee object that calls on the properties of the Person class
-            employee.lastName = "Student";
+            employee.firstName = "Jessica"; // employee object that calls on the properties of the Person class
+            employee.lastName = "Simpson";
             employee.rank = "Elite";
             employee.gender = "Female";
+            employee.age = 35;
             employee.SayName();
-            Console.WriteLine("" + employee.firstName + " " + employee.lastName + " " + employee.gender + " ");
+            Console.WriteLine("Good afternoon, " + employee.firstName + ". I see that you're a " + employee.gender + ", and you're " + employee.rank + " rank is prestigious.");
 
             IQuittable quittable = new Employee();
             Console.ReadLine();

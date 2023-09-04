@@ -20,14 +20,14 @@ namespace CarInsuranceQuoteApp
 
             Console.WriteLine("Have you ever had a DUI?");
             // The Convert method converts the "DUI" string to a boolean.
-            bool DUI = Convert.ToBoolean(Console.ReadLine());
+            bool Yes = Convert.ToBoolean(Console.ReadLine());
             // Another string converted to integer.
             Console.WriteLine("How many speeding tickets do you have?");
             // Another string converted to integer.
             int sum = Convert.ToInt32(Console.ReadLine());
 
             
-            if (age > 15 && !DUI && sum <=3)
+            if (age > 15 && !Yes && sum <=3)
             {
                 Console.WriteLine("Qualified.");
             }

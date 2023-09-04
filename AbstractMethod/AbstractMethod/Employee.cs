@@ -8,7 +8,7 @@ namespace AbstractMethod
     {
         public override void SayName() // Method
         {
-            Console.WriteLine(this.firstName + " " + this.lastName + " "  + this.rank + " ");
+            Console.WriteLine(this.firstName + " " + this.lastName + " "  + this.rank + " " + this.gender + " " + this.age + "");
 
         }
     }

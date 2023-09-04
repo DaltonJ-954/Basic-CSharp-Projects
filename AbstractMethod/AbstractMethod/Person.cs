@@ -10,6 +10,7 @@ namespace AbstractMethod
         public string lastName { get; set; }
         public string rank { get; set; }
         public string gender { get; set; }
+        public int age { get; set; }
 
         public abstract void SayName(); // Method
     }
