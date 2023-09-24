@@ -13,14 +13,14 @@ namespace TryCatchAge
             try
             {
                 age = Convert.ToInt32(year);
-                if (age < 0)
+                if (age < 1)
                 {
-                    throw new Exception("Age cannot be negative.");
+                    throw new Exception("You are not even born yet.");
                 }
                 Console.WriteLine($"Your age is: {age}");
-                if (age > 150)
+                if (age > 120)
                 {
-                    throw new Exception($"You will not live that long");
+                    throw new Exception($"You will not live to be {year} years old.");
                 }
             }
             catch (FormatException)

@@ -49,11 +49,11 @@ using System.Collections.Generic;
         //Console.ReadLine();
 
 
-        List<int> testScores = new List<int>() { 98, 67, 89, 81, 90, 94, 75, 81, 55, 99, 75, 12, 66 };
+        List<int> testScores = new List<int>() { 200, 67, 81, 94, 75, 135, 55, 75, 12, 66, 120, 34, 101 };
         List<int> passingScores = new List<int>();
 
         foreach (int score in testScores)
-            if (score > 80)
+            if (score < 100)
             {
                 passingScores.Add(score);
             }

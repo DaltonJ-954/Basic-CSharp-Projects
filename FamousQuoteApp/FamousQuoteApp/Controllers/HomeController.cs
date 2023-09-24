@@ -25,6 +25,7 @@ namespace FamousQuoteApp.Controllers
 
         public IActionResult Privacy()
         {
+            ViewBag.Message = "This page is running on your local server. Security should not be much of a problem for you.";
             return View();
         }
 

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yswR2bDK1Q5V51SsV5ea+/jTqENoHyMbTjxAz8iq79a9Mcnw9+ruuMWipziVL5z6z/OmIzHUudGHB7yAY4Qr0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SwitchExample\\SwitchExample\\SwitchExample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

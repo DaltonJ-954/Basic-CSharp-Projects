@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\bin\Debug\netcoreapp3.1\SwitchExample.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.genruntimeconfig.cache
