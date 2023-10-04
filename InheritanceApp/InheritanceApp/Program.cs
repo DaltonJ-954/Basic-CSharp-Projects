@@ -10,17 +10,17 @@ namespace InheritanceApp
             Car car = new Car();
 
             Console.WriteLine(boat.Motor);
-            Console.WriteLine(boat.Speed);
-            Console.WriteLine(boat.Wheels);
-            Console.WriteLine(boat.Length);
-            Console.WriteLine(boat.Year);
+            Console.WriteLine(car.Speed);
             boat.takeOff();
+
+            Console.ReadKey();
         }
     }
     class Vehicle
     {
         public int Speed = 60;
         public int Year = 2021;
+        public string model = "Mustang";
 
         public void takeOff()
         {

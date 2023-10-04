@@ -9,7 +9,7 @@ using System.Linq;
         // A string is an object of type String whose value is text variable. This variable is assigning an array of different types of animals.
         string[] animals = { "horses", "turtles", "dogs", "birds", "bears" };
         // Writes the specified data, followed by the current line terminator, to the standard output stream
-        Console.WriteLine("What is your favorite type of animal?: " + animals);
+        Console.WriteLine("What is your favorite type of animal? ");
         // The string fav is created for user input.
         string fav = Console.ReadLine();
         // The foreach statement executes a statement or a block of statements for each element in an instance of the type
@@ -72,7 +72,7 @@ using System.Linq;
             if (desserts[t] == sweets)
             {
                 // A local variable being concotenated int a string with and int (t).
-                Console.WriteLine(sweets + " is is in the list " + t);
+                Console.WriteLine(sweets + " is in the list " + t);
             }
         }
         if (!desserts.Contains(sweets))

@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\bin\Debug\netcoreapp3.1\MultiThreading.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultiThreading\MultiThreading\obj\Debug\netcoreapp3.1\MultiThreading.genruntimeconfig.cache

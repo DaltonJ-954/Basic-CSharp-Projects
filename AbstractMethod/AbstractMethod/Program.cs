@@ -13,10 +13,11 @@ namespace AbstractMethod
             employee.gender = "Female";
             employee.age = 35;
             employee.SayName();
-            Console.WriteLine("Good afternoon, " + employee.firstName + ". I see that you're a " + employee.gender + ", and you're " + employee.rank + " rank is prestigious.");
+            Console.WriteLine("Good afternoon, " + employee.firstName + " " + employee.lastName + ". I see that you're a " + employee.gender + ", and you're " + employee.rank + " rank is prestigious.");
 
             IQuittable quittable = new Employee();
-            Console.ReadLine();
+            quittable.Quit();
+            Console.ReadKey();
         }
     }
 }

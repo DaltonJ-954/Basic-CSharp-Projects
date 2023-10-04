@@ -35,9 +35,6 @@ namespace LambdaEx
             }
             List<Employee> employees1 = employees.Where(x => x.FirstName == "Joe").ToList();
             Console.WriteLine(employees);
-
-            List<Employee> employees2 = employees.Where(n => n.Id > 5).ToList();
-            Console.WriteLine();
             Console.ReadLine();
         }
     }

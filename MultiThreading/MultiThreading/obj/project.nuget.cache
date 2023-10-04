@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jh4Y8PCB8EDRj4A3e0R/FiOZb/QHy841U71uJbGYJ09ViZQVueu6P/mGacgv+i1fpUoylXzMDc61pgSp74ba4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiThreading\\MultiThreading\\MultiThreading.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

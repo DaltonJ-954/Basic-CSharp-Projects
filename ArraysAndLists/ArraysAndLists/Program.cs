@@ -5,6 +5,12 @@ class Program
 {
     static void Main()
     {
+        int a, b, c;
+        a = 10; b = 50;
+        c = a * b % a;
+
+        int f1(int a, int b) { return (a > b ? a : b); }
+
         List<string> inList = new List<string>();
         inList.Add("Hello");
         inList.Add("Tech");
@@ -31,6 +37,8 @@ class Program
 
         Console.WriteLine(numArray1[3]);
         Console.WriteLine(numArray2[0]);
+        Console.WriteLine(c);
+        Console.WriteLine((a > b ? a : b));
         Console.ReadLine();
 
     } 

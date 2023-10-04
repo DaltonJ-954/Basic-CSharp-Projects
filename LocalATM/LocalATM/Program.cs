@@ -17,6 +17,7 @@ public class Program
         clients.Add(new Client("Jerry", "Springer", 47374523, 0133, 470.45));
         clients.Add(new Client("Jamie", "Foxx", 47371298, 1200, 234.12));
         clients.Add(new Client("Brandon", "Ingraham", 47374444, 3278, 677.79));
+        clients.Add(new Client("Michael", "Jordan", 47370915, 3278, 1450299.79));
 
         Console.WriteLine("Welcome! Please enter your account number: ");
 
@@ -47,6 +48,7 @@ public class Program
         atm.Greet();
         int option = 0;
 
+        // While loop statement through the PrintATMOptions
         while (true)
         {
             PrintATMOptions();
@@ -55,27 +57,38 @@ public class Program
             {
                 Console.WriteLine();
                 Console.WriteLine("How much would you like to deposit?");
-                double deposit = Double.Parse(Console.ReadLine());
+                double deposit = Double.Parse(Console.ReadLine()); // Deposit = deposit method with the += operator to add to balance
                 atm.Deposit(deposit);
-                Console.WriteLine($"Thank you {client.FirstName}! Your money has been deposited to your account.");
-                Console.WriteLine($"Your new balance is {client.Balance}");
+                Console.WriteLine($"Thank you {client.FirstName}! Your money has been deposited to your account.\n");
+                Console.WriteLine($"Your new balance is: {client.Balance}");
             }
             else if (option == 2)
             {
                 Console.WriteLine();
                 Console.WriteLine("How much would you like to withdraw?");
-                double withdrawal = Double.Parse(Console.ReadLine());
+                double withdrawal = Double.Parse(Console.ReadLine()); // Withdraw = withdrawal method with the -= operator to subtract from balance
                 if (client.Balance < withdrawal || client.Balance - withdrawal < 0)
                 {
                     Console.WriteLine("Insufficient balance. Please try again.");
                 }
                 else
                 {
-                    atm.Deposit(withdrawal);
-                    Console.WriteLine($"Thank you {client.FirstName}! Your money has been withdrawn from your account.");
-                    Console.WriteLine($"Your new balance is {client.Balance}");
+                    atm.Withdraw(withdrawal);
+                    Console.WriteLine("Thank you! Your money has been withdrawn from your account.\n");
+                    Console.WriteLine($"Your new balance is: {client.Balance}");
                 }
             }
+            else if (option == 3)
+            {
+                Console.WriteLine();
+                atm.PrintBalance();
+            }
+            else if (option == 4)
+            {
+                Console.WriteLine("Thank you for banking at LocalATM. Goodbye!");
+                break;
+            }
+            else { option = 0; }
         }
     }
 

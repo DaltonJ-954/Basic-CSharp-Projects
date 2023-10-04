@@ -48,6 +48,10 @@ using System.Collections.Generic;
         //}
         //Console.ReadLine();
 
+        List<string> students = new List<string>()
+        {
+            "Becky", "Anne", "Robert", "Laura", "Chris", "Dianna", "Elane", "Tommy", "Suzanne"
+        };
 
         List<int> testScores = new List<int>() { 200, 67, 81, 94, 75, 135, 55, 75, 12, 66, 120, 34, 101 };
         List<int> passingScores = new List<int>();
@@ -58,6 +62,7 @@ using System.Collections.Generic;
                 passingScores.Add(score);
             }
         Console.WriteLine(passingScores.Count);
+        Console.WriteLine(students);
         Console.ReadLine();
     }
     }

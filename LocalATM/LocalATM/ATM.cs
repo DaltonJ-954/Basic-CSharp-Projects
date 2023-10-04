@@ -30,6 +30,6 @@ class ATM
 
     public void Greet()
     {
-        Console.WriteLine($"Greetings, {client.FirstName} {client.LastName}! What would you like to do?");
+        Console.WriteLine($"Greetings, {client.FirstName} {client.LastName}! Please select from our options down below.");
     }
 }

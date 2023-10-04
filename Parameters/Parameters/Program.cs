@@ -8,7 +8,8 @@ namespace Parameters
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            List<string> fruits = new List<string> { "apple", "cherry", "grape", "plum" };
+            Console.WriteLine(fruits);
         }
     }
 }
