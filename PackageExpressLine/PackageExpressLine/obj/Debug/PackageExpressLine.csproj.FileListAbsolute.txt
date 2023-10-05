@@ -1,0 +1,7 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\bin\Debug\PackageExpressLine.exe.config
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\bin\Debug\PackageExpressLine.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\bin\Debug\PackageExpressLine.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\obj\Debug\PackageExpressLine.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\obj\Debug\PackageExpressLine.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\obj\Debug\PackageExpressLine.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PackageExpressLine\PackageExpressLine\obj\Debug\PackageExpressLine.pdb
