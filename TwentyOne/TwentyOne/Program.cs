@@ -15,12 +15,12 @@ namespace Casino.TwentyOne
         {
             const string casinoName = "Grand Hotel and Casino";
 
-            Console.WriteLine("Welcome to the {0}", casinoName);
+            Console.WriteLine("Welcome to the {0}. Who am I speaking with today?", casinoName);
             string playerName = Console.ReadLine();
             if (playerName.ToLower() == "admin")
             {
                 List<ExceptionEntity> Exceptions = ReadExceptions();
-                foreach (var exception in Exceptions)
+                foreach (var exception in Exceptions) // The exceptions are anomalies that occur during the execution of a program.
                 {
                     Console.WriteLine(exception.Id + " | ");
                     Console.WriteLine(exception.ExceptionType + " | ");
