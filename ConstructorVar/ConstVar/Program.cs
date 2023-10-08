@@ -22,12 +22,12 @@ namespace ConstVar
                 this.year = year;
             }
             static void Main(string[] args)
-                {
+            {
                 Car car1 = new Car(), car2 = new Car("Mercedes", "AMG 43", 2024); // These are two constructors instantiated and chained together.
 
                 Console.WriteLine("I have a {0} {1} that was made in the year {2}.", car2.make, car2.model, car2.year);
                 Console.ReadLine();
-                }
             }
         }
     }
+}

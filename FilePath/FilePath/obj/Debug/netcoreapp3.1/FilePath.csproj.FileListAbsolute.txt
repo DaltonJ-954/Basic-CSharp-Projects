@@ -1,0 +1,13 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\bin\Debug\netcoreapp3.1\FilePath.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.genruntimeconfig.cache

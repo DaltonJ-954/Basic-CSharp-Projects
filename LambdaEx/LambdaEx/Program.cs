@@ -1,36 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 
 
 namespace LambdaEx
 {
-    class Program
+    class Program : Employee
     {
         static void Main(string[] args)
         {
             List<Employee> employees = new List<Employee>()
             {
-            new Employee { Id = 1, FirstName = "Joe", LastName = "Doe" },
-            new Employee { Id = 2, FirstName = "Jane", LastName = "Smith" },
-            new Employee { Id = 3, FirstName = "Bob", LastName = "Johnson" },
-            new Employee { Id = 4, FirstName = "Samantha", LastName = "Lee" },
-            new Employee { Id = 5, FirstName = "David", LastName = "Garcia" },
-            new Employee { Id = 6, FirstName = "Emily", LastName = "Davis" },
-            new Employee { Id = 7, FirstName = "Tom", LastName = "Wilson" },
-            new Employee { Id = 8, FirstName = "Sarah", LastName = "Brown" },
-            new Employee { Id = 9, FirstName = "Joe", LastName = "Taylor" },
-            new Employee { Id = 10, FirstName = "Megan", LastName = "Clark" }
+            new Employee { Id = 1, FirstName = "Joe", LastName = "Doe", Age = 67 },
+            new Employee { Id = 2, FirstName = "Jane", LastName = "Smith", Age = 23 },
+            new Employee { Id = 3, FirstName = "Bob", LastName = "Johnson", Age = 38 },
+            new Employee { Id = 4, FirstName = "Samantha", LastName = "Lee", Age = 19 },
+            new Employee { Id = 5, FirstName = "David", LastName = "Garcia", Age = 21 },
+            new Employee { Id = 6, FirstName = "Emily", LastName = "Davis", Age = 54 },
+            new Employee { Id = 7, FirstName = "Tom", LastName = "Wilson", Age = 88 },
+            new Employee { Id = 8, FirstName = "Sarah", LastName = "Brown", Age = 30 },
+            new Employee { Id = 9, FirstName = "Joe", LastName = "Taylor", Age = 27 },
+            new Employee { Id = 10, FirstName = "Megan", LastName = "Clark", Age = 44 }
             };
 
             List<Employee> employeesStaff = new List<Employee>();
             // Print out the list of employees
-            foreach (Employee employee in employees)
+            foreach (Employee employee in employeesStaff)
             {
-                if (employee.FirstName == "Joe")
+                if (employee.Age > 22)
                 {
-                    employeesStaff.Add(employee);
+                    Console.WriteLine(employee.Age);
                 }
             }
             List<Employee> employees1 = employees.Where(x => x.FirstName == "Joe").ToList();

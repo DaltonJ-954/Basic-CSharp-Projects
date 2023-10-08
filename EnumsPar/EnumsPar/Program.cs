@@ -38,7 +38,7 @@ namespace EnumsPar
                 Console.WriteLine(ex.Message);
             }
 
-            TV myFav = TV.SonyBravia;
+            TV myFav = TV.Panasonic;
             Console.WriteLine(myFav);
         }
 
