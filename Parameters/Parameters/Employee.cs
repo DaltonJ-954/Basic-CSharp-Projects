@@ -5,12 +5,21 @@ using System.IO;
 
 namespace Parameters
 {
-    class Employee<T>
+    class Employee
     {
-        Employee<T> food = new Employee<T>();
-        List<string> fruits = new List<string> { "apple", "cherry", "grape", "plum"};
+        public String Name { get; set; }
+        public String Occupation { get; set; }
+        public Double Hours { get; set; }
+        public int ID { get; set; }
+        public Double PayRate { get; set; }
 
-        Employee<T> employee1 = new Employee<T>();
-        List<int> numbers = new List<int> { 6, 12, 3, 44 };
+        public Employee(int ID, String name, Double hours, String occupation, Double payrate)
+        {
+            this.ID = ID;
+            this.Name = name;
+            this.Hours = hours;
+            this.Occupation = occupation;
+            this.PayRate = payrate;
+        }
     }
 }

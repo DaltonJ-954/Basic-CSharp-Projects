@@ -27,23 +27,23 @@ namespace Calculator
             num2 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("What type of operation would you like to do?");
-            Console.WriteLine("Please enter a for addition, s for subtraction, m for multiplicatio, or d for division.");
+            Console.WriteLine("Please enter + for addition, - for subtraction, * for multiplicatio, or / for division.");
 
             answer = Console.ReadLine();
 
-            if (answer == "a")
+            if (answer == "+")
             {
                 result = num1 + num2;
             }
-            else if (answer == "s")
+            else if (answer == "-")
             {
                 result = num1 - num2;
             }
-            else if (answer == "m")
+            else if (answer == "*")
             {
                 result = num1 * num2;
             }
-            else if (answer == "p")
+            else if (answer == "%")
             {
                 result = num1 % num2;
             }

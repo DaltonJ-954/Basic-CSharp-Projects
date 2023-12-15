@@ -11,3 +11,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\FilePath\FilePath\obj\Debug\netcoreapp3.1\FilePath.csproj.AssemblyReference.cache

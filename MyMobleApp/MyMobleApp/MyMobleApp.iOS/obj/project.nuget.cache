@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gds3kCAj2vmb5Y/zGGf/3Y7JEK9AWUdJNBrHfZnkJ/BtwXjyu9Ea2/1WAR5X3SzVXQXc95lEiG8qE2zZSkuYIg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MyMobleApp\\MyMobleApp\\MyMobleApp.iOS\\MyMobleApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

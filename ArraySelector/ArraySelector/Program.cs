@@ -5,7 +5,26 @@ using System.Collections.Generic;
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Select an index with the deisred string array to the screen");
+            Console.WriteLine("So let's see what we can do to help you with you weight problems.");
+            List<double> weight = new List<double>();
+            weight.Add(121.54);
+            weight.Add(265.11);
+            weight.Add(206);
+            weight.Add(45.34);
+            weight.Add(175.18);
+            weight.Add(15.23);
+
+            int weightIssues = Convert.ToInt32(Console.ReadLine());
+            if (weightIssues < 10 || weightIssues > 270)
+            {
+                Console.WriteLine("You need to get yourself in shape, now!");
+            }
+            else
+            {
+            Console.WriteLine(weight[weightIssues]);
+            }
+
+        Console.WriteLine("Select an index with the deisred string array to the screen");
             // String array method is a C# method that's similar to an array of strings
             string[] snakes = { "Rattlesnake", "Python", "Cobra", "GrassSnake", "Boa Constrictor", "Adder", "Anaconda", "Copper Head" };
             int snakeSelect = Convert.ToInt32(Console.ReadLine());

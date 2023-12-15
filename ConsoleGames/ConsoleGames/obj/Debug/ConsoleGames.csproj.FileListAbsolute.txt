@@ -1,0 +1,7 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\bin\Debug\ConsoleGames.exe.config
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\bin\Debug\ConsoleGames.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\bin\Debug\ConsoleGames.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\obj\Debug\ConsoleGames.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\obj\Debug\ConsoleGames.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\obj\Debug\ConsoleGames.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ConsoleGames\ConsoleGames\obj\Debug\ConsoleGames.pdb

@@ -5,18 +5,24 @@ class Program
 {
     static void Main()
     {
+
+        String[] vehicle = new string[4];
+
+
+
         int a, b, c;
         a = 10; b = 50;
         c = a * b % a;
 
         int f1(int a, int b) { return (a > b ? a : b); }
 
-        List<string> inList = new List<string>();
-        inList.Add("Hello");
-        inList.Add("Tech");
-        inList.Add("Academy!");
+        List<string> food = new List<string>();
+        food.Add("pizza");
+        food.Add("steak");
+        food.Add("soup");
+        food.Add("tacos");
 
-        Console.WriteLine(inList[0]);
+        Console.WriteLine(food[3]);
         Console.ReadLine();
 
         int[] numArray = new int[5];
@@ -35,7 +41,7 @@ class Program
 
         // This allows you to modify data in individual indexs.
 
-        Console.WriteLine(numArray1[3]);
+        Console.WriteLine(vehicle[1]);
         Console.WriteLine(numArray2[0]);
         Console.WriteLine(c);
         Console.WriteLine((a > b ? a : b));

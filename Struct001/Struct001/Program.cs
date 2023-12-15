@@ -12,6 +12,7 @@ namespace Struct001
         static void Main(string[] args)
         {
             decimal Number = 43.50m; // Assigned a value to the struct Number and printed the result to the console.
+
             Console.WriteLine(Number);
         }
     }

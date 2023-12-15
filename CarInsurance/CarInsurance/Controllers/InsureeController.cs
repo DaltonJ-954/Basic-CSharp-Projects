@@ -28,7 +28,7 @@ namespace CarInsurance.Controllers
             }
                 if (age >= 26)
             {
-                quote += 24;
+                quote += 25;
             }
                 if (customer.CarYear < 2000)
             {

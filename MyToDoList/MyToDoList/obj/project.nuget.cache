@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uWhRRW9rxbkquhmBk6rYhGTc5G1WY8zmlFmcgM6o8QuCaSTp6RMrUPiOBfO/iaLQzXt4N+od6Vk8PRv0lwdOPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MyToDoList\\MyToDoList\\MyToDoList.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

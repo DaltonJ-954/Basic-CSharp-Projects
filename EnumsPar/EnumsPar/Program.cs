@@ -12,11 +12,6 @@ namespace EnumsPar
         Saturday = 5,
         Sunday = 6
     }
-
-    public enum TV
-    {
-        SonyBravia, LG, Samsung, Hisense, Vizio, TCL, Philips, Panasonic
-    }
     class Program
     {
         static void Main(string[] args)
@@ -38,8 +33,8 @@ namespace EnumsPar
                 Console.WriteLine(ex.Message);
             }
 
-            TV myFav = TV.Panasonic;
-            Console.WriteLine(myFav);
+            DaysOfWeek current = DaysOfWeek.Tuesday;
+            Console.WriteLine(current);
         }
 
     }

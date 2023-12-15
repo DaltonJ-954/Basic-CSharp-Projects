@@ -12,15 +12,15 @@ namespace Loops
         {
             Console.WriteLine("Guess number?");
             int number = Convert.ToInt32(Console.ReadLine());
-            bool isGuessed = number == 12;
+            bool itsCorect = number == 62;
 
 
             do
             {
                 switch (number)
                 {
-                    case 62:
-                        Console.WriteLine("You guessed 62. Try again.");
+                    case 31:
+                        Console.WriteLine("You guessed 31. Try again.");
                         Console.WriteLine("Guess a number.");
                         number = Convert.ToInt32(Console.ReadLine());
                         break;
@@ -34,9 +34,14 @@ namespace Loops
                         Console.WriteLine("Guess a number.");
                         number = Convert.ToInt32(Console.ReadLine());
                         break;
-                    case 12:
-                        Console.WriteLine("You guessed the number 12. That is correct!");
-                        isGuessed = true;
+                    case 62:
+                        Console.WriteLine("You guessed the number 62. That is correct!");
+                        itsCorect = true;
+                        break;
+                    case 110:
+                        Console.WriteLine("You guessed 110. Try again.");
+                        Console.WriteLine("Guess a number.");
+                        number = Convert.ToInt32(Console.ReadLine());
                         break;
                     default:
                         Console.WriteLine("You are wrong.");
@@ -45,7 +50,7 @@ namespace Loops
                         break;
                 }
             }
-            while (!isGuessed);
+            while (!itsCorect);
             Console.ReadLine();
         }
     }

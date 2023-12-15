@@ -6,20 +6,40 @@ namespace InheritanceApp
     {
         static void Main(string[] args)
         {
-            Boat boat = new Boat();
+            int lambo = 200;
+            Vehicle auto = new Vehicle();
             Car car = new Car();
+            Tank tink = new Tank();
 
-            Console.WriteLine(boat.Motor);
-            Console.WriteLine(car.Speed);
-            boat.takeOff();
+            Console.WriteLine("What is the top speed of the car?");
+            car.speed = Convert.ToInt32(Console.ReadLine());
 
+            if (car.speed >= 151 && car.speed < 250)
+            {
+                Console.WriteLine("The speed is super fast, and could surpass racing cars!");
+            }
+            else if (car.speed <= 150 && car.speed >= 81)
+            {
+                Console.WriteLine("This is fast and can get you alot of speeding tickets.");
+            }
+            else if (car.speed <= 80 && car.speed > 10)
+            {
+                Console.WriteLine("A standard speed that is suitable for the general public.");
+            }
+            else
+            {
+                Console.WriteLine("A vehicle should not be on thee road at this speed.");
+                return;
+            }
+            tink.blast();
+            auto.takeOff();
             Console.ReadKey();
         }
     }
     class Vehicle
     {
-        public int Speed = 60;
-        public int Year = 2021;
+        public int speed = 80;
+        public int year = 2021;
         public string model = "Mustang";
 
         public void takeOff()
@@ -29,18 +49,19 @@ namespace InheritanceApp
     }
     class Car : Vehicle
     {
+        public string make;
         public string model;
-        public string Engine;
-        public int Wheels;
+        public string engine;
+        public int wheels;
     }
-    class Boat : Vehicle
+    class Tank
     {
-        public string Length = "35 feet";
-        public string Motor = "Subber Whammy";
-        public int Wheels = 1;
-    }
-    class DirtBike : Vehicle
-    {
-        public int Wheels;
+        public int cannon;
+        public double Weight;
+
+        public void blast()
+        {
+            Console.WriteLine("Did you see how the tank destroyed those building to smithereens!");
+        }
     }
 }

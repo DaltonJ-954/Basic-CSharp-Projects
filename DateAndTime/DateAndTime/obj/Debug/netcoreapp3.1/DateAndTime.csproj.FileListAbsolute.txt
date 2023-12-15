@@ -11,4 +11,3 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateA
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.genruntimeconfig.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DateAndTime\DateAndTime\obj\Debug\netcoreapp3.1\DateAndTime.csproj.AssemblyReference.cache

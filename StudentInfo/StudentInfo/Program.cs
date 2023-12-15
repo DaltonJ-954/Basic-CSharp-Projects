@@ -21,7 +21,14 @@ namespace StudentInfo
                 var newStudent = new Student { Name = student1, DOB = dob1, Email = email1 };
                 db.Students.Add(newStudent);
                 db.SaveChanges();
+
+                if (true)
+                {
+                   
+                }
+                db.Dispose();
             }
+            Console.ReadKey();
         }
     }
     public class Student

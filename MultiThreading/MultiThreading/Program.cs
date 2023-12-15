@@ -39,7 +39,7 @@ namespace MultiThreading
             for (int i = 0; i <= 10; i++) // Counter that adds 1 number at a time up to 10 from an "i" variable that starts with a value of 0.
             {
                 Console.WriteLine("Timer #2 : " + i + " seconds");
-                Thread.Sleep(1000);
+                Thread.Sleep(3000);
             }
             Console.WriteLine("Timer #2 is complete!");
         }
