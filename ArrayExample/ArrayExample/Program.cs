@@ -7,11 +7,14 @@ using System.Linq;
     static void Main(String[] args)
     {
         // A string is an object of type String whose value is text variable. This variable is assigning an array of different types of animals.
-        string[] animals = { "horses", "turtles", "dogs", "birds", "bears" };
+        string[] animals = { "horses\t", "turtles\t", "dogs\t", "birds\t", "bears\t" };
+
         // Writes the specified data, followed by the current line terminator, to the standard output stream
         Console.WriteLine("What is your favorite type of animal? ");
+
         // The string fav is created for user input.
         string fav = Console.ReadLine();
+
         // The foreach statement executes a statement or a block of statements for each element in an instance of the type
         for (int i = 0; i != animals.Length; i++)
             // In C#, if statement is used to indicate which statement will execute according to the value of the given boolean expression

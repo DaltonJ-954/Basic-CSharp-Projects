@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\bin\Debug\netcoreapp3.1\DataStructures_Algorithms.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DataStructures_Algorithms\DataStructures_Algorithms\obj\Debug\netcoreapp3.1\DataStructures_Algorithms.genruntimeconfig.cache

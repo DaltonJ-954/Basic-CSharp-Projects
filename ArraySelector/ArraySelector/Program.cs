@@ -1,34 +1,38 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
+namespace ArraySelector
+{
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("So let's see what we can do to help you with you weight problems.");
             List<double> weight = new List<double>();
+            int weightIssues = Convert.ToInt32(Console.ReadLine());
+
             weight.Add(121.54);
             weight.Add(265.11);
             weight.Add(206);
             weight.Add(45.34);
             weight.Add(175.18);
             weight.Add(15.23);
-
-            int weightIssues = Convert.ToInt32(Console.ReadLine());
+            
             if (weightIssues < 10 || weightIssues > 270)
             {
                 Console.WriteLine("You need to get yourself in shape, now!");
             }
             else
             {
-            Console.WriteLine(weight[weightIssues]);
+                Console.WriteLine(weight[weightIssues]);
             }
 
-        Console.WriteLine("Select an index with the deisred string array to the screen");
+            Console.WriteLine("Select an index with the deisred string array to the screen");
             // String array method is a C# method that's similar to an array of strings
             string[] snakes = { "Rattlesnake", "Python", "Cobra", "GrassSnake", "Boa Constrictor", "Adder", "Anaconda", "Copper Head" };
             int snakeSelect = Convert.ToInt32(Console.ReadLine());
-            
+
             // If statement  to search for arrays through choosing a particular index.
             if (snakeSelect > 7 || snakeSelect < 0)
             {
@@ -74,5 +78,27 @@ using System.Collections.Generic;
                 Console.WriteLine(programs[software]);
             }
             Console.ReadLine();
+
+            Stack<String> stack = new Stack<string>();
+
+            stack.Push("Xbox Series X");
+            stack.Push("Nintendo Switch");
+            stack.Push("SNES");
+            stack.Push("Xbox 360");
+            stack.Push("DreamCast");
+
+            Console.WriteLine(stack.Pop());
+
+            Dictionary<String, String> States = new Dictionary<String, String>();
+
+            States.Add("Florida", "Tallehassee");
+            States.Add("Georgia", "Atlanta");
+            States.Add("New York", "New York");
+            States.Add("Hawaii", "Honolulu");
+            States.Add("Arizona", "Phoenix");
+
+            Console.WriteLine(States);
+            Console.ReadKey();
         }
     }
+}

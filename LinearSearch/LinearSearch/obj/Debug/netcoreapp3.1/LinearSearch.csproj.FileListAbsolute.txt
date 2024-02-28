@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\bin\Debug\netcoreapp3.1\LinearSearch.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.csproj.AssemblyReference.cache

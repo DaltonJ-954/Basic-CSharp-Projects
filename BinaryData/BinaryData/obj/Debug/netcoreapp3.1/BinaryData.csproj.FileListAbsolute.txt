@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\bin\Debug\netcoreapp3.1\BinaryData.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.genruntimeconfig.cache

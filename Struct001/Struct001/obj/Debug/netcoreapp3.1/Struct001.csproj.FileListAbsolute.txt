@@ -11,3 +11,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Struct001\Struct0
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Struct001\Struct001\obj\Debug\netcoreapp3.1\Struct001.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Struct001\Struct001\obj\Debug\netcoreapp3.1\Struct001.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Struct001\Struct001\obj\Debug\netcoreapp3.1\Struct001.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Struct001\Struct001\obj\Debug\netcoreapp3.1\Struct001.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "t3Y8ZJaJfH3VS2j9O3Uj9JDz99G754zS4N9qG1f9r/+26BsHjEn1PZXwdkRMiIezqtZt7G2x9tWodIBpdkN2UQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\DataStructures\\DataStructures\\DataStructures.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

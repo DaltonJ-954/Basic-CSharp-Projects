@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\bin\Debug\netcoreapp3.1\Sort_2DArray.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\obj\Debug\netcoreapp3.1\Sort_2DArray.genruntimeconfig.cache

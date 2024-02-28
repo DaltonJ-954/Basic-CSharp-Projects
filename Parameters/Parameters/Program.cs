@@ -26,11 +26,28 @@ namespace Parameters
             while(employee2.Hours <= 40.00)
             {
                 Console.WriteLine(employee2.Hours + 9.00);
+                Console.WriteLine(employee3.Hours + 9.00);
+                break;
             }
 
-            Console.WriteLine(employee2.Hours);
+            Console.WriteLine(employee);
 
             Console.ReadKey();
+
+            string backwards = "gnikrowteN hseM nepO\n";
+            Console.WriteLine(Reverse(backwards));
+        }
+
+        static string Reverse(string backwards)
+        {
+            string reverse = string.Empty;
+            char[] array = backwards.ToCharArray();
+
+            for (int i = array.Length - 1; i >= 0; i--)
+            {
+                backwards = backwards + array[i];
+            }
+            return backwards;
         }
     }
 }

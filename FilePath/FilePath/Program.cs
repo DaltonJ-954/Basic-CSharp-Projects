@@ -23,7 +23,7 @@ namespace FilePath
                 line = reader.ReadLine();
             }
 
-            string writeText = "I am Dalton Walls, and I love coding!";  // Create a text string
+            string writeText = "My name is Dalton, and I am a graduate of The Tech Academy who loves coding!";  // Create a text string
             File.WriteAllText(@"C:\Users\scall\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Dalton_Walls.txt", writeText);  // Create a file and write the content of writeText to it
 
             Console.ReadKey();
