@@ -25,7 +25,6 @@ namespace CarInsuranceQuoteApp
             Console.WriteLine("How many speeding tickets do you have?");
             // Another string converted to integer.
             int sum = Convert.ToInt32(Console.ReadLine());
-
             
             if (age > 15 && !Yes && sum <=3)
             {
