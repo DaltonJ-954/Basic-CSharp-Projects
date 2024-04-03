@@ -78,6 +78,6 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarI
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CoreCompileInputs.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsur.1A3EC412.Up2Date
