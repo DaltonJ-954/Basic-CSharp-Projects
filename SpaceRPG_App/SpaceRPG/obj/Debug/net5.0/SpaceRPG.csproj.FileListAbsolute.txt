@@ -1,0 +1,16 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\ref\SpaceRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\ref\SpaceRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.genruntimeconfig.cache

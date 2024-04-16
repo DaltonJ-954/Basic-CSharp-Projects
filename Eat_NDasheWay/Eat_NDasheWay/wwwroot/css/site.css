@@ -1,0 +1,61 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.text-royal{
+    color: royalblue !important;
+}
+
+.nav-link{
+    letter-spacing: 2px;
+}
+
+.navbar-brand{
+    letter-spacing: 1px;
+    color: blue !important;
+}
+
+#carouselExampleIndicators{
+    height: 500px;
+    width: 600px;
+}
+
+.red{
+    color: crimson;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: gold;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+h5{
+    color: gold;
+}
+
+.py-2{
+    color: black;
+}

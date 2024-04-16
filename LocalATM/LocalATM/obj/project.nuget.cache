@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0qDcpB9GVFSs6UajIbrOW8yWQHE3AVm8SJ3VkdkOAGzYQdIfkoQVQGlq7QGfgpMHBxJU8FHlgSEHyz4g59eUBw==",
+  "dgSpecHash": "JSvqsmqEbXZ8kajQBH6vHC9ibTiIAk6tNfrX2/OYZ02fCtby6wgqKEbugFab8qmzX39xMaF7OCLxVXTUt1STIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\LocalATM.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
   "logs": []
 }
