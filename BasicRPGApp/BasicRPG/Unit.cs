@@ -49,6 +49,7 @@ namespace BasicRPG
 
         public void UnitAttack(Unit enemyUnit)
         {
+            // This method is using a similar concept a the CastSpell method
             double rng = random.NextDouble();
             rng = rng / 2 + 0.75f;
             int randDamage = (int)(Attack * rng);
@@ -58,22 +59,36 @@ namespace BasicRPG
 
         public void CastSpell(Unit enemyUnit)
         {
+            // Generate a random number between 0.0 and 1.0
             double rng = random.NextDouble();
+
+            // Adjust the random number to be between 0.75 and 1.25
             rng = rng / 2 + 0.75f;
+
+            // Calculate the damage to be dealt by multiplying the unit's attack by the adjusted random number
             int randDamage = (int)(Attack * rng);
+
+            // Inflict the calculated damage to the enemy unit
             enemyUnit.AttackDamage(randDamage);
+
+            // Print out a message indicating the spell's effect
             Console.WriteLine(NameOfUnit + "'s spell against " + enemyUnit.NameOfUnit + " hits and deals " + randDamage + " damage!\n");
 
+            // Deduct 7 magic points from the unit casting the spell
             MagicUse(7);
         }
 
         public void MagicUse(int usage)
         {
+            // Subtract the amount of magic used from the current magic
             CurMagic -= usage;
 
-            if (usage <= CurMagic) // Changed from < to <=
+            // Check if the amount used is less than or equal to the current magic
+            if (usage <= CurMagic)
+                // Output the amount of magic used
                 Console.WriteLine("-" + usage + " magic..");
             else
+                // Output a message indicating the need to replenish magic
                 Console.WriteLine("Your current magic is " + CurMagic + ", use Replenish.");
         }
 
