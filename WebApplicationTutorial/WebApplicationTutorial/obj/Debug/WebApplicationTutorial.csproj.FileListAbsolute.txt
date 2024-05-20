@@ -69,6 +69,6 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTut
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebApplicationTutorial.csproj.AssemblyReference.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebApplicationTutorial.csproj.CoreCompileInputs.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebApplicationTutorial.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebApplicationTutorial.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebApplicationTutorial.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\WebApplicationTutorial\WebApplicationTutorial\obj\Debug\WebAppli.4E5220BB.Up2Date

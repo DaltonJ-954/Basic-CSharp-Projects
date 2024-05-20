@@ -3,7 +3,6 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\Spac
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.runtimeconfig.json
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.runtimeconfig.dev.json
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\ref\SpaceRPG.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\bin\Debug\net5.0\SpaceRPG.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.csproj.AssemblyReference.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,5 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\Spac
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\ref\SpaceRPG.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\SpaceRPG.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SpaceRPG_App\SpaceRPG\obj\Debug\net5.0\refint\SpaceRPG.dll

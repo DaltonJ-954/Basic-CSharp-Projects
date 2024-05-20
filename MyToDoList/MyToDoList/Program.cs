@@ -26,8 +26,7 @@ class Program
                         string description = Console.ReadLine();
                         toDoList.AddTask(title, description);
                         break;
-                    case 2:
-                        toDoList.ViewTasks();
+                    case 2:toDoList.ViewTasks();
                         break;
                     case 3:
                         Console.Write("Enter the task number to mark as completed: ");

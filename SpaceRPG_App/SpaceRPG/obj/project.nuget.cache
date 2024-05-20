@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "U3URH2xJ0FSlcqx/56oj16Cyv48MA1L1u8QHNQNR+PWDEJUDSve0bKG8jg3fhuORtmPYMz1sGY0FD3edjmEfJA==",
+  "dgSpecHash": "bif/15HidV6gTfGQXAUdHMEe4Qz1xxXgQMXw85+G+sILWfJ7El7AnST29DRUrPDkwmVzaTvxbkFqkXl8vzAR/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SpaceRPG_App\\SpaceRPG\\SpaceRPG.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }

@@ -26,7 +26,6 @@ namespace MyToDoList
                 Console.WriteLine($"{taskNumber}. Title: {task.Title}");
                 Console.WriteLine($"   Description: {task.Description}");
                 Console.WriteLine($"   Status: {(task.IsCompleted ? "Completed" : "Incomplete")}");
-                Console.WriteLine();
                 taskNumber++;
             }
         }

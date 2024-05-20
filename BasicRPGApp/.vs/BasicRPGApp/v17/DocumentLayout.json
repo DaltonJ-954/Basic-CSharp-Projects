@@ -1,0 +1,59 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
+              "RelativeDocumentMoniker": "BasicRPG\\Unit.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
+              "RelativeToolTip": "BasicRPG\\Unit.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:07:11.17Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Program.cs",
+              "RelativeDocumentMoniker": "BasicRPG\\Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Program.cs",
+              "RelativeToolTip": "BasicRPG\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T20:03:36.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

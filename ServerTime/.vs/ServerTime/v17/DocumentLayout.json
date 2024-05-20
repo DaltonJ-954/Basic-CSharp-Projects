@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ServerTime\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9688E1-E8FB-4B9F-A34D-2DD442D124D9}|ServerTime\\ServerTime.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\servertime\\servertime\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B9688E1-E8FB-4B9F-A34D-2DD442D124D9}|ServerTime\\ServerTime.csproj|solutionrelative:servertime\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B9688E1-E8FB-4B9F-A34D-2DD442D124D9}|ServerTime\\ServerTime.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\servertime\\servertime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B9688E1-E8FB-4B9F-A34D-2DD442D124D9}|ServerTime\\ServerTime.csproj|solutionrelative:servertime\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ServerTime\\ServerTime\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ServerTime\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ServerTime\\ServerTime\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ServerTime\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T23:46:30.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ServerTime\\ServerTime\\Program.cs",
+              "RelativeDocumentMoniker": "ServerTime\\Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ServerTime\\ServerTime\\Program.cs",
+              "RelativeToolTip": "ServerTime\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T23:41:49.108Z",
+              "EditorCaption": ""
             }
           ]
         }

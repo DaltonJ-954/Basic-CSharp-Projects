@@ -11,3 +11,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MyToDoList\MyToDo
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MyToDoList\MyToDoList\obj\Debug\netcoreapp3.1\MyToDoList.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MyToDoList\MyToDoList\obj\Debug\netcoreapp3.1\MyToDoList.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MyToDoList\MyToDoList\obj\Debug\netcoreapp3.1\MyToDoList.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MyToDoList\MyToDoList\obj\Debug\netcoreapp3.1\MyToDoList.csproj.AssemblyReference.cache

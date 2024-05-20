@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "CarInsurance\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\CarInsurance\\CarInsurance\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CarInsurance\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-03T02:10:10.573Z",
               "EditorCaption": ""
@@ -55,7 +55,8 @@
               "RelativeToolTip": "CarInsurance\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T02:09:53.554Z"
+              "WhenOpened": "2024-04-03T02:09:53.554Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,7 +68,8 @@
               "RelativeToolTip": "CarInsurance\\Controllers\\InsureeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T02:09:52.451Z"
+              "WhenOpened": "2024-04-03T02:09:52.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

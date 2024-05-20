@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\bin\Debug\net6.0\BasicRPG.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\bin\Debug\net6.0\BasicRPG.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\bin\Debug\net6.0\BasicRPG.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\bin\Debug\net6.0\BasicRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\bin\Debug\net6.0\BasicRPG.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\refint\BasicRPG.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\BasicRPG.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BasicRPGApp\BasicRPG\obj\Debug\net6.0\ref\BasicRPG.dll

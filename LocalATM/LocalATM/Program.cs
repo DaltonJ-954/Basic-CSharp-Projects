@@ -16,9 +16,10 @@ public class Program
         clients.Add(new Client("Corey", "Holcombe", 47370912, 5652, 900.00));
         clients.Add(new Client("Jerry", "Springer", 47374523, 0133, 470.45));
         clients.Add(new Client("Jamie", "Foxx", 47371298, 1200, 234.12));
-        clients.Add(new Client("Brandon", "Ingraham", 47374444, 3278, 677.79));
-        clients.Add(new Client("Michael", "Jordan", 47370915, 3278, 1450299.79));
-        clients.Add(new Client("Nontle", "NDashe", 47384523, 0804, 2350299.79));
+        clients.Add(new Client("Brandon", "Ingraham", 47374444, 3278, 677.10));
+        clients.Add(new Client("Michael", "Jordan", 47370915, 3095, 1450299.79));
+        clients.Add(new Client("Nontle", "NDashe", 47384523, 0804, 2350299.00));
+        clients.Add(new Client("Jim", "Carey", 47345667, 1969, 109620887.25));
 
 
         Console.WriteLine("Welcome! Please enter your account number: ");

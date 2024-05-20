@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hv62RdjPp5JUb45MIXy3mhA2sGD0BZGnGW8xLr/CWw2drUB8E3TFmzZcCLhNf/1VfrHKCeMCNrgLtwJ8cU70og==",
+  "dgSpecHash": "5LAjCcuB14R8lgYJpTd1OXkEt4JC91q4RMdfZKO4IzJXbfnP/FR2YWlqy3/p2pUwBTGAIA8TbA0o2IqBroTOJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AnimalPortfolio\\AnimalPortfolioApp\\AnimalPortfolioApp.csproj",
   "expectedPackageFiles": [
@@ -109,10 +109,10 @@
     "C:\\Users\\scall\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -59,16 +59,16 @@ namespace Sort_2DArray
         }
 
 
-        public static long factorial(int number)
+        public static long Factorial(int number)
         {
             //base case - factorial of 0 or 1 is 1
             if (number <= 1)
             {
                 return 1;
             }
-            return number * factorial(number - 1);
+            return number * Factorial(number - 1);
 
-            Console.WriteLine("The result is: " + factorial(number - 1));
+            Console.WriteLine("The result is: " + Factorial(number - 1));
         }
 
 

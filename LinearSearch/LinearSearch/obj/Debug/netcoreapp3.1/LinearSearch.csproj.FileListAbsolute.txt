@@ -12,4 +12,3 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\Line
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.genruntimeconfig.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.csproj.AssemblyReference.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\obj\Debug\netcoreapp3.1\LinearSearch.sourcelink.json

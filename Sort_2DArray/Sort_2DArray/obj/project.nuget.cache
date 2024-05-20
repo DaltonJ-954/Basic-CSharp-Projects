@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uQc3p63lAF4zL4mhWG6BuAQIspDydLnwwnaKPArZUXshbKzGPSE685nlvE5sxkilAz8+x0oVifBDg3+ytu5nsg==",
+  "dgSpecHash": "r2fxiGC3eGrvnZkJO1W0CNqdNUz0QO5aCcmVwBjNHB3kgka70EvWDIfIAA/8AeAsFI9UxOVc7Vg6tn/LJXm3JQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\Sort_2DArray\\Sort_2DArray\\Sort_2DArray.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
