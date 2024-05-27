@@ -94,8 +94,10 @@ while (!player.IsDead && !goblin.IsDead)
     else if (rand == 1 && goblin.CurrentHP < 30)
     {
         goblin.AttackDamage(30); // Deal 30 damage (possibly to itself or to indicate some cost)
-        goblin.Heal(); // Goblin heals itself
     }
+    else
+        goblin.Heal(); // Goblin heals itself
+
 
     // Initialize a list of integers representing the experience points required to reach each level.
     List<int> level = new() { 200, 500, 900, 1400, 2000, 2600, 3200, 3500, 4000, 4200 };

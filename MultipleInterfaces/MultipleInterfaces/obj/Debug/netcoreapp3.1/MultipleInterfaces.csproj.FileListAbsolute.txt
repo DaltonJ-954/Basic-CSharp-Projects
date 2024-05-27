@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultipleInterface
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultipleInterfaces\MultipleInterfaces\obj\Debug\netcoreapp3.1\MultipleInterfaces.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultipleInterfaces\MultipleInterfaces\obj\Debug\netcoreapp3.1\MultipleInterfaces.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultipleInterfaces\MultipleInterfaces\obj\Debug\netcoreapp3.1\MultipleInterfaces.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\MultipleInterfaces\MultipleInterfaces\obj\Debug\netcoreapp3.1\MultipleInterfaces.sourcelink.json

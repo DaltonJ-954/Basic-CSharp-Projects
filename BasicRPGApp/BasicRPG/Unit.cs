@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 namespace BasicRPG
@@ -29,6 +30,7 @@ namespace BasicRPG
         public int MP { get { return CurMagic; } }
         public int ExpGained { get; private set; }
         public bool IsDead { get { return CurrentHP <= 0; } }
+        public static int aPressCount = 0;
 
         public Unit(int unitLevel, string nameOfUnit, int maxHealth, int experience, int attack, int maxMagic, int healPower, int damage, int specialAbility)
         {
@@ -56,6 +58,15 @@ namespace BasicRPG
             enemyUnit.AttackDamage(randDamage);
             Console.WriteLine(NameOfUnit + " attacks " + enemyUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
         }
+
+        //public void ActivateSpecialPower(Unit enemyUnit)
+        //{
+        //    Random random = new();
+        //    int damage = random.Next(37, 60);
+
+        //    Console.WriteLine(NameOfUnit + " use the Punch Onslaught attack on " + enemyUnit.NameOfPlayer + " dealing " + damage + " damage!");
+        //    enemyUnit.AttackDamage(damage);
+        //}
 
         public void CastSpell(Unit enemyUnit)
         {
@@ -182,7 +193,6 @@ namespace BasicRPG
             CurrentHP = MaxHealth += 10;
             Attack += 5;
             CurMagic += 5;
-            GainExp(20, 55);
 
             // Output a message to the console indicating the player's new level and a progress update
             Console.WriteLine(NameOfPlayer + " has grown stronger! Level: " + UnitLevel + " - Progress updated!\n");

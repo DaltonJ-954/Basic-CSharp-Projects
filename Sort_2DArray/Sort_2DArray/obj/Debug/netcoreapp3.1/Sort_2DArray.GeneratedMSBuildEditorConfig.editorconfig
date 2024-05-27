@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = Sort_2DArray
 build_property.ProjectDir = C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Sort_2DArray\Sort_2DArray\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

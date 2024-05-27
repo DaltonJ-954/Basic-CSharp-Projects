@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "30i6d+8QsTmvl3zVuiStjGYh+lf0qbJrj7K3vsNylU3TFx95vmKdPRXBbjO4aKHII46yVNywdITP4SP1d8SjCg==",
+  "dgSpecHash": "Qa4jrILDeZzk7RBUzDiZ61+YcVlnhvP5+NDMvyyoNfIyCwA+yPi1xxK8VOfS8Js6NhkEGqcVZ9daHB5blXQE1w==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultipleInterfaces\\MultipleInterfaces\\MultipleInterfaces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

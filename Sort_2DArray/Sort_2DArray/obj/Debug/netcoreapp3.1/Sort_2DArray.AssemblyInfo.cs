@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sort_2DArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5510961a08050cde62e410b31a7fd13f6ac6d87")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sort_2DArray")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sort_2DArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

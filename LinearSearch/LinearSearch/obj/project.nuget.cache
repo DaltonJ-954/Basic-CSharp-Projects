@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PXwEcRtnGB2SssiwihJIZFKEnDm+1InP+6qAsGS9cgiyYYsEb3Fg5Kp+qz3CQnCgCmN5TZdkoCFWxEx/5Z+GBA==",
+  "dgSpecHash": "pXQMFLh5FcpB3vUfayMqxksviAd/tNak6EZQGHuAQq07OxXAfSsDk1lR/JhouWkadIxTNNmBkpwZwqYG6lSYBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LinearSearch\\LinearSearch\\LinearSearch.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "E1SXMCmWzjW0IWY30u5bvEy1OoCTr4vTSGszqUD8BAKFUwXzUzkm3o/5vfnuGSt3tLIFDsdOYJ4iWgLTSp9G2Q==",
+  "dgSpecHash": "m3JFBbxM8L/YqbDM0jbEQsRo48laTldVuPmYD/4dt29lN1ahNWpYXEa3aCdRn3F/iVfjL4KFJDNX5PFmhdbm+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\ApiClient\\ApiClient.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.openapi\\1.6.13\\microsoft.openapi.1.6.13.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\system.text.json\\6.0.9\\system.text.json.6.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\ebookshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\ebookshop\\repositories\\implementation\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|solutionrelative:repositories\\implementation\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\ebookshop\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{647AE27D-7D42-4377-9CBE-58F7F3226C38}|eBookShop.csproj|solutionrelative:controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-11T20:24:00.475Z",
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Repositories\\Implementation\\GenreService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\GenreService.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Repositories\\Implementation\\GenreService.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\GenreService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAgwDMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T23:43:01.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "Controllers\\GenreController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowEEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T22:01:59.107Z",
               "EditorCaption": ""
             }
           ]

@@ -1,5 +1,7 @@
 ﻿using eBookShop.Models.Domain;
 using eBookShop.Repositories.Abstract;
+using System.Collections.Immutable;
+using System.Linq;
 
 namespace eBookShop.Repositories.Implementation
 {
@@ -20,8 +22,7 @@ namespace eBookShop.Repositories.Implementation
             }
             catch (Exception ex)
             {
-
-                return false;
+                return true;
             }
         }
 
@@ -32,8 +33,7 @@ namespace eBookShop.Repositories.Implementation
                 var data = this.FindById(id);
                     if (data == null)
                     return false;
-
-                context.Remove(data);
+                context.Genre.Remove(data);
                 context.SaveChanges();
                 return true;
             }
@@ -46,7 +46,7 @@ namespace eBookShop.Repositories.Implementation
 
         public Genre FindById(int id)
         {
-            return context.Genre.Find(id);
+            return context.Genre.Find();
         }
 
         public IEnumerable<Genre> GetAll()
