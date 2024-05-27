@@ -24,6 +24,8 @@ This is a simple role-playing game (RPG) built using a Console Application in C#
 
 - **Combat System**: Engage in battles with a single enemy. ** Planning to add multiple enemies **
 - **Leveling System**: Gain experience and level up to improve your character's abilities.
+- **Cast Magic**: Use magic and have the ability to replenish your magic to continue casting.
+- **More Features**: Will add more functionality to the application with further learning of the C# programming language.
 
  ## TwentyOne
  This card game of Twentyone was made with 
