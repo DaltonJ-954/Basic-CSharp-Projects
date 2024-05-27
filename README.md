@@ -11,7 +11,7 @@ This is a repository for learning C# and the .NET language. Create web-pages and
 
 
 ## CarInsurance
-This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. An admin page was added that allows staff to view issued quotes.
+This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. Admin page was added to allow for more funcionaliy within the application.
 
 ## StudentInfo
  This code first console application is a domain driven design, and was used to create a simple student database for illustration.
