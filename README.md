@@ -18,9 +18,6 @@ This project is an MVC application that mimics a car insurance website. It takes
 
 ## StudentInfo
  This code first console application is a domain driven design, and was used to create a simple student database for illustration.
- 
- ## NewsletterAppMVC
- A newletter signup application that utilizes the MVC patterns. Shows how the framework makes creating a web app much more easier. This app allows the user to input their first and last name, as well as their email address for news information.
 
  ## TwentyOne
  This card game of Twentyone was made with 
