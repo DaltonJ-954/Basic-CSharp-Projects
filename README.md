@@ -3,15 +3,12 @@ C sharp and .NET
 This is a repository for learning C# and the .NET language. Create web-pages and applications to get a more in-depth look at how these languages work.
 # Projects
 
-- [TechAcademyStudentsMVC](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TechAcademyStudentsMVC)
 * [CarInsurance](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/CarInsurance/CarInsurance)
 + [StudentInfo](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/StudentInfo)
 - [BasicRPGApp](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/BasicRPGApp)
 * [TwentyOne](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TwentyOne)
 + [LocalATM](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/LocalATM)
 
-## TechAcademyStudentsMVC
-This project illustrates why the MVC pattern helps in the development of web apps.
 
 ## CarInsurance
 This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. An admin page was added that allows staff to view issued quotes.
