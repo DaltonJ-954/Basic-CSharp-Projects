@@ -6,6 +6,7 @@ This is a repository for learning C# and the .NET language. Create web-pages and
 - [TechAcademyStudentsMVC](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TechAcademyStudentsMVC)
 * [CarInsurance](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/CarInsurance/CarInsurance)
 + [StudentInfo](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/StudentInfo)
+- [BasicRPGApp](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/BasicRPGApp)
 * [TwentyOne](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TwentyOne)
 + [LocalATM](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/LocalATM)
 
@@ -17,6 +18,12 @@ This project is an MVC application that mimics a car insurance website. It takes
 
 ## StudentInfo
  This code first console application is a domain driven design, and was used to create a simple student database for illustration.
+
+## BasicRPGApp
+This is a simple role-playing game (RPG) built using a Console Application in C#. The game features basic RPG elements such as character creation, combat, and item management.
+
+- **Combat System**: Engage in battles with a single enemy. ** Planning to add multiple enemies **
+- **Leveling System**: Gain experience and level up to improve your character's abilities.
 
  ## TwentyOne
  This card game of Twentyone was made with 
