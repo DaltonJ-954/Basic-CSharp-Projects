@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+a {
+    font-family: Poppins, 'Sans Serif Collection'
+}

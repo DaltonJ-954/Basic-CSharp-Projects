@@ -49,8 +49,7 @@ namespace eBookShop.Controllers
             var result = service.Update(model);
             if (result)
             {
-                TempData["msg"] = "Updated Successfully";
-                return RedirectToAction(nameof(Add));
+                return RedirectToAction("GetAll");
             }
             TempData["msg"] = "Error has occured on server side";
             return View(model);

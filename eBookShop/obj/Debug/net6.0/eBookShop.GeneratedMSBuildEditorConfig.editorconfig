@@ -18,6 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Author/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Author/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Book/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Book/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xHZXRBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Book/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Genre/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +60,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Publisher/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Publisher/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXEdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Publisher/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/scall/OneDrive/Documents/GitHub/Basic-CSharp-Projects/eBookShop/Views/Shared/Error.cshtml]

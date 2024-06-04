@@ -1,72 +1,69 @@
 ﻿using eBookShop.Models.Domain;
 using eBookShop.Repositories.Abstract;
-using System.Collections.Immutable;
-using System.Linq;
 
-namespace eBookShop.Repositories.Implementation
+namespace eBookShop.Repositories.Implementation;
+
+public class GenreService : IGenreService
 {
-    public class GenreService : IGenreService
+    private readonly DatabaseContext context;
+    public GenreService(DatabaseContext context)
     {
-        private readonly DatabaseContext context;
-        public GenreService(DatabaseContext context)
+        this.context = context;
+    }
+    public bool Add(Genre model)
+    {
+        try
         {
-            this.context = context;
+            context.Genre.Add(model);
+            context.SaveChanges();
+            return true;
         }
-        public bool Add(Genre model)
+        catch (Exception ex)
         {
-            try
-            {
-                context.Genre.Add(model);
-                context.SaveChanges();
-                return true;
-            }
-            catch (Exception ex)
-            {
-                return true;
-            }
+            return true;
         }
+    }
 
-        public bool Delete(int id)
+    public bool Delete(int id)
+    {
+        try
         {
-            try
-            {
-                var data = this.FindById(id);
-                    if (data == null)
-                    return false;
-                context.Genre.Remove(data);
-                context.SaveChanges();
-                return true;
-            }
-            catch (Exception ex)
-            {
-
+            var data = this.FindById(id);
+                if (data == null)
                 return false;
-            }
+            context.Genre.Remove(data);
+            context.SaveChanges();
+            return true;
         }
-
-        public Genre FindById(int id)
+        catch (Exception ex)
         {
-            return context.Genre.Find();
+
+            return false;
         }
+    }
 
-        public IEnumerable<Genre> GetAll()
+    public Genre FindById(int id)
+    {
+        return context.Genre.Find(id);
+    }
+
+    public IEnumerable<Genre> GetAll()
+    {
+        return context.Genre.ToList();
+    }
+
+    public bool Update(Genre model)
+    {
+        try
         {
-            return context.Genre.ToList();
+            context.Genre.Update(model);
+            context.SaveChanges();
+            return true;
         }
-
-        public bool Update(Genre model)
+        catch (Exception ex)
         {
-            try
-            {
-                context.Genre.Update(model);
-                context.SaveChanges();
-                return true;
-            }
-            catch (Exception ex)
-            {
 
-                return false;
-            }
+            return false;
         }
     }
 }

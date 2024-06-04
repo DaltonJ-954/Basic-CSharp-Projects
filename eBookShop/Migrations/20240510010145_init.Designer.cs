@@ -37,7 +37,7 @@ namespace eBookShop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Author");
                 });
 
             modelBuilder.Entity("eBookShop.Models.Domain.Book", b =>
