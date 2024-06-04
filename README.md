@@ -3,24 +3,26 @@ C sharp and .NET
 This is a repository for learning C# and the .NET language. Create web-pages and applications to get a more in-depth look at how these languages work.
 # Projects
 
-- [TechAcademyStudentsMVC](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TechAcademyStudentsMVC)
 * [CarInsurance](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/CarInsurance/CarInsurance)
 + [StudentInfo](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/StudentInfo)
-- [NewsletterAppMVC](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/NewsletterAppMVC)
+- [BasicRPGApp](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/BasicRPGApp)
 * [TwentyOne](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/TwentyOne)
 + [LocalATM](https://github.com/DaltonJ-954/Basic-CSharp-Projects/tree/main/LocalATM)
 
-## TechAcademyStudentsMVC
-This project illustrates why the MVC pattern helps in the development of web apps.
 
 ## CarInsurance
-This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. An admin page was added that allows staff to view issued quotes.
+This project is an MVC application that mimics a car insurance website. It takes user's input on policy information and calculates a quote based on business logic. Admin page was added to allow for more funcionaliy within the application.
 
 ## StudentInfo
  This code first console application is a domain driven design, and was used to create a simple student database for illustration.
- 
- ## NewsletterAppMVC
- A newletter signup application that utilizes the MVC patterns. Shows how the framework makes creating a web app much more easier. This app allows the user to input their first and last name, as well as their email address for news information.
+
+## BasicRPGApp
+This is a simple role-playing game (RPG) built using a Console Application in C#. The game features basic RPG elements such as character creation, combat, and item management.
+
+- **Combat System**: Engage in battles with a single enemy. ** Planning to add multiple enemies **
+- **Leveling System**: Gain experience and level up to improve your character's abilities.
+- **Cast Magic**: Use magic and have the ability to replenish your magic to continue casting.
+- **More Features**: Will add more functionality to the application with further learning of the C# programming language.
 
  ## TwentyOne
  This card game of Twentyone was made with 
