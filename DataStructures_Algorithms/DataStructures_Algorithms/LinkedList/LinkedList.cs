@@ -51,6 +51,8 @@ namespace DataStructures_Algorithms.LinkedList
             Node newNode = new Node();
             newNode.Data = data;
             current.Next = newNode;
+
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\controllers\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:controllers\\monstercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\creator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\monstertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\reviewer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\monstercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\monstercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\monstercategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\monstercategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\monsterreviewapp\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F3FC3CB-967A-4E7D-8F07-194CA6A95F73}|MonsterReviewApp.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 129,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonsterController.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Controllers\\MonsterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonsterController.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Controllers\\MonsterController.cs",
+              "RelativeToolTip": "Controllers\\MonsterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T23:06:10.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T22:38:09.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Monster.cs",
+              "RelativeDocumentMoniker": "Models\\Monster.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Monster.cs",
+              "RelativeToolTip": "Models\\Monster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:38:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Creator.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Creator.cs",
+              "RelativeDocumentMoniker": "Models\\Creator.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Creator.cs",
+              "RelativeToolTip": "Models\\Creator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:47:42.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:50:44.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonsterType.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterType.cs",
+              "RelativeDocumentMoniker": "Models\\MonsterType.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterType.cs",
+              "RelativeToolTip": "Models\\MonsterType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:53:30.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reviewer.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Reviewer.cs",
+              "RelativeDocumentMoniker": "Models\\Reviewer.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Reviewer.cs",
+              "RelativeToolTip": "Models\\Reviewer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:58:00.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonsterCreator.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterCreator.cs",
+              "RelativeDocumentMoniker": "Models\\MonsterCreator.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterCreator.cs",
+              "RelativeToolTip": "Models\\MonsterCreator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:57:48.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonsterCategories.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterCategories.cs",
+              "RelativeDocumentMoniker": "Models\\MonsterCategories.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\MonsterCategories.cs",
+              "RelativeToolTip": "Models\\MonsterCategories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T19:28:00.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MonsterReviewApp\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:55:22.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

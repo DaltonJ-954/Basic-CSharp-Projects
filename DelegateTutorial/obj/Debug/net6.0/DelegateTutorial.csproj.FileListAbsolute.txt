@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\bin\Debug\net6.0\DelegateTutorial.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\bin\Debug\net6.0\DelegateTutorial.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\bin\Debug\net6.0\DelegateTutorial.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\bin\Debug\net6.0\DelegateTutorial.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\bin\Debug\net6.0\DelegateTutorial.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\refint\DelegateTutorial.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\DelegateTutorial.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\DelegateTutorial\obj\Debug\net6.0\ref\DelegateTutorial.dll

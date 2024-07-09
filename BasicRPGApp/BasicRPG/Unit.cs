@@ -30,7 +30,8 @@ namespace BasicRPG
         public int MP { get { return CurMagic; } }
         public int ExpGained { get; private set; }
         public bool IsDead { get { return CurrentHP <= 0; } }
-        public static int aPressCount = 0;
+
+        public event Action AchievementUnlocked; 
 
         public Unit(int unitLevel, string nameOfUnit, int maxHealth, int experience, int attack, int maxMagic, int healPower, int damage, int specialAbility)
         {
@@ -57,6 +58,11 @@ namespace BasicRPG
             int randDamage = (int)(Attack * rng);
             enemyUnit.AttackDamage(randDamage);
             Console.WriteLine(NameOfUnit + " attacks " + enemyUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
+
+            if (IsDead)
+            {
+                Console.WriteLine(NameOfPlayer + " has been slain!");
+            }
         }
 
         //public void ActivateSpecialPower(Unit enemyUnit)
@@ -83,7 +89,7 @@ namespace BasicRPG
             enemyUnit.AttackDamage(randDamage);
 
             // Print out a message indicating the spell's effect
-            Console.WriteLine(NameOfUnit + "'s spell against " + enemyUnit.NameOfUnit + " hits and deals " + randDamage + " damage!\n");
+            Console.WriteLine(NameOfUnit + "'s spell deals " + randDamage + " damage to " + enemyUnit.NameOfPlayer + "!");
 
             // Deduct 7 magic points from the unit casting the spell
             MagicUse(7);
@@ -140,7 +146,7 @@ namespace BasicRPG
 
             // Check if the unit is dead (if its HP drops to or below zero)
             if (IsDead)
-            return;
+                return;
         }
 
         public void AttackDamage(int damage)
@@ -149,7 +155,7 @@ namespace BasicRPG
             CurrentHP -= damage;
 
             if (IsDead)
-            return;
+                return;
         }
 
         public void Heal()
@@ -170,7 +176,7 @@ namespace BasicRPG
             Console.WriteLine(NameOfUnit + " heals " + heal + " points.\n");
         }
 
-        public void GainExp(int minExp, int maxExp)
+        public async Task GainExp(int minExp, int maxExp)
         {
             // Initialize a new instance of the Random class
             random = new Random();
@@ -183,19 +189,30 @@ namespace BasicRPG
             Experience += gainedExp;
 
             // Output the amount of experience gained and the new total experience to the console.
-            Console.WriteLine("Gained " + gainedExp + " experience points. Total experience: " + Experience + ".\n");
+            Console.WriteLine("Gained " + gainedExp + " experience points. Current experience is: " + Experience + "\n");
+            await Task.Delay(500);
+
+            // Initialize a list of integers representing the experience points required to reach each level.
+            List<int> level = new() { 200, 500, 900, 1400, 2000, 2600, 3200, 3500, 4000, 4200 };
+
+            // While the player's unit level is less than or equal to the number of levels in the list
+            // and the player's experience is greater than or equal to the experience required for the next level
+            while (UnitLevel <= level.Count && Experience >= level[UnitLevel - 1])
+            {
+                // This method is designed to level up the player
+                LevelUp();
+            }
         }
 
         public void LevelUp()
         {
             // += increases the variables's level with a value, respectfully.
             UnitLevel += 1;
-            CurrentHP = MaxHealth += 10;
-            Attack += 5;
+            CurrentHP = MaxHealth += 5;
+            Attack += 3;
             CurMagic += 5;
 
-            // Output a message to the console indicating the player's new level and a progress update
-            Console.WriteLine(NameOfPlayer + " has grown stronger! Level: " + UnitLevel + " - Progress updated!\n");
+            AchievementUnlocked.Invoke();
         }
     }
 }

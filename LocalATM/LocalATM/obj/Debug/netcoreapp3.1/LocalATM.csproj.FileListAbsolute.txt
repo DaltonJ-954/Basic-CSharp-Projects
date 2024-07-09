@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LocalATM\LocalATM\obj\Debug\netcoreapp3.1\LocalATM.sourcelink.json

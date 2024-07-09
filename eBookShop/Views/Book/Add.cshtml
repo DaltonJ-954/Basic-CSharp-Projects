@@ -16,7 +16,7 @@
                 <div class="form-group">
                     <label asp-for="GenreId">Genre *</label>
                     <select asp-for="GenreId" asp-items="Model.GenreList" class="form-control">
-                        <option value="">--select--</option>
+                        <option value="">-- Select --</option>
                     </select>
                     <span asp-validation-for="GenreId" class="text-danger"></span>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="form-group">
                     <label asp-for="AuthorId">Author *</label>
                     <select asp-for="AuthorId" asp-items="Model.AuthorList" class="form-control">
-                        <option value="">--select--</option>
+                        <option value="">-- Select --</option>
                     </select>
                     <span asp-validation-for="AuthorId" class="text-danger"></span>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label asp-for="Title">Publisher *</label>
                     <select asp-for="PublisherId" asp-items="Model.PublisherList" class="form-control">
-                        <option value="">--select--</option>
+                        <option value="">-- Select --</option>
                     </select>
                     <span asp-validation-for="PublisherId" class="text-danger"></span>
                 </div>

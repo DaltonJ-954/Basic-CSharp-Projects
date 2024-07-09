@@ -2,10 +2,13 @@
 
 namespace RandomInteger
 {
+    public delegate void AdditionDelegate(int value);
     class Program
     {
         static void Main(string[] args)
         {
+            AdditionDelegate additionDelegate = 
+
             // A new variable created to pull from methods in the MathOperators class.
             MathOperators operation = new MathOperators();
 

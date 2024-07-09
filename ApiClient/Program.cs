@@ -8,15 +8,11 @@ namespace ApiClient
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadLine();
-
-            string url = "";
-
-            using(HttpClient client = new HttpClient())
+            using (HttpClient client = new HttpClient())
             {
-                var response = await client.GetAsync("https://openlibrary.org/works/OL45804W/editions.json");
+                var response = await client.GetAsync("https://openlibrary.org/search.json");
                 response.EnsureSuccessStatusCode();
+
                 if (response.IsSuccessStatusCode)
                 {
                     string message = await response.Content.ReadAsStringAsync();

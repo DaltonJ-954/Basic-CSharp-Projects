@@ -73,7 +73,7 @@ namespace LinearSearch
             sports.Add("Boxing");
 
             sports.Insert(2, "Hockey");
-            sports.Remove("Soccer");
+            sports.Remove("Rugby");
 
             Console.WriteLine(sports.Count);
 

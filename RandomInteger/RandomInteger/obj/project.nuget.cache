@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hLE1XhPSk71VHtWORQb2UPvzXC/3SfJYhPjWHYOP6zB/SlzhqiQZeT2/Zxat7zu8G5EFCe0Spoz7dBrZ+AUtcA==",
+  "dgSpecHash": "DnvDm/TzDu8=",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomInteger\\RandomInteger\\RandomInteger.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\scall\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

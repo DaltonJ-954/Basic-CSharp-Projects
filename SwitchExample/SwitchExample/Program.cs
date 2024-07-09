@@ -46,9 +46,6 @@ namespace SwitchExample
                 default:
                     Console.WriteLine("There are many historical events that happened all over the world.");
                     break;
-
-                    Console.WriteLine();
-                    Console.ReadKey();
             }
         }
     }

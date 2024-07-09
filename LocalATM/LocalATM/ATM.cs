@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 class ATM
 {
-    Client client;
+    private readonly Client client;
     public ATM(Client client)
     {
         this.client = client;

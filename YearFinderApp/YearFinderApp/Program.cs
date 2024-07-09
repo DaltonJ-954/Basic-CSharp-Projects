@@ -42,12 +42,12 @@ namespace YearFinderApp
             //            firstOne = true;
             //            break;
             //        default:
-            //            Console.WriteLine("Your choices aren't yeilding results. You may need to do some research.");
+            //            Console.WriteLine("Your choices aren't yielding results. You may need to do some research.");
             //            Console.WriteLine("Choose a year.");
             //            year = Convert.ToInt32(Console.ReadLine());
             //            break;
             //        case 1954:
-            //            Console.WriteLine("1954 is obviously too modern of a year. Try a nore reasonable year");
+            //            Console.WriteLine("1954 is obviously too modern of a year. Try a more reasonable year");
             //            Console.WriteLine("Guess a number.");
             //            year = Convert.ToInt32(Console.ReadLine());
             //            break;

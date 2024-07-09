@@ -5,6 +5,50 @@
       "PackagePath": "staticwebassets\\eBookShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book.jpg",
+      "PackagePath": "staticwebassets\\css\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book10.jpg",
+      "PackagePath": "staticwebassets\\css\\book10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book2.jpg",
+      "PackagePath": "staticwebassets\\css\\book2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book3.jpg",
+      "PackagePath": "staticwebassets\\css\\book3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book4.jpg",
+      "PackagePath": "staticwebassets\\css\\book4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book5.jpg",
+      "PackagePath": "staticwebassets\\css\\book5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book6.jpg",
+      "PackagePath": "staticwebassets\\css\\book6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book7.jpg",
+      "PackagePath": "staticwebassets\\css\\book7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book8.jpg",
+      "PackagePath": "staticwebassets\\css\\book8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\book9.jpg",
+      "PackagePath": "staticwebassets\\css\\book9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\books.jpg",
+      "PackagePath": "staticwebassets\\css\\books.jpg"
+    },
+    {
       "Id": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\eBookShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

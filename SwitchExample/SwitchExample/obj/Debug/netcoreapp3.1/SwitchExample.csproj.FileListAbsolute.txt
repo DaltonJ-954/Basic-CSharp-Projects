@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\Swi
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\SwitchExample\SwitchExample\obj\Debug\netcoreapp3.1\SwitchExample.sourcelink.json
