@@ -10,7 +10,7 @@ namespace ConsoleGames
 
             while (true)
             {
-                Console.WriteLine("Game List App");
+                Console.WriteLine("Game List App\n");
                 Console.WriteLine("1. Add Game");
                 Console.WriteLine("2. List Games");
                 Console.WriteLine("3. Delete Game");
@@ -41,6 +41,10 @@ namespace ConsoleGames
 
                     case "2":
                         gameList.ListGames();
+                        if (gameList == null)
+                        {
+                            Console.WriteLine("There are no games currently listed.");
+                        }
                         break;
                     case "3":
                         Console.WriteLine("Enter game to delete: \n");
@@ -51,7 +55,7 @@ namespace ConsoleGames
                             Title = ""
                         };
 
-                        gameList.DeleteGame(game);
+                        gameList.DeleteGame(remove);
                         break;
                     case "4":
                         Environment.Exit(0);

@@ -24,9 +24,16 @@ namespace ConsoleGames
             }
         }
 
-        public void DeleteGame(Game game)
+        public bool DeleteGame(string gameName)
         {
-            games.Remove(game);
+            var gameToRemove = games.FirstOrDefault(g => g.Title.Equals(gameName, StringComparison.OrdinalIgnoreCase));
+
+            if (gameToRemove != null)
+            {
+                games.Remove(gameToRemove);
+                return true;
+            }
+            return false;
         }
     }
 }

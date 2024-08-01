@@ -22,18 +22,25 @@ namespace BasicRPG
         public int CurMagic;
         public int HealPower;
         public int Damage;
+        public int SoulOrbs = 0;
         public int SpecialAbility;
+        public int CurSpecial;
         public Random random;
 
         public string NameOfPlayer { get { return NameOfUnit; } }
         public int HP { get { return CurrentHP; } }
         public int MP { get { return CurMagic; } }
+        public int SA { get { return CurSpecial; } }
         public int ExpGained { get; private set; }
         public bool IsDead { get { return CurrentHP <= 0; } }
 
-        public event Action AchievementUnlocked; 
+        public delegate void AchievementDelegate(int exp);
+        public delegate void SpecialDelegate(int spec);
 
-        public Unit(int unitLevel, string nameOfUnit, int maxHealth, int experience, int attack, int maxMagic, int healPower, int damage, int specialAbility)
+        public event AchievementDelegate? AchievementUnlocked;
+        public event SpecialDelegate? SpecialUnlocked;
+
+        public Unit(int unitLevel, string nameOfUnit, int maxHealth, int experience, int attack, int maxMagic, int healPower, int damage,int soulOrbs, int specialAbility)
         {
             this.UnitLevel = unitLevel;
             this.NameOfUnit = nameOfUnit;
@@ -46,11 +53,23 @@ namespace BasicRPG
             this.CurMagic = maxMagic;
             this.HealPower = healPower;
             this.Damage = damage;
+            this.SoulOrbs = soulOrbs;
             this.SpecialAbility = specialAbility;
+            this.CurSpecial = specialAbility;
             this.random = new Random();
         }
 
-        public void UnitAttack(Unit enemyUnit)
+        public void UnitAttack(Unit playerUnit)
+        {
+            // This method is using a similar concept a the CastSpell method
+            double rng = random.NextDouble();
+            rng = rng / 2 + 0.75f;
+            int randDamage = (int)(Attack * rng);
+            playerUnit.AttackDamage(randDamage);
+            Console.WriteLine(NameOfUnit + " attacks " + playerUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
+        }
+
+        public void PlayerAttack(Unit enemyUnit)
         {
             // This method is using a similar concept a the CastSpell method
             double rng = random.NextDouble();
@@ -58,20 +77,61 @@ namespace BasicRPG
             int randDamage = (int)(Attack * rng);
             enemyUnit.AttackDamage(randDamage);
             Console.WriteLine(NameOfUnit + " attacks " + enemyUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
+        }
 
-            if (IsDead)
+        public async Task SuperGauge(int minExp, int maxExp)
+        {
+            // Initialize a new instance of the Random class
+            random = new Random();
+
+            // Generate a random number between minExp and maxExp (inclusive).
+            // The maxExp + 1 is used because the Next() method is exclusive of the upper bound.
+            int poweringUp = random.Next(minExp, maxExp + 1);
+
+            // Add the gained experience points to the total Experience.
+            SpecialAbility += poweringUp;
+            await Task.Delay(500);
+
+            // Output the amount of experience gained and the new total experience to the console.
+            Console.WriteLine("Special :" + SpecialAbility + "\n");
+
+            if (SpecialAbility >= 100)
             {
-                Console.WriteLine(NameOfPlayer + " has been slain!");
+                OrbLevel();
+                SpecialUnlocked?.Invoke(SpecialAbility);
+
+                SpecialAbility = 0;
             }
         }
 
-        //public void ActivateSpecialPower(Unit enemyUnit)
-        //{
-        //    Random random = new();
-        //    int damage = random.Next(37, 60);
+        public void OrbLevel()
+        {
+            SoulOrbs++;
+            if (SoulOrbs == 1)
+            {
+                Console.WriteLine($"You have {SoulOrbs} orb in your inventory! ()\n");
+            }else if (SoulOrbs > 1)
+            {
+                Console.WriteLine($"You now have {SoulOrbs} orbs in your inventory! ()\n");
+            }
+        }
 
-        //    Console.WriteLine(NameOfUnit + " use the Punch Onslaught attack on " + enemyUnit.NameOfPlayer + " dealing " + damage + " damage!");
-        //    enemyUnit.AttackDamage(damage);
+        //public async Task SuperAttack(int fill, Unit enemyUnit)
+        //{
+        //    double power = random.NextDouble();
+        //    power = power * 2 + 1.1f;
+        //    int superDamage = (int)(Attack * power);
+        //    Console.WriteLine($"{enemyUnit.NameOfPlayer} has dealt {superDamage} of damage to their enemy!");
+        //    Attack += SpecialAbility;
+
+        //    await Task.Delay(1000);
+
+        //    int special = SpecialAbility + fill;
+        //    if (special >= 100)
+        //    {
+        //        SuperPowerUnlocked.Invoke();
+        //        Console.WriteLine($"Your power is {SpecialAbility}, and is strong enough to deal a speacial attack.");
+        //    }
         //}
 
         public void CastSpell(Unit enemyUnit)
@@ -92,24 +152,27 @@ namespace BasicRPG
             Console.WriteLine(NameOfUnit + "'s spell deals " + randDamage + " damage to " + enemyUnit.NameOfPlayer + "!");
 
             // Deduct 7 magic points from the unit casting the spell
-            MagicUse(7);
+            MagicUse(5, 8);
         }
 
-        public void MagicUse(int usage)
+        public void MagicUse(int lowUsage, int highUsage)
         {
+            Random random = new Random();
+
+            int totalUsage = random.Next(lowUsage, highUsage);
             // Subtract the amount of magic used from the current magic
-            CurMagic -= usage;
+            CurMagic -= totalUsage;
 
             // Check if the amount used is less than or equal to the current magic
-            if (usage <= CurMagic)
+            if (totalUsage <= CurMagic)
                 // Output the amount of magic used
-                Console.WriteLine("-" + usage + " magic..");
+                Console.WriteLine("-" + totalUsage + " magic..");
             else
                 // Output a message indicating the need to replenish magic
                 Console.WriteLine("Your current magic is " + CurMagic + ", use Replenish.");
         }
 
-        public void Replenish(int fill)
+        public void ReplenishVial(int fill)
         {
             // Ensure that the fill amount is positive
             if (fill <= 0)
@@ -182,15 +245,16 @@ namespace BasicRPG
             random = new Random();
 
             // Generate a random number between minExp and maxExp (inclusive).
-            // The maxExp + 1 is used because the Next() method is exclusive of the upper bound.
+            // The maxExp + 1 is used because the Next() method is exclusive of the upper bound. 
             int gainedExp = random.Next(minExp, maxExp + 1);
 
             // Add the gained experience points to the total Experience.
             Experience += gainedExp;
 
             // Output the amount of experience gained and the new total experience to the console.
-            Console.WriteLine("Gained " + gainedExp + " experience points. Current experience is: " + Experience + "\n");
+            Console.WriteLine(gainedExp +" xp points. Experience: " + Experience + "\n");
             await Task.Delay(500);
+
 
             // Initialize a list of integers representing the experience points required to reach each level.
             List<int> level = new() { 200, 500, 900, 1400, 2000, 2600, 3200, 3500, 4000, 4200 };
@@ -201,6 +265,7 @@ namespace BasicRPG
             {
                 // This method is designed to level up the player
                 LevelUp();
+                AchievementUnlocked?.Invoke(Experience);
             }
         }
 
@@ -211,8 +276,29 @@ namespace BasicRPG
             CurrentHP = MaxHealth += 5;
             Attack += 3;
             CurMagic += 5;
+        }
 
-            AchievementUnlocked.Invoke();
+        public async Task SpeacialAttack(Unit enemyUnit)
+        {
+            double rng = random.NextDouble();
+            rng = rng / 2 + 6.25f;
+            int randDamage = (int)(Attack * rng);
+            enemyUnit.AttackDamage(randDamage);
+            await Task.Delay(1000);
+
+            Console.WriteLine($"{NameOfPlayer} has dealt {randDamage} to {enemyUnit.NameOfPlayer}!");
+
+            if (CurrentHP < 45)
+            {
+                double rngTwo = random.NextDouble();
+                rng = rng / 2 + 8.25f;
+                int randDamageTwo = (int)(Attack * rng);
+                enemyUnit.AttackDamage(randDamageTwo);
+                await Task.Delay(1000);
+
+                Console.WriteLine($"{NameOfPlayer} has dealt {randDamageTwo} to {enemyUnit.NameOfPlayer}!");
+            }
+            SoulOrbs--;
         }
     }
 }

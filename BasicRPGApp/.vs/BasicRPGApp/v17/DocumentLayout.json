@@ -21,20 +21,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
-              "RelativeDocumentMoniker": "BasicRPG\\Unit.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
-              "RelativeToolTip": "BasicRPG\\Unit.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAIwNYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T22:07:11.17Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
@@ -44,13 +30,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
+              "RelativeDocumentMoniker": "BasicRPG\\Unit.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
+              "RelativeToolTip": "BasicRPG\\Unit.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAmwHMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T22:07:11.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Program.cs",
               "RelativeDocumentMoniker": "BasicRPG\\Program.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Program.cs",
               "RelativeToolTip": "BasicRPG\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAuwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T20:03:36.345Z",
               "EditorCaption": ""

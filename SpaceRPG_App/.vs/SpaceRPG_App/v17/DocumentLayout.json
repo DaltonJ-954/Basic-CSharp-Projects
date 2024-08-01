@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SpaceRPG_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\spacerpg_app\\spacerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|solutionrelative:spacerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\spacerpg_app\\spacerpg\\encounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|solutionrelative:spacerpg\\encounters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\spacerpg_app\\spacerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|solutionrelative:spacerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86002275-0742-4C19-ACDA-A68E7E7FF2BB}|SpaceRPG\\SpaceRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\spacerpg_app\\spacerpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Encounters.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SpaceRPG_App\\SpaceRPG\\Encounters.cs",
               "RelativeDocumentMoniker": "SpaceRPG\\Encounters.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SpaceRPG_App\\SpaceRPG\\Encounters.cs",
               "RelativeToolTip": "SpaceRPG\\Encounters.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAWAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwBcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T21:49:34.381Z",
               "EditorCaption": ""
@@ -55,12 +55,11 @@
               "RelativeToolTip": "SpaceRPG\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:49:33.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T21:49:33.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\SpaceRPG_App\\SpaceRPG\\Program.cs",
               "RelativeDocumentMoniker": "SpaceRPG\\Program.cs",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "SpaceRPG\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:49:32.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T21:49:32.036Z"
             }
           ]
         }

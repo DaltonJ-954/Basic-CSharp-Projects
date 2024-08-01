@@ -43,7 +43,7 @@
 
             public void LogTextToFile(string text)
             {
-                using (StreamWriter sw = new StreamWriter(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Log.txt"), true))
+                using (StreamWriter sw = new(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Log.txt"), true))
                 {
                     sw.WriteLine($"{DateTime.Now}: {text}");
                 }

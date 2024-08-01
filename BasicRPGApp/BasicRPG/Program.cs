@@ -1,37 +1,50 @@
 ﻿using System;
 using System.Reflection.PortableExecutable;
+using System.Collections.Generic;
+using System.Collections;
 using BasicRPG;
 
 
-Unit player = new(1, "Geralt of Rivia", 100, 0, 10, 50, 20, 0, 0);
-Unit goblin = new(4, "Royal Wyvern", 200, 0, 24, 20, 5, 0, 0);
+Unit player = new(1, "Geralt of Rivia", 150, 0, 10, 50, 20, 0,0, 0);
+Unit goblin = new(4, "Royal Wyvern", 250, 0, 13, 20, 5, 0, 0, 0);
 Random random = new();
 
 player.AchievementUnlocked += OnAchievementUnlocked;
+player.SpecialUnlocked += DevourBlade;
 
-Console.WriteLine("It is time for you, " + player.NameOfUnit + ". Go and fight for your the purpose of vanquishing evil, for the world and its people are under attack!\n");
+Console.WriteLine("It is time for you, " + player.NameOfUnit + ". Go and fight for your the purpose of vanquishing evil, for the world and its people are under grave danger!\n");
 
-static void OnAchievementUnlocked()
+static void OnAchievementUnlocked(int exp)
 {
-    Console.WriteLine("Congratulations! Achievement unlocked for gaining more experience!.\n");
-    // Output a message to the console indicating the player's new level and a progress update
-    Console.WriteLine("You have grown stronger and reached a new level!\n");
+    Console.WriteLine($"Congratulations on your achievement! You've gained {exp} experience points in your journey!.\n");
 }
+static void DevourBlade(int spec)
+{
+    Console.WriteLine($"Your Devour blade has summoned the energy from {spec} souls you've slained!\n");
+}
+
 
 while (!player.IsDead && !goblin.IsDead)
 {
-    Console.WriteLine(player.NameOfUnit + " Level = " + player.UnitLevel + " - HP = " + player.HP + " - ExP = " + player.Experience + " - Mana = " + player.CurMagic + " |  | " + goblin.NameOfUnit + " - Level = " + goblin.UnitLevel + " - HP = " + goblin.HP + " --\n");
+    Console.WriteLine(player.NameOfUnit + " Level = " + player.UnitLevel + " - HP = " + player.HP + " - ExP = " + player.Experience + " - Mana = " + player.CurMagic + " - Soul Orbs = " + player.SoulOrbs + " |  | " + goblin.NameOfUnit + " - Level = " + goblin.UnitLevel + " - HP = " + goblin.HP + " --\n");
 
     Console.WriteLine("Your turn! What will you do?");
     string? selection = Convert.ToString(Console.ReadLine());
 
 
+
     if (selection == "a")
     {
+        // ATTACK code
         // Player attacks the goblin unit
         player.UnitAttack(goblin);
-        // Player gains experience points (10 current exp, 50 total required exp)
+
+        // Player gains experience points within a range of 10 to 50 point radius
         await player.GainExp(10, 50);
+
+        // Player gains special points within a range of 15 to 30 point radius
+        await player.SuperGauge(15, 30);
+
         // Check if player's max health is less than 40 after the attack
         if (player.MaxHealth < 40)
         {
@@ -39,8 +52,17 @@ while (!player.IsDead && !goblin.IsDead)
             player.Heal();
         }
     }
+    
+    if (selection == "s" && player.SoulOrbs > 0)
+    {
+        await player.SpeacialAttack(goblin);
+    }else
+    {
+        Console.WriteLine($"You have { player.SoulOrbs = 0 } orbs in your inventory...\n");
+    }
 
 
+    // HEAL code
     // Check if the player selected "h" and if the player's health (HP) is already at the maximum (MaxHealth),
     // and also confirm that the selection is not "m" 
     if (selection == "h" && player.HP == player.MaxHealth && selection != "m")
@@ -51,12 +73,13 @@ while (!player.IsDead && !goblin.IsDead)
         player.Heal();
 
 
+    // MAGIC code
     // Check if the player has chosen to cast a magic spell ("m") and has at least 5 magic points, and did not choose an attack ("a")
     if (selection == "m" && player.CurMagic >= 5 && selection != "a")
     {
         // Inform the player that their unit is casting a spell
         Console.WriteLine(player.NameOfUnit + " is casting a spell...\n");
-        await Task.Delay(500);
+        await Task.Delay(1000);
 
         // Call the CastSpell method on the player object, targeting the goblin
         player.CastSpell(goblin);
@@ -68,10 +91,12 @@ while (!player.IsDead && !goblin.IsDead)
         Console.WriteLine("You have " + player.CurMagic + " magic energy. Use Replenish to restore some magic.");
     }
 
+
+    // REPLENISH code
     // Check if the player's selection is "r" (replenish action)
     if (selection == "r")
         // Call the Replenish method on the player object, restoring 15 units of whatever resource is being replenished
-        player.Replenish(15);
+        player.ReplenishVial(15);
 
     // Check if the player is dead
     if (player.IsDead == true)
@@ -88,7 +113,6 @@ while (!player.IsDead && !goblin.IsDead)
         break;
     }
 
-
     // Output a message to indicate that it is the enemy's turn
     Console.WriteLine("Enemy's turn!\n");
 
@@ -98,13 +122,13 @@ while (!player.IsDead && !goblin.IsDead)
     // If the random number is 0, execute the attack on the player
     if (rand == 0)
     {
-        goblin.UnitAttack(player); // Goblin attacks the player
+        goblin.PlayerAttack(player); // Goblin attacks the player
     }
     // If the random number is 1 and the goblin's current health is less than 30, heal the goblin
-    else if (rand == 1 && goblin.CurrentHP < 30)
+    else if (rand == 1)
     {
-        goblin.AttackDamage(30); // Deal 30 damage (possibly to itself or to indicate some cost)
+        goblin.Heal(); // Deal 30 damage (possibly to itself or to indicate some cost)
     }
     else
-        goblin.Heal(); // Goblin heals itself
+        goblin.AttackDamage(14);
 }
