@@ -7,7 +7,7 @@ namespace Practice
     {
         private static Random random =  new Random();
 
-        public static List<int> LottoNumbers(int totalNumbers = 6, int maxNumber = 76)
+        public static List<int> LottoNumbers(int totalNumbers = 5, int maxNumber = 70)
         {
             List<int> poolOfNumbers = new List<int>();
             List<int> bonusNumber = new(); 
@@ -29,7 +29,7 @@ namespace Practice
         static void Main(string[] args)
         {
             List<int> poolOfNumbers = LottoNumbers();
-            int bonusNumber = random.Next(1, 20);
+            int bonusNumber = random.Next(1, 25);
             Console.WriteLine("Your lottery numbera are: " + string.Join(", ", poolOfNumbers)); 
             Console.WriteLine("Your super number is:  " + string.Join(", ", bonusNumber + " -- ") + DateTime.Now);
         }

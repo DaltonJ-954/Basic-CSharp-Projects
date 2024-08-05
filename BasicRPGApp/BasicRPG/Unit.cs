@@ -90,7 +90,7 @@ namespace BasicRPG
 
             // Add the gained experience points to the total Experience.
             SpecialAbility += poweringUp;
-            await Task.Delay(500);
+            await Task.Delay(1000);
 
             // Output the amount of experience gained and the new total experience to the console.
             Console.WriteLine("Special :" + SpecialAbility + "\n");
@@ -149,7 +149,7 @@ namespace BasicRPG
             enemyUnit.AttackDamage(randDamage);
 
             // Print out a message indicating the spell's effect
-            Console.WriteLine(NameOfUnit + "'s spell deals " + randDamage + " damage to " + enemyUnit.NameOfPlayer + "!");
+            Console.WriteLine(NameOfUnit + "'s spell deals " + randDamage + " damage to " + enemyUnit.NameOfPlayer + "!\n");
 
             // Deduct 7 magic points from the unit casting the spell
             MagicUse(5, 8);
@@ -166,7 +166,7 @@ namespace BasicRPG
             // Check if the amount used is less than or equal to the current magic
             if (totalUsage <= CurMagic)
                 // Output the amount of magic used
-                Console.WriteLine("-" + totalUsage + " magic..");
+                Console.WriteLine("- " + totalUsage + " magic..\n");
             else
                 // Output a message indicating the need to replenish magic
                 Console.WriteLine("Your current magic is " + CurMagic + ", use Replenish.");
@@ -183,7 +183,7 @@ namespace BasicRPG
             // Ensure that amount is within bounds
             else if (CurMagic >= MaxMagic)
             {
-                Console.WriteLine("Your magic is already full.");
+                Console.WriteLine("Your magic is already full.\n");
             }
             else
             {
@@ -237,6 +237,24 @@ namespace BasicRPG
 
             // Print a message indicating the amount of healing done
             Console.WriteLine(NameOfUnit + " heals " + heal + " points.\n");
+
+            if (CurrentHP < 130)
+            {
+                // Generate a random number between 0.0 (inclusive) and 1.0 (exclusive)
+                double rngTwo = random.NextDouble();
+
+                // Adjust the random number to be within the range [0.75, 1.25)
+                rng = rngTwo / 2 + 2.75f;
+
+                // Calculate the amount of healing based on the adjusted random number and HealPower
+                int healPlus = (int)(rngTwo * HealPower);
+
+                // Ensure that healing doesn't exceed the maximum health using a ternary operator based on a condition
+                CurrentHP = healPlus + CurrentHP > MaxHealth ? MaxHealth : CurrentHP + healPlus;
+
+                // Print a message indicating the amount of healing done
+                Console.WriteLine(NameOfUnit + " heals " + healPlus + " points.\n");
+            }
         }
 
         public async Task GainExp(int minExp, int maxExp)

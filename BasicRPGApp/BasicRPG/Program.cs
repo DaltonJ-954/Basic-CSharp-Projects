@@ -12,26 +12,24 @@ Random random = new();
 player.AchievementUnlocked += OnAchievementUnlocked;
 player.SpecialUnlocked += DevourBlade;
 
-Console.WriteLine("It is time for you, " + player.NameOfUnit + ". Go and fight for your the purpose of vanquishing evil, for the world and its people are under grave danger!\n");
+Console.WriteLine("It is time for you, " + player.NameOfUnit + ". Go and fight for your purpose of vanquishing evil! For the world and its people are under grave danger!\n");
 
 static void OnAchievementUnlocked(int exp)
 {
-    Console.WriteLine($"Congratulations on your achievement! You've gained {exp} experience points in your journey!.\n");
+    Console.WriteLine($"Congratulations on your achievement! You've gained {exp} points of experience in your journey!.\n");
 }
 static void DevourBlade(int spec)
 {
     Console.WriteLine($"Your Devour blade has summoned the energy from {spec} souls you've slained!\n");
 }
 
-
 while (!player.IsDead && !goblin.IsDead)
 {
-    Console.WriteLine(player.NameOfUnit + " Level = " + player.UnitLevel + " - HP = " + player.HP + " - ExP = " + player.Experience + " - Mana = " + player.CurMagic + " - Soul Orbs = " + player.SoulOrbs + " |  | " + goblin.NameOfUnit + " - Level = " + goblin.UnitLevel + " - HP = " + goblin.HP + " --\n");
+    Console.WriteLine(player.NameOfUnit + " | Level = " + player.UnitLevel + " | HP = " + player.HP + " | ExP = " + player.Experience + " | Mana = " + player.CurMagic + " | Soul Orbs = " + player.SoulOrbs + " |  | " + goblin.NameOfUnit + " | Level = " + goblin.UnitLevel + " | HP = " + goblin.HP + " --\n");
+
 
     Console.WriteLine("Your turn! What will you do?");
     string? selection = Convert.ToString(Console.ReadLine());
-
-
 
     if (selection == "a")
     {
@@ -52,14 +50,15 @@ while (!player.IsDead && !goblin.IsDead)
             player.Heal();
         }
     }
-    
+
     if (selection == "s" && player.SoulOrbs > 0)
     {
         await player.SpeacialAttack(goblin);
-    }else
-    {
-        Console.WriteLine($"You have { player.SoulOrbs = 0 } orbs in your inventory...\n");
     }
+    //else if (selection == "s" && player.SoulOrbs != 1)
+    //{
+    //    Console.WriteLine($"You have {player.SoulOrbs = 0} orbs in your inventory...\n");
+    //}
 
 
     // HEAL code
@@ -98,6 +97,7 @@ while (!player.IsDead && !goblin.IsDead)
         // Call the Replenish method on the player object, restoring 15 units of whatever resource is being replenished
         player.ReplenishVial(15);
 
+
     // Check if the player is dead
     if (player.IsDead == true)
     {
@@ -128,6 +128,7 @@ while (!player.IsDead && !goblin.IsDead)
     else if (rand == 1)
     {
         goblin.Heal(); // Deal 30 damage (possibly to itself or to indicate some cost)
+        goblin.CurrentHP += 10;
     }
     else
         goblin.AttackDamage(14);
