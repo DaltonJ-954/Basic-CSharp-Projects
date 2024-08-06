@@ -4,9 +4,16 @@ using System.Collections.Generic;
 using System.Collections;
 using BasicRPG;
 
+static Unit RandomlyPickUnit(Random random, Unit specters, Unit necrophages)
+{
+    int randomValue = random.Next(2); // Generates a random number 0 or 1
+    return randomValue == 0 ? specters : necrophages;
+}
+
 
 Unit player = new(1, "Geralt of Rivia", 150, 0, 10, 50, 20, 0,0, 0);
-Unit goblin = new(4, "Royal Wyvern", 250, 0, 13, 20, 5, 0, 0, 0);
+Unit specters = new(4, "Plague Maiden", 300, 0, 14, 20, 5, 0, 0, 0);
+Unit necrophages = new(1, "Rotfiend", 110, 0, 8, 20, 5, 0, 0, 0);
 Random random = new();
 
 player.AchievementUnlocked += OnAchievementUnlocked;
@@ -23,9 +30,12 @@ static void DevourBlade(int spec)
     Console.WriteLine($"Your Devour blade has summoned the energy from {spec} souls you've slained!\n");
 }
 
-while (!player.IsDead && !goblin.IsDead)
+Unit selectedUnit = RandomlyPickUnit(random, specters, necrophages);
+Console.WriteLine($"You are being approached by { selectedUnit.NameOfPlayer }. Arm yourself for the battle!\n");
+
+while (!player.IsDead && !selectedUnit.IsDead)
 {
-    Console.WriteLine(player.NameOfUnit + " | Level = " + player.UnitLevel + " | HP = " + player.HP + " | ExP = " + player.Experience + " | Mana = " + player.CurMagic + " | Soul Orbs = " + player.SoulOrbs + " |  | " + goblin.NameOfUnit + " | Level = " + goblin.UnitLevel + " | HP = " + goblin.HP + " --\n");
+    Console.WriteLine(player.NameOfUnit + " | Level = " + player.UnitLevel + " | HP = " + player.HP + " | ExP = " + player.Experience + " | Mana = " + player.CurMagic + " | Soul Orbs = " + player.SoulOrbs + " |  | " + selectedUnit.NameOfUnit + " | Level = " + selectedUnit.UnitLevel + " | HP = " + selectedUnit.HP + " --\n");
 
 
     Console.WriteLine("Your turn! What will you do?");
@@ -34,8 +44,8 @@ while (!player.IsDead && !goblin.IsDead)
     if (selection == "a")
     {
         // ATTACK code
-        // Player attacks the goblin unit
-        player.UnitAttack(goblin);
+        // Player attacks the specters unit
+        player.UnitAttack(selectedUnit);
 
         // Player gains experience points within a range of 10 to 50 point radius
         await player.GainExp(10, 50);
@@ -53,12 +63,13 @@ while (!player.IsDead && !goblin.IsDead)
 
     if (selection == "s" && player.SoulOrbs > 0)
     {
-        await player.SpeacialAttack(goblin);
+        await player.SpeacialAttack(selectedUnit);
     }
-    //else if (selection == "s" && player.SoulOrbs != 1)
-    //{
-    //    Console.WriteLine($"You have {player.SoulOrbs = 0} orbs in your inventory...\n");
-    //}
+    else if (selection == "s" && player.SoulOrbs <= 0)
+    {
+        Console.WriteLine($"You have { player.SoulOrbs } soul orbs. Keep killing enemies to collect a 100 souls or more to create soul orbs.\n");
+        await player.GainExp(5, 20);
+    }
 
 
     // HEAL code
@@ -80,8 +91,9 @@ while (!player.IsDead && !goblin.IsDead)
         Console.WriteLine(player.NameOfUnit + " is casting a spell...\n");
         await Task.Delay(1000);
 
-        // Call the CastSpell method on the player object, targeting the goblin
-        player.CastSpell(goblin);
+        // Call the CastSpell method on the player object, targeting the specters
+        player.CastSpell(selectedUnit);
+        await player.GainExp(5, 10);
     }
     // If the player has chosen to cast a spell but has no magic points left
     else if (selection == "m" && player.CurMagic == 0)
@@ -106,10 +118,10 @@ while (!player.IsDead && !goblin.IsDead)
         // Exit the loop or method where this code is executed
         break;
     }
-    // This is a repeat of the player.IsDead code, only the goblin object being the difference
-    else if (goblin.IsDead == true)
+    // This is a repeat of the player.IsDead code, only the specters object being the difference
+    else if (selectedUnit.IsDead == true)
     {
-        Console.WriteLine(goblin.NameOfPlayer + " has been slain!");
+        Console.WriteLine(selectedUnit.NameOfPlayer + " has been slain!");
         break;
     }
 
@@ -117,19 +129,25 @@ while (!player.IsDead && !goblin.IsDead)
     Console.WriteLine("Enemy's turn!\n");
 
     // Generate a random number, either 0 or 1
-    int rand = random.Next(0, 2);
+    int rand = random.Next(0, 3);
 
     // If the random number is 0, execute the attack on the player
     if (rand == 0)
     {
-        goblin.PlayerAttack(player); // Goblin attacks the player
+        selectedUnit.PlayerAttack(player); // Goblin attacks the player
     }
-    // If the random number is 1 and the goblin's current health is less than 30, heal the goblin
+    // If the random number is 1 and the specters's current health is less than 30, heal the specters
     else if (rand == 1)
     {
-        goblin.Heal(); // Deal 30 damage (possibly to itself or to indicate some cost)
-        goblin.CurrentHP += 10;
+        selectedUnit.Heal(); // Deal 30 damage (possibly to itself or to indicate some cost)
+    }
+    else if (rand == 2 && selectedUnit.CurrentHP <= 130)
+    {
+        selectedUnit.AttackDamage(20);
+        selectedUnit.PlayerAttack(player);
+        selectedUnit.CurrentHP += 5;
     }
     else
-        goblin.AttackDamage(14);
+        Console.WriteLine(selectedUnit + " is meditating  to gain health.");
+        selectedUnit.CurrentHP += 15;
 }

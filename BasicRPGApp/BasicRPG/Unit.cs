@@ -93,7 +93,7 @@ namespace BasicRPG
             await Task.Delay(1000);
 
             // Output the amount of experience gained and the new total experience to the console.
-            Console.WriteLine("Special :" + SpecialAbility + "\n");
+            Console.WriteLine("Soul energy :" + SpecialAbility + "\n");
 
             if (SpecialAbility >= 100)
             {
@@ -109,10 +109,10 @@ namespace BasicRPG
             SoulOrbs++;
             if (SoulOrbs == 1)
             {
-                Console.WriteLine($"You have {SoulOrbs} orb in your inventory! ()\n");
+                Console.WriteLine($"You have {SoulOrbs} soul orb in your inventory! ()\n");
             }else if (SoulOrbs > 1)
             {
-                Console.WriteLine($"You now have {SoulOrbs} orbs in your inventory! ()\n");
+                Console.WriteLine($"You now have {SoulOrbs} soul orbs in your inventory! ()\n");
             }
         }
 
@@ -223,28 +223,13 @@ namespace BasicRPG
 
         public void Heal()
         {
-            // Generate a random number between 0.0 (inclusive) and 1.0 (exclusive)
-            double rng = random.NextDouble();
-
-            // Adjust the random number to be within the range [0.75, 1.25)
-            rng = rng / 2 + 0.75f;
-
-            // Calculate the amount of healing based on the adjusted random number and HealPower
-            int heal = (int)(rng * HealPower);
-
-            // Ensure that healing doesn't exceed the maximum health using a ternary operator based on a condition
-            CurrentHP = heal + CurrentHP > MaxHealth ? MaxHealth : CurrentHP + heal;
-
-            // Print a message indicating the amount of healing done
-            Console.WriteLine(NameOfUnit + " heals " + heal + " points.\n");
-
             if (CurrentHP < 130)
             {
                 // Generate a random number between 0.0 (inclusive) and 1.0 (exclusive)
                 double rngTwo = random.NextDouble();
 
                 // Adjust the random number to be within the range [0.75, 1.25)
-                rng = rngTwo / 2 + 2.75f;
+                rngTwo = rngTwo / 2 + 2.75f;
 
                 // Calculate the amount of healing based on the adjusted random number and HealPower
                 int healPlus = (int)(rngTwo * HealPower);
@@ -254,6 +239,23 @@ namespace BasicRPG
 
                 // Print a message indicating the amount of healing done
                 Console.WriteLine(NameOfUnit + " heals " + healPlus + " points.\n");
+            }
+            else
+            {
+                // Generate a random number between 0.0 (inclusive) and 1.0 (exclusive)
+                double rng = random.NextDouble();
+
+                // Adjust the random number to be within the range [0.75, 1.25)
+                rng = rng / 2 + 0.75f;
+
+                // Calculate the amount of healing based on the adjusted random number and HealPower
+                int heal = (int)(rng * HealPower);
+
+                // Ensure that healing doesn't exceed the maximum health using a ternary operator based on a condition
+                CurrentHP = heal + CurrentHP > MaxHealth ? MaxHealth : CurrentHP + heal;
+
+                // Print a message indicating the amount of healing done
+                Console.WriteLine(NameOfUnit + " heals " + heal + " points.\n");
             }
         }
 
@@ -304,17 +306,17 @@ namespace BasicRPG
             enemyUnit.AttackDamage(randDamage);
             await Task.Delay(1000);
 
-            Console.WriteLine($"{NameOfPlayer} has dealt {randDamage} to {enemyUnit.NameOfPlayer}!");
+            Console.WriteLine($"{NameOfPlayer} has dealt {randDamage} to {enemyUnit.NameOfPlayer}!\n");
 
-            if (CurrentHP < 45)
+            if (CurrentHP < 65)
             {
                 double rngTwo = random.NextDouble();
-                rng = rng / 2 + 8.25f;
+                rng = rng / 2 + 7.25f;
                 int randDamageTwo = (int)(Attack * rng);
                 enemyUnit.AttackDamage(randDamageTwo);
                 await Task.Delay(1000);
 
-                Console.WriteLine($"{NameOfPlayer} has dealt {randDamageTwo} to {enemyUnit.NameOfPlayer}!");
+                Console.WriteLine($"{NameOfPlayer} has dealt {randDamageTwo} to {enemyUnit.NameOfPlayer}!\n");
             }
             SoulOrbs--;
         }
