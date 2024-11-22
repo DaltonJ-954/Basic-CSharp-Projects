@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 
 namespace BasicRPG
 {
-    class Unit
+    public class Unit
     {
         public int UnitLevel;
         public string NameOfUnit;
@@ -27,6 +27,8 @@ namespace BasicRPG
         public int CurSpecial;
         public Random random;
 
+        
+
         public string NameOfPlayer { get { return NameOfUnit; } }
         public int HP { get { return CurrentHP; } }
         public int MP { get { return CurMagic; } }
@@ -34,11 +36,14 @@ namespace BasicRPG
         public int ExpGained { get; private set; }
         public bool IsDead { get { return CurrentHP <= 0; } }
 
+
         public delegate void AchievementDelegate(int exp);
         public delegate void SpecialDelegate(int spec);
+        public delegate void CleaverSwordAttackDelegate(Enemy enemy, int att);
 
         public event AchievementDelegate? AchievementUnlocked;
         public event SpecialDelegate? SpecialUnlocked;
+        public event CleaverSwordAttackDelegate? CleaverSwordUnleashed;
 
         public Unit(int unitLevel, string nameOfUnit, int maxHealth, int experience, int attack, int maxMagic, int healPower, int damage,int soulOrbs, int specialAbility)
         {
@@ -59,7 +64,7 @@ namespace BasicRPG
             this.random = new Random();
         }
 
-        public void UnitAttack(Unit playerUnit)
+        public void PlayerAttack(Enemy playerUnit)
         {
             // This method is using a similar concept a the CastSpell method
             double rng = random.NextDouble();
@@ -69,31 +74,21 @@ namespace BasicRPG
             Console.WriteLine(NameOfUnit + " attacks " + playerUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
         }
 
-        public void PlayerAttack(Unit enemyUnit)
-        {
-            // This method is using a similar concept a the CastSpell method
-            double rng = random.NextDouble();
-            rng = rng / 2 + 0.75f;
-            int randDamage = (int)(Attack * rng);
-            enemyUnit.AttackDamage(randDamage);
-            Console.WriteLine(NameOfUnit + " attacks " + enemyUnit.NameOfPlayer + " and deals " + randDamage + " damage!\n");
-        }
-
         public async Task SuperGauge(int minExp, int maxExp)
         {
             // Initialize a new instance of the Random class
             random = new Random();
 
             // Generate a random number between minExp and maxExp (inclusive).
-            // The maxExp + 1 is used because the Next() method is exclusive of the upper bound.
+            // The poweringUp + 1 is used because the Next() method is exclusive of the upper bound.
             int poweringUp = random.Next(minExp, maxExp + 1);
 
-            // Add the gained experience points to the total Experience.
+            // Add the gained special points to the total SpecialAbility.
             SpecialAbility += poweringUp;
-            await Task.Delay(1000);
+            await Task.Delay(500);
 
-            // Output the amount of experience gained and the new total experience to the console.
-            Console.WriteLine("Soul energy :" + SpecialAbility + "\n");
+            // Output the amount of special gained and the new total special to the console.
+            Console.WriteLine("Soul Ether: [ + " + poweringUp + " ] - Total Ether: " + SpecialAbility + "\n");
 
             if (SpecialAbility >= 100)
             {
@@ -107,10 +102,10 @@ namespace BasicRPG
         public void OrbLevel()
         {
             SoulOrbs++;
-            if (SoulOrbs == 1)
+            if (SoulOrbs <= 1)
             {
                 Console.WriteLine($"You have {SoulOrbs} soul orb in your inventory! ()\n");
-            }else if (SoulOrbs > 1)
+            }else
             {
                 Console.WriteLine($"You now have {SoulOrbs} soul orbs in your inventory! ()\n");
             }
@@ -130,11 +125,11 @@ namespace BasicRPG
         //    if (special >= 100)
         //    {
         //        SuperPowerUnlocked.Invoke();
-        //        Console.WriteLine($"Your power is {SpecialAbility}, and is strong enough to deal a speacial attack.");
+        //        Console.WriteLine($"Your power is {SpecialAbility}, and is strong enough to deal a special attack.");
         //    }
         //}
 
-        public void CastSpell(Unit enemyUnit)
+        public void CastSpell(Enemy enemyUnit)
         {
             // Generate a random number between 0.0 and 1.0
             double rng = random.NextDouble();
@@ -151,25 +146,30 @@ namespace BasicRPG
             // Print out a message indicating the spell's effect
             Console.WriteLine(NameOfUnit + "'s spell deals " + randDamage + " damage to " + enemyUnit.NameOfPlayer + "!\n");
 
-            // Deduct 7 magic points from the unit casting the spell
-            MagicUse(5, 8);
+            // Deducts a minimum of 8 and at max 15 magic points from the unit casting the spell
+            MagicUse(8, 15);
         }
 
         public void MagicUse(int lowUsage, int highUsage)
         {
-            Random random = new Random();
+            Random random = new();
 
             int totalUsage = random.Next(lowUsage, highUsage);
-            // Subtract the amount of magic used from the current magic
-            CurMagic -= totalUsage;
 
-            // Check if the amount used is less than or equal to the current magic
-            if (totalUsage <= CurMagic)
-                // Output the amount of magic used
-                Console.WriteLine("- " + totalUsage + " magic..\n");
+            // Check if the total usage would cause CurMagic to go below zero
+            if (CurMagic <= totalUsage)
+            {
+                totalUsage = CurMagic; // Only use the remaining magic
+                CurMagic = 0; // Set CurMagic to zero
+
+                Console.WriteLine("Magic: [ - " + totalUsage + " ]\n");
+                Console.WriteLine("Your magic is now depleted. Please use Replenish to fill your magic.");
+            }
             else
-                // Output a message indicating the need to replenish magic
-                Console.WriteLine("Your current magic is " + CurMagic + ", use Replenish.");
+            {
+                CurMagic -= totalUsage; // Subtract the amount of magic used from the current magic
+                Console.WriteLine("Magic: [ - " + totalUsage + " ]\n");
+            }
         }
 
         public void ReplenishVial(int fill)
@@ -177,7 +177,7 @@ namespace BasicRPG
             // Ensure that the fill amount is positive
             if (fill <= 0)
             {
-                Console.WriteLine("Replenish amount must be positive.");
+                Console.WriteLine("Replenish amount must be positive.\n");
                 return;
             }
             // Ensure that amount is within bounds
@@ -192,12 +192,12 @@ namespace BasicRPG
                 if (newMagic > MaxMagic)
                 {
                     CurMagic = MaxMagic;
-                    Console.WriteLine("Your magic is now full.");
+                    Console.WriteLine("Your magic is now full.\n");
                 }
                 else
                 {
                     CurMagic = newMagic;
-                    Console.WriteLine("You have replenished " + fill + " points of magic back!");
+                    Console.WriteLine("You have replenished " + fill + " points of magic back!\n");
                 }
             }
         }
@@ -223,13 +223,13 @@ namespace BasicRPG
 
         public void Heal()
         {
-            if (CurrentHP < 130)
+            if (CurrentHP < 40)
             {
-                // Generate a random number between 0.0 (inclusive) and 1.0 (exclusive)
+                // Generate a random number between 0.0 (inclusive) and 2.0 (exclusive)
                 double rngTwo = random.NextDouble();
 
-                // Adjust the random number to be within the range [0.75, 1.25)
-                rngTwo = rngTwo / 2 + 2.75f;
+                // Adjust the random number to be within the range [0.75, 2.25)
+                rngTwo = rngTwo / 2 + 1.75f;
 
                 // Calculate the amount of healing based on the adjusted random number and HealPower
                 int healPlus = (int)(rngTwo * HealPower);
@@ -272,7 +272,7 @@ namespace BasicRPG
             Experience += gainedExp;
 
             // Output the amount of experience gained and the new total experience to the console.
-            Console.WriteLine(gainedExp +" xp points. Experience: " + Experience + "\n");
+            Console.WriteLine("XP [ + " + gainedExp + " ] - Total XP: " + Experience + "\n");
             await Task.Delay(500);
 
 
@@ -291,33 +291,22 @@ namespace BasicRPG
 
         public void LevelUp()
         {
-            // += increases the variables's level with a value, respectfully.
+            // += increases the variable's level with a value, respectfully.
             UnitLevel += 1;
             CurrentHP = MaxHealth += 5;
             Attack += 3;
             CurMagic += 5;
         }
 
-        public async Task SpeacialAttack(Unit enemyUnit)
+        public async Task SpecialAttack(Enemy enemyUnit)
         {
             double rng = random.NextDouble();
-            rng = rng / 2 + 6.25f;
+            rng = rng / 2 + 8.25f;
             int randDamage = (int)(Attack * rng);
             enemyUnit.AttackDamage(randDamage);
             await Task.Delay(1000);
 
-            Console.WriteLine($"{NameOfPlayer} has dealt {randDamage} to {enemyUnit.NameOfPlayer}!\n");
-
-            if (CurrentHP < 65)
-            {
-                double rngTwo = random.NextDouble();
-                rng = rng / 2 + 7.25f;
-                int randDamageTwo = (int)(Attack * rng);
-                enemyUnit.AttackDamage(randDamageTwo);
-                await Task.Delay(1000);
-
-                Console.WriteLine($"{NameOfPlayer} has dealt {randDamageTwo} to {enemyUnit.NameOfPlayer}!\n");
-            }
+            CleaverSwordUnleashed?.Invoke(enemyUnit, randDamage + CurSpecial);
             SoulOrbs--;
         }
     }

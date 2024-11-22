@@ -15,10 +15,10 @@ namespace Casino.TwentyOne
             Dealer = new TwentyOneDealer();
             foreach (Player player in Players)
             {
-                player.Hand = new List<Card>();
+                player.Hand = [];
                 player.Stay = false;
             }
-            Dealer.Hand = new List<Card>();
+            Dealer.Hand = [];
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
             Dealer.Deck.Shuffle(4);

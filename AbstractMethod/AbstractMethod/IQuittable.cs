@@ -8,7 +8,11 @@ namespace AbstractMethod
     {
         public void Quit()
         {
-            Console.WriteLine("Quit method");
+            var input = Console.ReadKey().Key;
+            if(input == ConsoleKey.Q)
+            {
+                Console.WriteLine("\nEnd program...");
+            }
         }
     }
 }

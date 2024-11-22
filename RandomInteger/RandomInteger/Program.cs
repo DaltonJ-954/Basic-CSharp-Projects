@@ -7,8 +7,6 @@ namespace RandomInteger
     {
         static void Main(string[] args)
         {
-            AdditionDelegate additionDelegate = 
-
             // A new variable created to pull from methods in the MathOperators class.
             MathOperators operation = new MathOperators();
 
@@ -20,13 +18,14 @@ namespace RandomInteger
             Console.WriteLine(operation.Subtraction(sum));
 
             Console.WriteLine(operation.Multiplication(sum));
+            Console.WriteLine(operation.Division(sum));
 
             Console.ReadKey();
 
             Console.WriteLine("Create a division operator: ");
-            int sum2 = Convert.ToInt32(Console.ReadLine());
+            double sum2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(operation.Division(sum2));
+            Console.WriteLine(operation.Division((int)sum2));
 
             Console.ReadLine();
         }

@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\magicspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\magicspell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\randomheroapp\\games\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C848CE-21E6-47D9-923A-2453772CE51B}|RandomHeroApp.csproj|solutionrelative:games\\armor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Game.cs",
+              "RelativeDocumentMoniker": "Games\\Game.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Game.cs",
+              "RelativeToolTip": "Games\\Game.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:51:05.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Armor.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Armor.cs",
+              "RelativeDocumentMoniker": "Games\\Armor.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Armor.cs",
+              "RelativeToolTip": "Games\\Armor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:49:40.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MagicSpell.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\MagicSpell.cs",
+              "RelativeDocumentMoniker": "Games\\MagicSpell.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\MagicSpell.cs",
+              "RelativeToolTip": "Games\\MagicSpell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:49:30.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Enemy.cs",
+              "RelativeDocumentMoniker": "Games\\Enemy.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Enemy.cs",
+              "RelativeToolTip": "Games\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:48:29.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Weapon.cs",
+              "RelativeDocumentMoniker": "Games\\Weapon.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Weapon.cs",
+              "RelativeToolTip": "Games\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:48:18.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Inventory.cs",
+              "RelativeDocumentMoniker": "Games\\Inventory.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Inventory.cs",
+              "RelativeToolTip": "Games\\Inventory.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:48:07.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Item.cs",
+              "RelativeDocumentMoniker": "Games\\Item.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Item.cs",
+              "RelativeToolTip": "Games\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:47:56.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Character.cs",
+              "RelativeDocumentMoniker": "Games\\Character.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Games\\Character.cs",
+              "RelativeToolTip": "Games\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T19:47:43.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\RandomHeroApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T21:47:57.109Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

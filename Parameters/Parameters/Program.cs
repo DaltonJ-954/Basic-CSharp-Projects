@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Parameters
 {
@@ -34,20 +35,20 @@ namespace Parameters
 
             Console.ReadKey();
 
-            string backwards = "gnikrowteN hseM nepO\n";
-            Console.WriteLine(Reverse(backwards));
+            string companyName = "gnikrowteN hseM nepO\n";
+            Console.WriteLine(Reverse(companyName));
         }
 
         static string Reverse(string backwards)
         {
-            string reverse = string.Empty;
             char[] array = backwards.ToCharArray();
+            StringBuilder reverse = new StringBuilder();
 
             for (int i = array.Length - 1; i >= 0; i--)
             {
-                backwards = backwards + array[i];
+                reverse.Append(array[i]);
             }
-            return backwards;
+            return reverse.ToString();
         }
     }
 }

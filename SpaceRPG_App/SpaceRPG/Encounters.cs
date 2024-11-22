@@ -8,7 +8,7 @@ namespace SpaceRPG
 {
     class Encounters : Program
     {
-        static Random rand = new Random();
+        static readonly Random rand = new();
         public static void InitialEncounter()
         {
             Console.WriteLine("You ask the figure to identify themselves by telling you there name.");
@@ -63,7 +63,7 @@ namespace SpaceRPG
                 {
                     // Defend
                     Console.WriteLine("Unknowing, you realize your reflexes seem to allow you to evade his on-coming assault and escape..");
-                    Console.WriteLine("In an instance, the, " + n + "strikes with a furocious swing!");
+                    Console.WriteLine("In an instance, the, " + n + " strikes with a furocious swing!");
                     int damage = currentPlayer.armorValue;
                     if (damage < 0)
                         damage = 0;

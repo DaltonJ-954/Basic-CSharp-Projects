@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\Binary
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\BinaryData\BinaryData\obj\Debug\netcoreapp3.1\BinaryData.sourcelink.json

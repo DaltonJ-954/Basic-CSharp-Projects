@@ -11,7 +11,7 @@ namespace LinkedList
         public int Data { get; set; }
         // Nodes iterate through multiple sets of data
         // If statement to check if the value is null
-        public Node? Next { get; set; }
+        public Node Next { get; set; }
 
         public void DisplayNode() 
         {

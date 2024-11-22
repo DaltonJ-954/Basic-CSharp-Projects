@@ -14,9 +14,11 @@ namespace Casino.TwentyOne
             {
                 for (int j = 0; j < 4; j++)
                 {
-                    Card card = new Card();
-                    card.Face = (Face)i;
-                    card.Suit = (Suit)j;
+                    Card card = new Card
+                    {
+                        Face = (Face)i,
+                        Suit = (Suit)j
+                    };
                     Cards.Add(card);
                 }
             }
@@ -27,17 +29,17 @@ namespace Casino.TwentyOne
         {
             for (int i = 0; i < times; i++)
             {
-                List<Card> TempList = new List<Card>();
-                Random random = new Random();
+                List<Card> temporaryList = [];
+                Random random = new();
 
                 while (Cards.Count > 0)
                 {
                     int randomIndex = random.Next(0, Cards.Count);
-                    
-                    TempList.Add(Cards[randomIndex]);
+
+                    temporaryList.Add(Cards[randomIndex]);
                     Cards.RemoveAt(randomIndex);
                 }
-                Cards = TempList;
+                Cards = temporaryList;
             }
         }
     }

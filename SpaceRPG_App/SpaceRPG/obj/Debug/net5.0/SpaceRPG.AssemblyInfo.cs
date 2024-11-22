@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceRPG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be78f3aa8d173a9870b76b0b0440a0d9844b64ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1b9c9004c7b4eb3f62cb67ce04005642899945a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceRPG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceRPG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

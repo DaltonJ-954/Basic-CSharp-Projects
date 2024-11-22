@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 public class Client
 {
-    public String FirstName { get; set; }
-    public String LastName { get; set; }
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
     public int AccountNum { get; set; }
     public int Pin { get; set; }
     public double Balance { get; set; }
 
-    public Client(String firstName, String lastName, int accountNum, int pin, double balance)
+    public Client(string firstName, string lastName, int accountNum, int pin, double balance)
     {
         FirstName = firstName;
         LastName = lastName;

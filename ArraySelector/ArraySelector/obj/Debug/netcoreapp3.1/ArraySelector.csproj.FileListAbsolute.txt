@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\Arr
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArraySelector\ArraySelector\obj\Debug\netcoreapp3.1\ArraySelector.sourcelink.json

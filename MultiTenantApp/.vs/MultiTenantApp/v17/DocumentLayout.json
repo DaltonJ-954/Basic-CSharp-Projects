@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\models\\tenantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:models\\tenantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\models\\imusthavetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:models\\imusthavetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:middleware\\tenantresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\models\\tenantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:models\\tenantdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\models\\imusthavetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|solutionrelative:models\\imusthavetenants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{506DA2E3-9E4D-45EE-9CA6-ACDD0B0C2ED8}|MultiTenantApp.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\multitenantapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IMustHaveTenants.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\Models\\IMustHaveTenants.cs",
               "RelativeDocumentMoniker": "Models\\IMustHaveTenants.cs",
@@ -74,7 +74,8 @@
               "RelativeToolTip": "Models\\IMustHaveTenants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:42:31.076Z"
+              "WhenOpened": "2024-06-24T23:42:31.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TenantDbContext.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\Models\\TenantDbContext.cs",
               "RelativeDocumentMoniker": "Models\\TenantDbContext.cs",
@@ -103,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "TenantResolver.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\Middleware\\TenantResolver.cs",
               "RelativeDocumentMoniker": "Middleware\\TenantResolver.cs",
@@ -111,12 +112,11 @@
               "RelativeToolTip": "Middleware\\TenantResolver.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:59:49.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T22:59:49.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\MultiTenantApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

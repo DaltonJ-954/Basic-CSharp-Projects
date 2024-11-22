@@ -33,7 +33,6 @@ namespace DataStructures_Algorithms
             }
 
             intArray[0] = 15;
-            int value = 0;
 
             //Shifting the index / element
             for (int i = 4; i >= 2; i--)
@@ -43,8 +42,6 @@ namespace DataStructures_Algorithms
             }
 
             intArray[2] = 10;
-
-            int value2 = 0;
 
 
             //Deletions from back, start, or anywhere in the aray

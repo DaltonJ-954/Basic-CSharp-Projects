@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\Ab
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.genruntimeconfig.cache
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AbstractMethod\AbstractMethod\obj\Debug\netcoreapp3.1\AbstractMethod.sourcelink.json

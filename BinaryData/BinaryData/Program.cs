@@ -10,10 +10,9 @@ namespace BinaryData
         {
             string filePath = @"C:\Users\scall\OneDrive\Documents\github.txt", r;
             string inputString = "Mary had a little lamb, her fleece was white as snow!";
-            int[] indicesToReturn = { 0, 3, 6, 7, 8 };
+            int[] indicesToReturn = { 0, 3, 6, 7, 10 };
 
             string[] words = inputString.Split(' ');
-
 
             Console.WriteLine(filePath);
             foreach (int index in indicesToReturn)
@@ -35,7 +34,7 @@ namespace BinaryData
                 { 2, 4, 6, 8, 10 },
                 { 5, 10, 15, 20, 25 }
             };
-            Console.WriteLine(numberMatrix[2, 0]);
+            Console.WriteLine(numberMatrix[1, 3]);
 
 
             try
@@ -45,7 +44,7 @@ namespace BinaryData
                 Console.WriteLine("Enter a second number: ");
                 double secondNum = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine(firstNum * secondNum);
+                Console.WriteLine(firstNum + secondNum);
             }
             catch (DivideByZeroException e)
             {

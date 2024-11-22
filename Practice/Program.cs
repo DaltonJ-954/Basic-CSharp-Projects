@@ -5,13 +5,13 @@ namespace Practice
 {
     class Program
     {
-        private static Random random =  new Random();
+        private static readonly Random random =  new();
 
         public static List<int> LottoNumbers(int totalNumbers = 5, int maxNumber = 70)
         {
-            List<int> poolOfNumbers = new List<int>();
+            List<int> poolOfNumbers = new();
             List<int> bonusNumber = new(); 
-            HashSet<int> uniqueNum = new HashSet<int>();
+            HashSet<int> uniqueNum = new();
 
             while (uniqueNum.Count < totalNumbers)
             {
@@ -21,7 +21,6 @@ namespace Practice
                     poolOfNumbers.Add(number);
                 }
             }
-
             poolOfNumbers.Sort();
             return poolOfNumbers;  
         }
@@ -30,8 +29,7 @@ namespace Practice
         {
             List<int> poolOfNumbers = LottoNumbers();
             int bonusNumber = random.Next(1, 25);
-            Console.WriteLine("Your lottery numbera are: " + string.Join(", ", poolOfNumbers)); 
-            Console.WriteLine("Your super number is:  " + string.Join(", ", bonusNumber + " -- ") + DateTime.Now);
+            Console.Write("Your lottery numbera are: " + string.Join(", ", poolOfNumbers)); Console.Write(" - " + string.Join(", ", bonusNumber + "\n"));
         }
     }
 }

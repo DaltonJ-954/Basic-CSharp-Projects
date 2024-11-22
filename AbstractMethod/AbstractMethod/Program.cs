@@ -2,7 +2,7 @@
 
 namespace AbstractMethod
 {
-    class Program
+    class Program : IQuittable
     {
         static void Main(string[] args)
         {
@@ -15,8 +15,6 @@ namespace AbstractMethod
             employee.SayName();
             Console.WriteLine("Good afternoon, " + employee.firstName + " " + employee.lastName + ". I see that you're a " + employee.gender + ", and you're " + employee.rank + " rank is prestigious.");
 
-            IQuittable quittable = new Employee();
-            quittable.Quit();
 
             Console.WriteLine(GetMax(1, 47, 78));
             Console.WriteLine(SolarSystem(2));

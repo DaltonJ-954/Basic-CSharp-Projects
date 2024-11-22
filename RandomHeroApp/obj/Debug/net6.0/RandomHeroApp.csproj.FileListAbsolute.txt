@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\bin\Debug\net6.0\RandomHeroApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\bin\Debug\net6.0\RandomHeroApp.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\bin\Debug\net6.0\RandomHeroApp.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\bin\Debug\net6.0\RandomHeroApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\bin\Debug\net6.0\RandomHeroApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\refint\RandomHeroApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\RandomHeroApp.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomHeroApp\obj\Debug\net6.0\ref\RandomHeroApp.dll

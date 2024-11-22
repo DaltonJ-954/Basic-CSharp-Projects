@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\Arra
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\ArrayExample\obj\Debug\netcoreapp3.1\ArrayExample.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\ArrayExample\obj\Debug\netcoreapp3.1\ArrayExample.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\ArrayExample\obj\Debug\netcoreapp3.1\ArrayExample.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\ArrayExample\obj\Debug\netcoreapp3.1\ArrayExample.sourcelink.json

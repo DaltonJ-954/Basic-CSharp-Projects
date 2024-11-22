@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\Ran
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\RandomInteger\RandomInteger\obj\Debug\netcoreapp3.1\RandomInteger.sourcelink.json

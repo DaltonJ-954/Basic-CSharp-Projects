@@ -14,11 +14,11 @@ namespace Casino.TwentyOne
         }
         public Player(string name, int beginningBalance)
         {
-            Hand = new List<Card>();
+            Hand = []; // new List<Card>(); is replaced with is replaced by square brackets that represents the code identically
             Balance = beginningBalance;
             Name = name;
         }
-        private List<Card> _hand = new List<Card>();
+        private List<Card> _hand = []; // new List<Card>(); is replaced by square brackets that represents the code identically
         public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }

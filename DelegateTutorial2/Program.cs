@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 namespace DelegateTutorial2
 {
-    public delegate void StringPosition(string text);
     class Program
     {
         public delegate void StringDelegate(string text);

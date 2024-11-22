@@ -2,7 +2,6 @@
 
 namespace MultipleInterfaces
 {
-
     interface IViolin // Interface method
     {
         void Violinist();
@@ -19,7 +18,7 @@ namespace MultipleInterfaces
     }
 
     // The implementation of multiple interface methods. These methods still work without being implemented to the Orhestrator class.
-    class Orhestrator : IViolin, IFlute, IPiano
+    class Orchestrator : IViolin, IFlute, IPiano
     {
         public void Violinist()
         {
@@ -46,8 +45,8 @@ namespace MultipleInterfaces
     {
         static void Main()
         {
-            Orhestrator orch = new Orhestrator();
-            Orhestrator musical = new Orhestrator();
+            Orchestrator orch = new Orchestrator();
+            Orchestrator musical = new Orchestrator();
 
             orch.Violinist();
             orch.Flutistist();

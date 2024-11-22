@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = ArrayExample
 build_property.ProjectDir = C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\ArrayExample\ArrayExample\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

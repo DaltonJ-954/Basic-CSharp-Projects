@@ -44,9 +44,9 @@ namespace Casino.TwentyOne
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
-                Player player = new Player(playerName, bank);
+                Player player = new(playerName, bank);
                 player.Id = Guid.NewGuid();
-                using (StreamWriter file = new StreamWriter(@"C:\Users\scall\logs\log.txt", true))
+                using (StreamWriter file = new(@"C:\Users\scall\logs\log.txt", true))
                 {
                     file.WriteLine(player.Id);
                 }
@@ -91,9 +91,9 @@ namespace Casino.TwentyOne
             string queryString = @"INSERT INTO Exceptions (ExceptionType, ExceptionMessage, TimeStamp) VALUES
                                     (@ExceptionType, @ExceptionMessage, @TimeStamp)";
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = new(connectionString))
             {
-                SqlCommand commamnd = new SqlCommand(queryString, connection);
+                SqlCommand commamnd = new(queryString, connection);
                 commamnd.Parameters.Add("@ExceptionType", System.Data.SqlDbType.VarChar);
                 commamnd.Parameters.Add("@ExceptionMessage", System.Data.SqlDbType.VarChar);
                 commamnd.Parameters.Add("@TimeStamp", System.Data.SqlDbType.DateTime);
@@ -116,11 +116,11 @@ namespace Casino.TwentyOne
 
             string quertString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
 
-            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+            List<ExceptionEntity> Exceptions = [];
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = new(connectionString))
             {
-                SqlCommand command = new SqlCommand(quertString, connection);
+                SqlCommand command = new(quertString, connection);
 
                 connection.Open();
 
@@ -128,7 +128,7 @@ namespace Casino.TwentyOne
 
                 while (reader.Read())
                 {
-                    ExceptionEntity exception = new ExceptionEntity();
+                    ExceptionEntity exception = new();
                     exception.Id = Convert.ToInt32(reader["Id"]);
                     exception.ExceptionType = reader["ExceptionType"].ToString();
                     exception.ExceptionMessage = reader["ExceptionMessage"].ToString();

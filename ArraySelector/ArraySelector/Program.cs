@@ -8,27 +8,27 @@ namespace ArraySelector
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("So let's see what we can do to help you with you weight problems.");
-            List<double> weight = new List<double>();
-            int weightIssues = Convert.ToInt32(Console.ReadLine());
-
-            weight.Add(121.54);
-            weight.Add(265.11);
-            weight.Add(206);
-            weight.Add(45.34);
-            weight.Add(175.18);
-            weight.Add(15.23);
+            Console.WriteLine("What is your weight?");
+            int yourWeight = Convert.ToInt32(Console.ReadLine());
             
-            if (weightIssues < 10 || weightIssues > 270)
+            if (yourWeight >= 200)
             {
-                Console.WriteLine("You need to get yourself in shape, now!");
+                Console.WriteLine("You are in the heavy-weight division.");
+            }
+            else if (yourWeight >= 170)
+            {
+                Console.WriteLine("You are in the middle-weight division.");
+            }
+            else if (yourWeight > 120 && yourWeight < 170)
+            {
+                Console.WriteLine("You're in 3 lower weight classes that are below the weight of 170.");
             }
             else
             {
-                Console.WriteLine(weight[weightIssues]);
+                Console.WriteLine("You do not qualify to participate in this event.");
             }
 
-            Console.WriteLine("Select an index with the deisred string array to the screen");
+            Console.WriteLine("Select an index with the desired string array to the screen");
             // String array method is a C# method that's similar to an array of strings
             string[] snakes = { "Rattlesnake", "Python", "Cobra", "GrassSnake", "Boa Constrictor", "Adder", "Anaconda", "Copper Head" };
             int snakeSelect = Convert.ToInt32(Console.ReadLine());
@@ -46,7 +46,7 @@ namespace ArraySelector
 
 
             // Integer array method is a C# method that's similar to an array of integers.
-            Console.WriteLine("Select an index with the deisred string array to the screen");
+            Console.WriteLine("Select an index with the desired string array to the screen");
             int[] numGroup = { 45, 100, 575, 3220, 3, 25, 15, 2023, 329 };
             int numSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -91,7 +91,7 @@ namespace ArraySelector
 
             Dictionary<String, String> States = new Dictionary<String, String>();
 
-            States.Add("Florida", "Tallehassee");
+            States.Add("Florida", "Tallahassee");
             States.Add("Georgia", "Atlanta");
             States.Add("New York", "New York");
             States.Add("Hawaii", "Honolulu");

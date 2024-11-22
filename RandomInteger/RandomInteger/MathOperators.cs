@@ -27,9 +27,9 @@ namespace RandomInteger
         }
 
         // A method for division.
-        public int Division(int num2)
+        public double Division(int num2)
         {
-            return num2 % 23;
+            return num2 / 23;
         }
     }
 }

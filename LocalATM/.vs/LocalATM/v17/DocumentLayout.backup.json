@@ -1,0 +1,80 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\localatm\\localatm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\localatm\\localatm\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\localatm\\localatm\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\Client.cs",
+              "RelativeDocumentMoniker": "LocalATM\\Client.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\Client.cs",
+              "RelativeToolTip": "LocalATM\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T23:47:30.078Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\ATM.cs",
+              "RelativeDocumentMoniker": "LocalATM\\ATM.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\ATM.cs",
+              "RelativeToolTip": "LocalATM\\ATM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:04:42.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\Program.cs",
+              "RelativeDocumentMoniker": "LocalATM\\Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\LocalATM\\LocalATM\\Program.cs",
+              "RelativeToolTip": "LocalATM\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:04:20.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

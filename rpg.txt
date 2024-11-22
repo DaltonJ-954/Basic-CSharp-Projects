@@ -1,0 +1,177 @@
+static Unit RandomlyPickUnit(Random random, Unit specters, Unit necrophages, Unit ogroids)
+{
+    // Generates a random number 0 or 1
+    int randomValue = random.Next(3);
+    // Returns specters if randomValue is 0, otherwise returns necrophages
+    if (randomValue == 2)
+    {
+        return ogroids;
+    }
+    return randomValue == 0 ? specters : necrophages;
+}
+
+// Initialize units
+Unit player = new(1, "Geralt of Rivia", 120, 0, 10, 50, 20, 0, 0, 0);
+Unit specters = new(4, "Plague Maiden", 200, 0, 14, 20, 10, 0, 0, 0);
+Unit necrophages = new(1, "Rotfiend", 110, 0, 8, 20, 20, 0, 0, 0);
+Unit ogroids = new(8, "Cloud Giant", 330, 0, 21, 20, 15, 0, 0, 0);
+
+List<Weapons> weapons = new List<Weapons>()
+{
+
+};
+ 
+// Initialize random number generator
+Random random = new();
+
+// Subscribe to events for unlocking achievements and special abilities
+player.AchievementUnlocked += OnAchievementUnlocked;
+player.SpecialUnlocked += DevourBlade;
+player.DevourBladeUnleashed += DevourBladeWrath;
+
+// Display introduction message
+Console.WriteLine("It is time for you, " + player.NameOfUnit + ". Go and fight for your purpose of vanquishing evil! For the world and its people are under grave danger!\n");
+
+// ----------------------------------------------------------------------
+
+// Event handler for unlocking achievements
+static void OnAchievementUnlocked(int exp)
+{
+    Console.WriteLine($"Congratulations on your achievement! You've gained {exp} points of experience in your journey!.\n");
+}
+
+
+// Event handler for unlocking special ability
+static void DevourBlade(int spec)
+{
+    Console.WriteLine($"Your Devour blade has summoned the energy from {spec} souls you've slain!\n");
+}
+
+
+static void DevourBladeWrath(Unit enemy, int att)
+{
+    Console.WriteLine($"Ether from souls of slained enemies ignite the Devour Blade and unleashes {att} points of damage to its foe!\n");
+}
+
+
+// Select a random enemy unit
+Unit selectedUnit = RandomlyPickUnit(random, specters, necrophages, ogroids);
+
+// Display message about the enemy unit approaching
+Console.WriteLine($"You are being approached by the {selectedUnit.NameOfPlayer}. Prepare for battle!\n");
+
+
+
+// Battle loop until either player or enemy unit is dead
+while (!player.IsDead && !selectedUnit.IsDead)
+{
+    // Display player and enemy unit stats
+    Console.WriteLine(player.NameOfUnit + " | Level = " + player.UnitLevel + " | HP = " + player.HP + " | ExP = " + player.Experience + " | Mana = " + player.CurMagic + " | Soul Orbs = " + player.SoulOrbs + " |  | " + selectedUnit.NameOfUnit + " | Level = " + selectedUnit.UnitLevel + " | HP = " + selectedUnit.HP + " --\n");
+
+    // Prompt player for action
+    Console.WriteLine("-- Attack the enemy! --");
+    string? selection = Convert.ToString(Console.ReadLine());
+
+    // Player attacks the enemy unit
+
+    if (selection == "a")
+    {
+        player.UnitAttack(selectedUnit);
+        await player.GainExp(10, 50); // Gain experience points
+        await player.SuperGauge(15, 30); // Gain ether points
+
+        // Check if player's max health is less than 40 after the attack
+        if (player.MaxHealth < 40)
+        {
+            player.AttackDamage(20);
+            player.Heal(); // Perform healing action
+        }
+    }
+
+    // Player uses special attack if there are enough soul orbs
+
+    if (selection == "s" && player.SoulOrbs > 0)
+    {
+        await player.SpecialAttack(selectedUnit);
+        await player.GainExp(30, 40);
+
+    }
+    else if (selection == "s" && player.SoulOrbs <= 0)
+    {
+        Console.WriteLine($"You have {player.SoulOrbs} soul orbs. Keep killing enemies to collect 100 souls or more to create soul orbs.\n");
+        await player.GainExp(5, 10);
+    }
+
+    // HEAL code
+    // Check if the player selected "h" and if the player's health (HP) is already at the maximum (MaxHealth),
+    // and also confirm that the selection is not "m" 
+    if (selection == "h" && player.HP == player.MaxHealth && selection != "m")
+    {
+        // If all conditions are true, output a message indicating that the player is already at full health.
+        Console.WriteLine(player.NameOfUnit + " is already at full health.");
+    }
+    else if (selection == "h")
+    {
+        // If the selection is "h" but the player is not at full health, call the Heal method on the player to restore health.
+        player.Heal();
+        player.MagicUse(4, 8);
+    }
+
+    // Player casts a magic spell if there are enough magic points
+
+    if (selection == "m" && player.CurMagic >= 5 && selection != "a")
+    {
+        Console.WriteLine(player.NameOfUnit + " is casting a spell...\n");
+
+        await Task.Delay(1000);
+        player.CastSpell(selectedUnit);
+    }
+    else if (selection == "m" && player.CurMagic == 0)
+    {
+        Console.WriteLine("You have " + player.CurMagic + " magic energy. Use Replenish to restore magic.\n");
+    }
+
+    // Player replenishes resources
+
+    if (selection == "r")
+    {
+        player.ReplenishVial(15);
+    }
+
+    // Check if the player is dead
+
+    if (player.IsDead == true)
+    {
+        Console.WriteLine(player.NameOfPlayer + " has been slain!");
+        break;
+    }
+    // Check if the enemy unit is dead
+    else if (selectedUnit.IsDead == true)
+    {
+        Console.WriteLine(selectedUnit.NameOfPlayer + " has been slain!");
+        break;
+    }
+
+    // Declares enemy's turn
+    Console.WriteLine("** It's the " + selectedUnit.NameOfPlayer + "'s turn! **\n");
+
+    // Generate a random action for the enemy unit
+    int rand = random.Next(0, 3);
+
+    // Enemy unit attacks the player
+    if (rand == 0)
+    {
+        selectedUnit.PlayerAttack(player);
+    }
+    // Enemy unit heals itself
+    else if (rand == 1)
+    {
+        Console.Write("The enemy is meditating... "); await Task.Delay(1000); selectedUnit.Heal();
+    }
+    // Enemy unit performs a special action if its HP is low
+    else if (rand == 2)
+    {
+        selectedUnit.AttackDamage(3);
+        selectedUnit.PlayerAttack(player);
+    }
+}

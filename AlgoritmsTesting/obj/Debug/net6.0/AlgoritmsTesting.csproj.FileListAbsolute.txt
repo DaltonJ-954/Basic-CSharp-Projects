@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\bin\Debug\net6.0\AlgoritmsTesting.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\bin\Debug\net6.0\AlgoritmsTesting.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\bin\Debug\net6.0\AlgoritmsTesting.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\bin\Debug\net6.0\AlgoritmsTesting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\bin\Debug\net6.0\AlgoritmsTesting.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\refint\AlgoritmsTesting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\AlgoritmsTesting.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AlgoritmsTesting\obj\Debug\net6.0\ref\AlgoritmsTesting.dll

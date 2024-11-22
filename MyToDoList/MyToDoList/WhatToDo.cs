@@ -16,12 +16,12 @@ namespace MyToDoList
             });
         }
 
-        public void EditTask(int index, string newTitle, string newDescription)
+        public void EditTask(int index, string newTitle, string editDescription)
         {
             if (index >= 1 && index < tasks.Count + 1)
             {
                 tasks[index].Title = newTitle;
-                tasks[index].Description = newDescription;
+                tasks[index].Description = editDescription;
             }
             else
             {
@@ -38,7 +38,8 @@ namespace MyToDoList
                 Console.WriteLine($"{taskNumber}. Title: { task.Title }");
                 Console.WriteLine($"   Description: { task.Description }");
                 Console.WriteLine($"   Status: { (task.IsCompleted ? "Completed" : "Incomplete") }");
-                Console.WriteLine($"   Date Submitted: { DateTime.Now }");
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                Console.WriteLine(timestamp);
                 taskNumber++;
             }
         }

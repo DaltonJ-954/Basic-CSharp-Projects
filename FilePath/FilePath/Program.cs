@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using System.Text;
 
 namespace FilePath
 {
@@ -13,7 +14,6 @@ namespace FilePath
             // StreamReader is used to read characters to a stream in a specified encoding file.
             StreamReader reader = new StreamReader(path);
 
-            // The ternary operator(?) consist of 3 operands. It is often used as a convenience (syntatic sugar) to replace simple if else statements
             string line = reader.ReadLine();
 
             while (line != null)
@@ -26,12 +26,13 @@ namespace FilePath
             string writeText = "My name is Dalton, and I am a graduate of The Tech Academy!";  // Create a text string
             File.WriteAllText(@"C:\Users\scall\OneDrive\Documents\GitHub\HTML-and-CSS-Projects\Dalton_Walls.txt", writeText);  // Create a file and write the content of writeText to it
 
+            Console.WriteLine(writeText);
             Console.ReadKey();
             reader.Close();
 
             while (true)
             {
-                Console.WriteLine("Please enter your full name please: ");
+                Console.WriteLine("Enter your username please: ");
                 string userName = Console.ReadLine();
 
                 Console.WriteLine("Enter your password: ");

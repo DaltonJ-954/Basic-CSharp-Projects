@@ -11,17 +11,19 @@ public class Program
     {
         // Check for account number.
         //Check for pin
-        List<Client> clients = new List<Client>();
-        clients.Add(new Client("Miles", "Morales", 47376060, 7210, 900.00));
-        clients.Add(new Client("Mike", "Lawery", 47374530, 9324, 150.56));
-        clients.Add(new Client("Corey", "Holcombe", 47370912, 5652, 900.00));
-        clients.Add(new Client("Jerry", "Springer", 47374523, 0133, 470.45));
-        clients.Add(new Client("Jamie", "Foxx", 47371298, 1200, 234.12));
-        clients.Add(new Client("Brandon", "Ingraham", 47374444, 3278, 677.10));
-        clients.Add(new Client("Michael", "Jordan", 47370915, 3095, 1450299.79));
-        clients.Add(new Client("Nontle", "NDashe", 47384523, 0804, 2350299.00));
-        clients.Add(new Client("Jim", "Carey", 47345667, 1969, 109620887.25));
-
+        List<Client> clients = new List<Client>
+        {
+            new Client("Miles", "Morales", 47376060, 7210, 900.00),
+            new Client("Mike", "Lowery", 47374530, 9324, 150.56),
+            new Client("Corey", "Holcombe", 47370912, 5652, 900.00),
+            new Client("Jerry", "Springer", 47374523, 0133, 470.45),
+            new Client("Jamie", "Foxx", 47371298, 1200, 234.12),
+            new Client("Brandon", "Ingraham", 47374444, 3278, 677.10),
+            new Client("Michael", "Jordan", 47370915, 3095, 1450299.79),
+            new Client("Nontle", "NDashe", 47384523, 0804, 2350299.00),
+            new Client("Jim", "Carey", 47345667, 1969, 109620887.25),
+            new Client("Mandisa", "Buthelezi", 46578356, 2024, 10988765.10)
+        };
 
         Console.WriteLine("Welcome! Please enter your account number: ");
 
