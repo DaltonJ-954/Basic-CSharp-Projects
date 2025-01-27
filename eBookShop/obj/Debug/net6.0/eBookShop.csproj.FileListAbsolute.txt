@@ -248,3 +248,5 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Deb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\eBookShop\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

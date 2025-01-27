@@ -1,0 +1,6 @@
+@AmericaWalksApi_HostAddress = http://localhost:5171
+
+GET {{AmericaWalksApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

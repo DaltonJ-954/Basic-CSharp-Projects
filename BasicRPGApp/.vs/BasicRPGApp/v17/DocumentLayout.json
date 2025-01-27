@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|solutionrelative:basicrpg\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C441740-C293-4E1E-9009-ADE09B8CA267}|BasicRPG\\BasicRPG.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\basicrpgapp\\basicrpg\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Unit.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
               "RelativeDocumentMoniker": "BasicRPG\\Unit.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Unit.cs",
               "RelativeToolTip": "BasicRPG\\Unit.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAA3wCwBAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T22:07:11.17Z",
               "IsPinned": true,
@@ -60,19 +60,6 @@
               "IsPinned": true
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Item.cs",
-              "RelativeDocumentMoniker": "BasicRPG\\Item.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Item.cs",
-              "RelativeToolTip": "BasicRPG\\Item.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:00:36.737Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
@@ -82,13 +69,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Item.cs",
+              "RelativeDocumentMoniker": "BasicRPG\\Item.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Item.cs",
+              "RelativeToolTip": "BasicRPG\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T20:00:36.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Inventory.cs",
               "RelativeDocumentMoniker": "BasicRPG\\Inventory.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\BasicRPGApp\\BasicRPG\\Inventory.cs",
               "RelativeToolTip": "BasicRPG\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T18:09:00.902Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "BasicRPG\\Enemy.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAwAIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T21:38:58.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T21:38:58.938Z"
             }
           ]
         }
