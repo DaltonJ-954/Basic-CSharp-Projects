@@ -10,6 +10,75 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AmericaWalksApi.Controllers.LocationsController",
+    "Method": "Create",
+    "RelativePath": "api/Locations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addLocationRequestDto",
+        "Type": "AmericaWalksApi.Models.DTO.AddLocationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmericaWalksApi.Controllers.LocationsController",
+    "Method": "GetById",
+    "RelativePath": "api/Locations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmericaWalksApi.Controllers.LocationsController",
+    "Method": "Update",
+    "RelativePath": "api/Locations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRegionRequestDto",
+        "Type": "AmericaWalksApi.Models.DTO.UpdateRegionRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AmericaWalksApi.Controllers.LocationsController",
+    "Method": "Delete",
+    "RelativePath": "api/Locations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AmericaWalksApi.Controllers.StudentsController",
     "Method": "GetAllStudents",
     "RelativePath": "api/Students",

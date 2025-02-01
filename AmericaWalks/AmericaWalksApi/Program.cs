@@ -1,4 +1,5 @@
 using AmericaWalksApi.Data;
+using AmericaWalksApi.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AmericaWalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("AmericaWalksConnectionString")));
+
+builder.Services.AddScoped<ILocationRepository, SQLLocationRepository>();
 
 var app = builder.Build();
 
