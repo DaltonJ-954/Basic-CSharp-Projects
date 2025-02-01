@@ -57,7 +57,7 @@ namespace AmericaWalksApi.Controllers
         {
             // var location = dbContext.Locations.Find(id);
             // Get Location Domain Model From Database
-            var locationsDomain = await locationRepository.GetById(id);
+            var locationsDomain = await locationRepository.GetByIdAsync(id);
 
             if (locationsDomain == null)
             {
@@ -95,8 +95,7 @@ namespace AmericaWalksApi.Controllers
 
 
             // Use Domain Model to create a Location 
-            await dbContext.Locations.AddAsync(locationDomModel);
-            await dbContext.SaveChangesAsync();
+            locationDomModel = await locationRepository.CreateAsync(locationDomModel);
 
             // Map Domain Model back to DTO
             var locationDto = new LocationDto
@@ -118,20 +117,21 @@ namespace AmericaWalksApi.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
         {
+            // Map DTO to Domain Model
+            var locationDomModel = new Location
+            {
+                Code = updateRegionRequestDto.Code,
+                WalkLocation = updateRegionRequestDto.WalkLocation,
+                LocationImageUrl = updateRegionRequestDto?.LocationImageUrl
+            };
+
             // Check if location exist
-            var locationDomModel = await dbContext.Locations.FirstOrDefaultAsync(x => x.Id == id);
+            locationDomModel = await locationRepository.UpdateAsync(id, locationDomModel);
 
             if (locationDomModel == null)
             {
                 return NotFound();
             }
-
-            // Map DTO to Dmain model
-            locationDomModel.Code = updateRegionRequestDto.Code;
-            locationDomModel.WalkLocation = updateRegionRequestDto.WalkLocation;
-            locationDomModel.LocationImageUrl = updateRegionRequestDto.LocationImageUrl;
-
-            await dbContext.SaveChangesAsync();
 
             // Convert Domain Model to DTO
             var locationDto = new LocationDto
@@ -152,7 +152,7 @@ namespace AmericaWalksApi.Controllers
         [Route("{id:Guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
-            var locationDomModel = await dbContext.Locations.FirstOrDefaultAsync(x => x.Id == id);
+            var locationDomModel = await locationRepository.DeleteAsync(id);
 
             if (locationDomModel == null)
             {
@@ -160,8 +160,6 @@ namespace AmericaWalksApi.Controllers
             }
 
             // Delete location
-            dbContext.Locations.Remove(locationDomModel);
-            await dbContext.SaveChangesAsync();
 
             // Return Deleted Location back
             // Map Domain Model to DTO

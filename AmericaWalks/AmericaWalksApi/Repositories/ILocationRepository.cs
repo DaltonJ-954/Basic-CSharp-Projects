@@ -6,6 +6,12 @@ namespace AmericaWalksApi.Repositories
     {
         Task<List<Location>> GetAllAsync();
 
-        Task<Location?> GetById(Guid id);
+        Task<Location?> GetByIdAsync(Guid id);
+
+        Task<Location> CreateAsync(Location location);
+
+        Task<Location?> UpdateAsync(Guid id,Location location);
+
+        Task<Location?> DeleteAsync(Guid id);
     }
 }
