@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace AmericaWalksApi.Models.DTO
 {
-    public class UpdateRegionRequestDto
+    public class UpdateLocationRequestDto
     {
         public string Code { get; set; }
         [JsonConverter(typeof(JsonStringEnumConverter))]

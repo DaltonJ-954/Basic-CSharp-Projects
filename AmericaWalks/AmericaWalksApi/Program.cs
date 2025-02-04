@@ -1,4 +1,5 @@
 using AmericaWalksApi.Data;
+using AmericaWalksApi.Mappings;
 using AmericaWalksApi.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<AmericaWalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("AmericaWalksConnectionString")));
 
 builder.Services.AddScoped<ILocationRepository, SQLLocationRepository>();
+
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 var app = builder.Build();
 

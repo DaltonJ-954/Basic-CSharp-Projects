@@ -13,5 +13,9 @@ namespace AmericaWalksApi.Data
         public DbSet<Difficulty> Difficulties { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Walk> Walks { get; set; }
+
+
+
+
     }
 }

@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "updateRegionRequestDto",
-        "Type": "AmericaWalksApi.Models.DTO.UpdateRegionRequestDto",
+        "Name": "updateLocationRequestDto",
+        "Type": "AmericaWalksApi.Models.DTO.UpdateLocationRequestDto",
         "IsRequired": true
       }
     ],

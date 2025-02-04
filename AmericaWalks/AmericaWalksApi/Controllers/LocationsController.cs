@@ -2,6 +2,7 @@
 using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
 using AmericaWalksApi.Repositories;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -16,11 +17,14 @@ namespace AmericaWalksApi.Controllers
     {
         private readonly AmericaWalksDbContext dbContext;
         private readonly ILocationRepository locationRepository;
+        private readonly IMapper mapper;
 
-        public LocationsController(AmericaWalksDbContext dbContext, ILocationRepository locationRepository)
+        public LocationsController(AmericaWalksDbContext dbContext, ILocationRepository locationRepository,
+            IMapper mapper)
         {
             this.dbContext = dbContext;
             this.locationRepository = locationRepository;
+            this.mapper = mapper;
         }
 
         // GET ALL LOCATIONS
@@ -31,21 +35,9 @@ namespace AmericaWalksApi.Controllers
             // Get Data From Database - Domain models
             var locationsDomain = await locationRepository.GetAllAsync();
 
-            //Map Domain Models to DTOs
-            var locationsDto = new List<LocationDto>();
-            foreach (var locationDomain in locationsDomain)
-            {
-                locationsDto.Add(new LocationDto()
-                {
-                    Id = locationDomain.Id,
-                    Code = locationDomain.Code,
-                    WalkLocation = locationDomain.WalkLocation,
-                    LocationImageUrl = locationDomain.LocationImageUrl,
-                });
-            }
 
             // Return DTOs
-            return Ok(locationsDto);
+            return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
         }
 
 
@@ -64,18 +56,8 @@ namespace AmericaWalksApi.Controllers
                 return NotFound();
             }
 
-            // Map/Convert Locatio Domain Model to Location DTO
-            //
-            var locationsDto = new LocationDto
-            {
-                Id = locationsDomain.Id,
-                Code = locationsDomain.Code,
-                WalkLocation = locationsDomain.WalkLocation,
-                LocationImageUrl = locationsDomain.LocationImageUrl,
-            };
-
             // Return DTO back to Client
-            return Ok(locationsDto);
+            return Ok(mapper.Map<LocationDto>(locationsDomain));
         }
 
 
@@ -86,25 +68,14 @@ namespace AmericaWalksApi.Controllers
         public async Task<IActionResult> Create([FromBody] AddLocationRequestDto addLocationRequestDto)
         {
             // Map/Convert DTO To Domain Model
-            var locationDomModel = new Location
-            {
-                Code = addLocationRequestDto.Code,
-                WalkLocation = addLocationRequestDto.WalkLocation,
-                LocationImageUrl = addLocationRequestDto.LocationImageUrl,
-            };
-
+            // AutoMapper is not a replacement of DTO to Domain, but alternately a different way to mapping models and vice-versa
+            var locationDomModel = mapper.Map<Location>(addLocationRequestDto);
 
             // Use Domain Model to create a Location 
             locationDomModel = await locationRepository.CreateAsync(locationDomModel);
 
             // Map Domain Model back to DTO
-            var locationDto = new LocationDto
-            {
-                Id = locationDomModel.Id,
-                Code = locationDomModel.Code,
-                WalkLocation = locationDomModel.WalkLocation,
-                LocationImageUrl = locationDomModel.LocationImageUrl,
-            };
+            var locationDto = mapper.Map<LocationDto>(locationDomModel);
 
             return CreatedAtAction(nameof(GetById), new { id = locationDto.Id }, locationDto);
         }
@@ -115,15 +86,10 @@ namespace AmericaWalksApi.Controllers
 
         [HttpPut]
         [Route("{id:Guid}")]
-        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDto updateRegionRequestDto)
+        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateLocationRequestDto updateLocationRequestDto)
         {
             // Map DTO to Domain Model
-            var locationDomModel = new Location
-            {
-                Code = updateRegionRequestDto.Code,
-                WalkLocation = updateRegionRequestDto.WalkLocation,
-                LocationImageUrl = updateRegionRequestDto?.LocationImageUrl
-            };
+            var locationDomModel = mapper.Map<Location>(updateLocationRequestDto);
 
             // Check if location exist
             locationDomModel = await locationRepository.UpdateAsync(id, locationDomModel);
@@ -133,16 +99,7 @@ namespace AmericaWalksApi.Controllers
                 return NotFound();
             }
 
-            // Convert Domain Model to DTO
-            var locationDto = new LocationDto
-            {
-                Id = locationDomModel.Id,
-                Code = locationDomModel.Code,
-                WalkLocation = locationDomModel.WalkLocation,
-                LocationImageUrl = locationDomModel.LocationImageUrl,
-            };
-
-            return Ok(locationDto);
+            return Ok(mapper.Map<LocationDto>(locationDomModel));
         }
 
 
@@ -159,19 +116,7 @@ namespace AmericaWalksApi.Controllers
                 return NotFound();
             }
 
-            // Delete location
-
-            // Return Deleted Location back
-            // Map Domain Model to DTO
-            var locationDto = new LocationDto
-            {
-                Id = locationDomModel.Id,
-                Code = locationDomModel.Code,
-                WalkLocation = locationDomModel.WalkLocation,
-                LocationImageUrl = locationDomModel.LocationImageUrl,
-            };
-
-            return Ok(locationDto);
+            return Ok(mapper.Map<LocationDto>(locationDomModel));
         }
     }
 }

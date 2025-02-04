@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "p7c7E51He8k=",
+  "dgSpecHash": "O5Ete2ni13Y=",
   "success": true,
   "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\AmericaWalksApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\scall\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
