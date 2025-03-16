@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\models\\domain\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\models\\domain\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +26,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WalksController.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Controllers\\WalksController.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T23:22:56.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Models\\Domain\\Location.cs",
               "RelativeDocumentMoniker": "AmericaWalksApi\\Models\\Domain\\Location.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Models\\Domain\\Location.cs",
               "RelativeToolTip": "AmericaWalksApi\\Models\\Domain\\Location.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T22:22:29.664Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SQLWalkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\SQLWalkRepository.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Repositories\\SQLWalkRepository.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\SQLWalkRepository.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Repositories\\SQLWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T02:45:09.482Z",
+              "WhenOpened": "2025-02-24T22:22:29.664Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IWalkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\IWalkRepository.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Repositories\\IWalkRepository.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\IWalkRepository.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Repositories\\IWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T02:44:23.841Z"
             }
           ]
         }
