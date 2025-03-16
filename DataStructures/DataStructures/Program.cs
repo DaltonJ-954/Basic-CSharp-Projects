@@ -56,6 +56,8 @@ namespace DataStructures
                     sortedData[i, j] = row[j];
                 }
             }
+
+            Console.WriteLine(columnIndex);
         }
     }
 }
