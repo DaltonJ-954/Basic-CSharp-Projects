@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AmericaWalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("AmericaWalksConnectionString")));
 
 builder.Services.AddScoped<ILocationRepository, SQLLocationRepository>();
+builder.Services.AddScoped<IWalkRepository, SQLWalkRepository>();
 
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
@@ -24,6 +25,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+
     app.UseSwagger();
     app.UseSwaggerUI();
 }

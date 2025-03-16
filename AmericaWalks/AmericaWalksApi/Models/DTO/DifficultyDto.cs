@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace AmericaWalksApi.Models.Domain
+namespace AmericaWalksApi.Models.DTO
 {
     public enum WalkDifficulty
     {
@@ -9,7 +9,8 @@ namespace AmericaWalksApi.Models.Domain
         Hard
     }
 
-    public class Difficulty
+
+    public class DifficultyDto
     {
         public Guid Id { get; set; }
         [JsonConverter(typeof(JsonStringEnumConverter))]

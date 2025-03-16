@@ -1,4 +1,5 @@
-﻿using AmericaWalksApi.Data;
+﻿using AmericaWalksApi.CustomActionFilters;
+using AmericaWalksApi.Data;
 using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
 using AmericaWalksApi.Repositories;
@@ -35,7 +36,6 @@ namespace AmericaWalksApi.Controllers
             // Get Data From Database - Domain models
             var locationsDomain = await locationRepository.GetAllAsync();
 
-
             // Return DTOs
             return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
         }
@@ -65,6 +65,7 @@ namespace AmericaWalksApi.Controllers
         // Post: https://localhost:portnumber/api/locations
 
         [HttpPost] // With a post method you receive a body from the client. Annotate the Create parameter with the [FromBody] method
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddLocationRequestDto addLocationRequestDto)
         {
             // Map/Convert DTO To Domain Model
@@ -86,6 +87,7 @@ namespace AmericaWalksApi.Controllers
 
         [HttpPut]
         [Route("{id:Guid}")]
+        [ValidateModel]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateLocationRequestDto updateLocationRequestDto)
         {
             // Map DTO to Domain Model

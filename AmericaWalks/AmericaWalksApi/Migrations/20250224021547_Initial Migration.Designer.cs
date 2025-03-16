@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AmericaWalksApi.Migrations
 {
     [DbContext(typeof(AmericaWalksDbContext))]
-    [Migration("20250126195117_Initial Migration")]
+    [Migration("20250224021547_Initial Migration")]
     partial class InitialMigration
     {
         /// <inheritdoc />

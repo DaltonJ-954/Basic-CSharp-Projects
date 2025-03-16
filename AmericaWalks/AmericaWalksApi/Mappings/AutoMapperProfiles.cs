@@ -1,6 +1,6 @@
-﻿using AmericaWalksApi.Models.Domain;
+﻿using AutoMapper;
+using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
-using AutoMapper;
 
 namespace AmericaWalksApi.Mappings
 {
@@ -13,6 +13,10 @@ namespace AmericaWalksApi.Mappings
             CreateMap<Location, LocationDto>().ReverseMap();
             CreateMap<AddLocationRequestDto, Location>().ReverseMap();
             CreateMap<UpdateLocationRequestDto, Location>().ReverseMap();
+            CreateMap<AddWalkRequestDto, Walk>().ReverseMap();
+            CreateMap<Walk, WalkDto>().ReverseMap();
+            CreateMap<Difficulty, DifficultyDto>().ReverseMap();
+            CreateMap<UpdateWalkRequestDto, Walk>().ReverseMap();
         }
     }
 }

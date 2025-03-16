@@ -1,4 +1,7 @@
-﻿namespace AmericaWalksApi.Models.Domain
+﻿using AmericaWalksApi.Models.Domain;
+using System.Text.Json.Serialization;
+
+namespace AmericaWalksApi.Models.Domain
 {
     public class Walk
     {
