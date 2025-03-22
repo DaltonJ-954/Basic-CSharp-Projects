@@ -5,7 +5,7 @@ namespace AmericaWalksApi.Data
 {
     public class AmericaWalksDbContext : DbContext
     {
-        public AmericaWalksDbContext(DbContextOptions dbContectOptions) : base(dbContectOptions)
+        public AmericaWalksDbContext(DbContextOptions<AmericaWalksDbContext> dbContectOptions) : base(dbContectOptions)
         {
             
         }
