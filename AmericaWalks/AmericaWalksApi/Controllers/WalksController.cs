@@ -39,11 +39,14 @@ namespace AmericaWalksApi.Controllers
 
 
         // Get Walks
-        //GET: /appi/walks?filterOn=Name&filterQuery=Track
+        //GET: /appi/walks?filterOn=Name&filterQuery=Track&sortBy=Name&isAscending=true
         [HttpGet]
-        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
+        public async Task<IActionResult> GetAll([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
+            [FromQuery] string? sortBy, [FromQuery] bool? isAscending,
+            [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 1000)
         {
-            var walksDomainModel = await walkRepository.GetAllAsync();
+            var walksDomainModel = await walkRepository.GetAllAsync(filterOn, filterQuery, sortBy,
+                isAscending ?? true, pageNumber, pageSize);
 
             // Map Domain in Model to DTO
             return Ok(mapper.Map<List<WalkDto>>(walksDomainModel));

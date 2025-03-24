@@ -34,13 +34,14 @@ namespace AmericaWalksApi.Repositories
             return existingWalk;
         }
 
-        public async Task<List<Walk>> GetAllAsync(string? filterOn = null, string? filterQuery = null)
+        public async Task<List<Walk>> GetAllAsync(string? filterOn = null, string? filterQuery = null,
+            string? sortBy = null, bool isAscending = true,
+            int pageNumber = 1, int pageSize = 1000)
         {
             // Do more research regarding the Include() method
             // .Include(x => x.Difficulty) is type safe meaining, this avoids the lazy loading problem, where related data is fetched separately for each walk.
             // Instead of using a lambda function (x => x.Property), "Location" specifies the property name as a string. both give similar results
 
-            //return await dbContext.Walks.Include("Difficulty").Include("Location").ToListAsync();
 
             var walks = dbContext.Walks.Include("Difficulty").Include("Location").AsQueryable();
 
@@ -53,8 +54,24 @@ namespace AmericaWalksApi.Repositories
                 }
             }
 
+            // Sorting
+            if (string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if (sortBy.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.Name) : walks.OrderByDescending(x => x.Name);
+                }
+                else if (sortBy.Equals("Length", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.LengthInMiles) : walks.OrderByDescending(x => x.LengthInMiles);
+                }
+            }
 
-            return await walks.ToListAsync();
+            // Pagination
+            var skipResults = (pageNumber - 1) * pageSize;
+
+            return await walks.Skip(skipResults).Take(pageSize).ToListAsync();
+            //return await dbContext.Walks.Include("Difficulty").Include("Location").ToListAsync();
         }
 
         public async Task<Walk?> GetByIdAsync(Guid id)

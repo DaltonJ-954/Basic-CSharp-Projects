@@ -4,6 +4,7 @@ using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
 using AmericaWalksApi.Repositories;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +15,7 @@ namespace AmericaWalksApi.Controllers
     // https://localhost:7189/api/locations
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LocationsController : ControllerBase
     {
         private readonly AmericaWalksDbContext dbContext;
