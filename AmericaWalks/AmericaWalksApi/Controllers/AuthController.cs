@@ -65,7 +65,7 @@ namespace AmericaWalksApi.Controllers
                 {
                     // Create Token
 
-                    return Ok();
+                    return Ok("Login was successful! Enjoy using the America Walks app.");
                 }
             }
 
