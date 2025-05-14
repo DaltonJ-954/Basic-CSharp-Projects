@@ -15,7 +15,6 @@ namespace AmericaWalksApi.Controllers
     // https://localhost:7189/api/locations
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class LocationsController : ControllerBase
     {
         private readonly AmericaWalksDbContext dbContext;
@@ -33,6 +32,7 @@ namespace AmericaWalksApi.Controllers
         // GET ALL LOCATIONS
         // GET: https://localhost:portnumber/api/locations
         [HttpGet]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
         {
             // Get Data From Database - Domain models
@@ -47,6 +47,7 @@ namespace AmericaWalksApi.Controllers
         // GET: https://localhost:portnumber/api/locations/{id}
         [HttpGet]
         [Route("{id:Guid}")]
+        [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             // var location = dbContext.Locations.Find(id);
@@ -68,6 +69,7 @@ namespace AmericaWalksApi.Controllers
 
         [HttpPost] // With a post method you receive a body from the client. Annotate the Create parameter with the [FromBody] method
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddLocationRequestDto addLocationRequestDto)
         {
             // Map/Convert DTO To Domain Model
@@ -90,6 +92,7 @@ namespace AmericaWalksApi.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
+        [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateLocationRequestDto updateLocationRequestDto)
         {
             // Map DTO to Domain Model
@@ -111,6 +114,8 @@ namespace AmericaWalksApi.Controllers
         // DELETE: https://localhost:portnumber/api/locations/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
+        // Gives both the Reader and Writer authorization rather than it solely being access by the Writer
+        [Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var locationDomModel = await locationRepository.DeleteAsync(id);
