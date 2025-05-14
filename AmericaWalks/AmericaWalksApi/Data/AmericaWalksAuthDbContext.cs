@@ -10,7 +10,8 @@ namespace AmericaWalksApi.Data
         {
         }
 
-
+        // bocaboy78@Iwalk.com peenolia78* Writer
+        // reader561@Iwalk.com Semi25! Reader
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
