@@ -8,8 +8,8 @@ namespace AmericaWalksApi.Models.DTO
         Moderate,
         Hard
     }
-
-
+    
+    
     public class DifficultyDto
     {
         public Guid Id { get; set; }

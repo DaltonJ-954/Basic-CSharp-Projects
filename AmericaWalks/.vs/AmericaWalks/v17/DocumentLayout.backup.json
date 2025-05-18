@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\models\\dto\\imageuploadrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\repositories\\localimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,10 +41,6 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
@@ -56,46 +48,36 @@
               "RelativeDocumentMoniker": "AmericaWalksApi\\Program.cs",
               "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Program.cs",
               "RelativeToolTip": "AmericaWalksApi\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T01:14:28.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LocalImageRepository.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\LocalImageRepository.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Repositories\\LocalImageRepository.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Repositories\\LocalImageRepository.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Repositories\\LocalImageRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T01:05:48.045Z"
+              "WhenOpened": "2025-05-18T20:27:46.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ImageUploadRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Models\\DTO\\ImageUploadRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T00:46:37.206Z",
+              "WhenOpened": "2025-05-18T20:08:09.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Controllers\\ImagesController.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Controllers\\ImagesController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCwAAAANAAAAAAAAAA==",
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "AmericaWalksApi\\Controllers\\WalksController.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "AmericaWalksApi\\Controllers\\WalksController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T00:43:32.423Z"
+              "WhenOpened": "2025-05-18T19:52:08.838Z",
+              "EditorCaption": ""
             }
           ]
         }

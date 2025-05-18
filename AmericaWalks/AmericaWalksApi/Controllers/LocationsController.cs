@@ -1,14 +1,13 @@
-﻿using AmericaWalksApi.CustomActionFilters;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using AmericaWalksApi.CustomActionFilters;
 using AmericaWalksApi.Data;
 using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
 using AmericaWalksApi.Repositories;
-using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace AmericaWalksApi.Controllers
 {
@@ -20,26 +19,45 @@ namespace AmericaWalksApi.Controllers
         private readonly AmericaWalksDbContext dbContext;
         private readonly ILocationRepository locationRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<LocationsController> logger;
 
-        public LocationsController(AmericaWalksDbContext dbContext, ILocationRepository locationRepository,
-            IMapper mapper)
+        public LocationsController(AmericaWalksDbContext dbContext,
+            ILocationRepository locationRepository,
+            IMapper mapper,
+            ILogger<LocationsController> logger)
         {
             this.dbContext = dbContext;
             this.locationRepository = locationRepository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         // GET ALL LOCATIONS
         // GET: https://localhost:portnumber/api/locations
         [HttpGet]
-        [Authorize(Roles = "Reader")]
+        //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
         {
-            // Get Data From Database - Domain models
-            var locationsDomain = await locationRepository.GetAllAsync();
+            try
+            {
+                throw new Exception("This is a custom exception.");
 
-            // Return DTOs
-            return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
+                // Get Data From Database - Domain models
+                var locationsDomain = await locationRepository.GetAllAsync();
+
+                // Return DTOs
+
+                logger.LogInformation($"Finish GetAllLocations request with data: {JsonSerializer.Serialize(locationsDomain)}.");
+
+                return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, ex.Message);
+                throw;
+            }
+
+            
         }
 
 

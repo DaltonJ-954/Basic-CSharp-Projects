@@ -17,7 +17,6 @@ namespace AmericaWalksApi.Controllers
             this.imageRepository = imageRepository;
         }
 
-
         // POST: /api/Images/Upload
         [HttpPost]
         [Route("Upload")]
@@ -33,12 +32,12 @@ namespace AmericaWalksApi.Controllers
                     File = request.File,
                     FileExtension = Path.GetExtension(request.File.FileName),
                     FileSizeInBytes = request.File.Length,
-                    FileName = request.File.FileName,
+                    FileName = request.FileName,
                     FileDescription = request.FileDescription
                 };
 
 
-                // User repository to upload imahge
+                // User repository to upload image
                 await imageRepository.Upload(imageDomainModel);
 
                 return Ok(imageDomainModel);
@@ -52,9 +51,9 @@ namespace AmericaWalksApi.Controllers
         {
             var allowedExtensions = new string[] { ".jpg", ".jpeg", ".png" };
 
-            if (!allowedExtensions.Contains(Path.GetExtension(request.File.FileName)))
+            if (!allowedExtensions.Contains(request.File != null ? Path.GetExtension(request.File.FileName) : null))
             {
-                ModelState.AddModelError("file", "Unsupported file extension");
+                ModelState.AddModelError("file", "Unsupported file extension.");
             }
 
             if (request.File.Length > 10485760)
