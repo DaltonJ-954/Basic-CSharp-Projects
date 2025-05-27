@@ -49,7 +49,7 @@ namespace AmericaWalksApi.Controllers
                 isAscending ?? true, pageNumber, pageSize);
 
             // Create an Exception
-            throw new Exception("This is a new exception.");
+            // throw new Exception("This is a new exception.");
 
             // Map Domain in Model to DTO
             return Ok(mapper.Map<List<WalkDto>>(walksDomainModel));

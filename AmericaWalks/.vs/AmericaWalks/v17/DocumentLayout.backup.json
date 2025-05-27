@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalks.ui\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|solutionrelative:americawalks.ui\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalks.ui\\models\\dto\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|solutionrelative:americawalks.ui\\models\\dto\\locationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalksapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD15EEB8-A0C8-49D4-9EB7-CC91C017216C}|AmericaWalksApi\\AmericaWalksApi.csproj|solutionrelative:americawalksapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalks.ui\\models\\addlocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|solutionrelative:americawalks.ui\\models\\addlocationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalks.ui\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|solutionrelative:americawalks.ui\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\americawalks\\americawalks.ui\\views\\locations\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19B75535-2458-4A6A-B794-5BC10965ACAA}|AmericaWalks.UI\\AmericaWalks.UI.csproj|solutionrelative:americawalks.ui\\views\\locations\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 271,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,41 +50,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Program.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Program.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Program.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LocationDto.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Models\\DTO\\LocationDto.cs",
+              "RelativeDocumentMoniker": "AmericaWalks.UI\\Models\\DTO\\LocationDto.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Models\\DTO\\LocationDto.cs",
+              "RelativeToolTip": "AmericaWalks.UI\\Models\\DTO\\LocationDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:27:46.972Z",
+              "WhenOpened": "2025-05-27T19:35:06.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddLocationViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Models\\AddLocationViewModel.cs",
+              "RelativeDocumentMoniker": "AmericaWalks.UI\\Models\\AddLocationViewModel.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Models\\AddLocationViewModel.cs",
+              "RelativeToolTip": "AmericaWalks.UI\\Models\\AddLocationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T20:14:21.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAdAAAAAAAAAA==",
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "AmericaWalks.UI\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "AmericaWalks.UI\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAADwv0wAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T20:08:09.899Z",
+              "WhenOpened": "2025-05-26T20:01:04.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WalksController.cs",
-              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
-              "RelativeDocumentMoniker": "AmericaWalksApi\\Controllers\\WalksController.cs",
-              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalksApi\\Controllers\\WalksController.cs",
-              "RelativeToolTip": "AmericaWalksApi\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwC4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T19:52:08.838Z",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Views\\Locations\\Add.cshtml",
+              "RelativeDocumentMoniker": "AmericaWalks.UI\\Views\\Locations\\Add.cshtml",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Views\\Locations\\Add.cshtml",
+              "RelativeToolTip": "AmericaWalks.UI\\Views\\Locations\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T20:03:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmericaWalks.UI\\Views\\Locations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\AmericaWalks\\AmericaWalks.UI\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "AmericaWalks.UI\\Views\\Locations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T02:11:32.512Z",
               "EditorCaption": ""
             }
           ]
