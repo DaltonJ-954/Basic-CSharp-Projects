@@ -1,0 +1,34 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.csproj.AssemblyReference.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\appsettings.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.staticwebassets.endpoints.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Web-API-Versioning API.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\scopedcss\bundle\Web-API-Versioning API.styles.css
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-.3C9E74E6.Up2Date
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\refint\Web-API-Versioning API.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\Web-API-Versioning API.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\obj\Debug\net8.0\ref\Web-API-Versioning API.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Web-API-Versioning API\Web-API-Versioning API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

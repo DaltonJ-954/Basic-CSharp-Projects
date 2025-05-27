@@ -38,26 +38,15 @@ namespace AmericaWalksApi.Controllers
         //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
         {
-            try
-            {
-                throw new Exception("This is a custom exception.");
 
-                // Get Data From Database - Domain models
-                var locationsDomain = await locationRepository.GetAllAsync();
+            // Get Data From Database - Domain models
+            var locationsDomain = await locationRepository.GetAllAsync();
 
-                // Return DTOs
+            // Return DTOs
 
-                logger.LogInformation($"Finish GetAllLocations request with data: {JsonSerializer.Serialize(locationsDomain)}.");
+            logger.LogInformation($"Finish GetAllLocations request with data: {JsonSerializer.Serialize(locationsDomain)}.");
 
-                return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
-            }
-            catch (Exception ex)
-            {
-                logger.LogError(ex, ex.Message);
-                throw;
-            }
-
-            
+            return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
         }
 
 
@@ -65,7 +54,7 @@ namespace AmericaWalksApi.Controllers
         // GET: https://localhost:portnumber/api/locations/{id}
         [HttpGet]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Reader")]
+        // [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             // var location = dbContext.Locations.Find(id);
@@ -87,7 +76,7 @@ namespace AmericaWalksApi.Controllers
 
         [HttpPost] // With a post method you receive a body from the client. Annotate the Create parameter with the [FromBody] method
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        // [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddLocationRequestDto addLocationRequestDto)
         {
             // Map/Convert DTO To Domain Model
@@ -110,7 +99,7 @@ namespace AmericaWalksApi.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        // [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateLocationRequestDto updateLocationRequestDto)
         {
             // Map DTO to Domain Model
@@ -133,7 +122,7 @@ namespace AmericaWalksApi.Controllers
         [HttpDelete]
         [Route("{id:Guid}")]
         // Gives both the Reader and Writer authorization rather than it solely being access by the Writer
-        [Authorize(Roles = "Writer,Reader")]
+        // [Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var locationDomModel = await locationRepository.DeleteAsync(id);
