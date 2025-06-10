@@ -1,0 +1,43 @@
+2025-05-18 16:33:05.297 -04:00 [DBG] Connection id "0HNCM9CKQAGGG" accepted.
+2025-05-18 16:33:05.308 -04:00 [DBG] Connection id "0HNCM9CKQAGGG" started.
+2025-05-18 16:33:05.318 -04:00 [DBG] Connection 0HNCM9CKQAGGG established using the following protocol: "Tls13"
+2025-05-18 16:33:05.323 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7189/api/Locations - null null
+2025-05-18 16:33:05.334 -04:00 [DBG] 1 candidate(s) found for the request path '/api/Locations'
+2025-05-18 16:33:05.342 -04:00 [DBG] Endpoint 'AmericaWalksApi.Controllers.LocationsController.GetAll (AmericaWalksApi)' with route pattern 'api/Locations' is valid for the request path '/api/Locations'
+2025-05-18 16:33:05.346 -04:00 [DBG] Request matched endpoint 'AmericaWalksApi.Controllers.LocationsController.GetAll (AmericaWalksApi)'
+2025-05-18 16:33:05.349 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-18 16:33:05.461 -04:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-05-18 16:33:05.465 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-18 16:33:05.469 -04:00 [INF] Executing endpoint 'AmericaWalksApi.Controllers.LocationsController.GetAll (AmericaWalksApi)'
+2025-05-18 16:33:05.502 -04:00 [INF] Route matched with {action = "GetAll", controller = "Locations"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller AmericaWalksApi.Controllers.LocationsController (AmericaWalksApi).
+2025-05-18 16:33:05.506 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-18 16:33:05.509 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-18 16:33:05.511 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-18 16:33:05.514 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-18 16:33:05.517 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-18 16:33:05.522 -04:00 [DBG] Executing controller factory for controller AmericaWalksApi.Controllers.LocationsController (AmericaWalksApi)
+2025-05-18 16:33:05.691 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-05-18 16:33:05.829 -04:00 [DBG] Executed controller factory for controller AmericaWalksApi.Controllers.LocationsController (AmericaWalksApi)
+2025-05-18 16:33:05.890 -04:00 [ERR] This is a custom exception.
+System.Exception: This is a custom exception.
+   at AmericaWalksApi.Controllers.LocationsController.GetAll() in C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\Controllers\LocationsController.cs:line 43
+2025-05-18 16:33:05.953 -04:00 [INF] Executed action AmericaWalksApi.Controllers.LocationsController.GetAll (AmericaWalksApi) in 430.1307ms
+2025-05-18 16:33:05.956 -04:00 [INF] Executed endpoint 'AmericaWalksApi.Controllers.LocationsController.GetAll (AmericaWalksApi)'
+2025-05-18 16:33:05.980 -04:00 [ERR] 091f9366-a5f2-4cea-9fcf-001f41d14e80 : This is a custom exception.
+System.Exception: This is a custom exception.
+   at AmericaWalksApi.Controllers.LocationsController.GetAll() in C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\Controllers\LocationsController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at AmericaWalksApi.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\Middlewares\ExceptionHandlerMiddleware.cs:line 22
+2025-05-18 16:33:05.999 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7189/api/Locations - 500 null application/json; charset=utf-8 675.7841ms

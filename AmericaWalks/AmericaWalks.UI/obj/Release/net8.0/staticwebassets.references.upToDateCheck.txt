@@ -1,0 +1,1 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Release\net8.0\staticwebassets.build.json

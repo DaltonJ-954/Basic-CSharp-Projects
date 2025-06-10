@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AmericaWalks.UI.Models.DTO.LocationDto>
+
+@{
+}
+
+<h1 class="mt-3">Locations</h1>
+
+<div class="d-flex justify-content-end">
+    <a class="btn btn-secondary" asp-controller="Locations" asp-action="Add">Add Location</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Code</th>
+            <th>WalkLocation</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var walk in Model)
+        {
+            <tr>
+                <td>@walk.Id</td>
+                <td>@walk.Code</td>
+                <td>@walk.WalkLocation</td>
+                <td>
+                    <a asp-controller="Locations" asp-action="Edit" asp-route-id="@walk.Id" 
+                       class="btn btn-light">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
