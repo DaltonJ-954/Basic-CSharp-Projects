@@ -1,8 +1,0 @@
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\bin\Debug\Casino.pdb
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.pdb
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.csproj.AssemblyReference.cache
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\bin\Debug\System.Data.SqlClient.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\bin\Debug\System.Data.SqlClient.xml
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TwentyOne\Casino\obj\Debug\Casino.csproj.Up2Date

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-americawalks-eastus-dev-954/databases/sqldb-americawalks-eastus-dev-954",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AmericaWalksAuthConnectionString",
+      "dynamicId": null
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-americawalks-eastus-dev-954/databases/sqldb-americawalks-eastus-dev-954",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:AmericaWalksConnectionString",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "ignored": "true",
+      "type": "secrets"
+    }
+  }
+}

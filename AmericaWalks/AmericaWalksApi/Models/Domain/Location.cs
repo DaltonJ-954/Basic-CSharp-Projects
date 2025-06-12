@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using Anthropic.SDK.Extensions.MEAI;
 
 namespace AmericaWalksApi.Models.Domain
 {
