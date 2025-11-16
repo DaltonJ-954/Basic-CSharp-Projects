@@ -11,10 +11,15 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("8dad88c3-7661-4db3-b4e7-74f61dd88468")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AmericaWalksApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+161ede9e531cf7379d71a08f4c933839002b2ab9")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8657ddf5e47a94463e71e09945e4b080982118e5")]
+>>>>>>> 535007d4f6658f6bb9f130a26be5e63571821b93
 [assembly: System.Reflection.AssemblyProductAttribute("AmericaWalksApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AmericaWalksApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

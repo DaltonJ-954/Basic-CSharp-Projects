@@ -11,12 +11,12 @@ namespace AmericaWalksApi.Mappings
         public AutoMapperProfiles()
         {
             CreateMap<Location, LocationDto>().ReverseMap();
-            CreateMap<AddLocationRequestDto, Location>().ReverseMap();
-            CreateMap<UpdateLocationRequestDto, Location>().ReverseMap();
-            CreateMap<AddWalkRequestDto, Walk>().ReverseMap();
+            CreateMap<Location, AddLocationRequestDto>().ReverseMap();
+            CreateMap<Location, UpdateLocationRequestDto>().ReverseMap();
+            CreateMap< Walk, AddWalkRequestDto>().ReverseMap();
             CreateMap<Walk, WalkDto>().ReverseMap();
             CreateMap<Difficulty, DifficultyDto>().ReverseMap();
-            CreateMap<UpdateWalkRequestDto, Walk>().ReverseMap();
+            CreateMap<Walk, UpdateWalkRequestDto>().ReverseMap();
         }
     }
 }

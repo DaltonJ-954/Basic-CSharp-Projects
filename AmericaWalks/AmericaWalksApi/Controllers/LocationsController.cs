@@ -1,44 +1,51 @@
-﻿using AmericaWalksApi.CustomActionFilters;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using AmericaWalksApi.CustomActionFilters;
 using AmericaWalksApi.Data;
 using AmericaWalksApi.Models.Domain;
 using AmericaWalksApi.Models.DTO;
 using AmericaWalksApi.Repositories;
-using AutoMapper;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
 
 namespace AmericaWalksApi.Controllers
 {
     // https://localhost:7189/api/locations
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class LocationsController : ControllerBase
     {
         private readonly AmericaWalksDbContext dbContext;
         private readonly ILocationRepository locationRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<LocationsController> logger;
 
-        public LocationsController(AmericaWalksDbContext dbContext, ILocationRepository locationRepository,
-            IMapper mapper)
+        public LocationsController(AmericaWalksDbContext dbContext,
+            ILocationRepository locationRepository,
+            IMapper mapper,
+            ILogger<LocationsController> logger)
         {
             this.dbContext = dbContext;
             this.locationRepository = locationRepository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         // GET ALL LOCATIONS
         // GET: https://localhost:portnumber/api/locations
         [HttpGet]
+        //[Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
         {
+
             // Get Data From Database - Domain models
             var locationsDomain = await locationRepository.GetAllAsync();
 
             // Return DTOs
+
+            logger.LogInformation($"Finish GetAllLocations request with data: {JsonSerializer.Serialize(locationsDomain)}.");
+
             return Ok(mapper.Map<List<LocationDto>>(locationsDomain));
         }
 
@@ -47,6 +54,7 @@ namespace AmericaWalksApi.Controllers
         // GET: https://localhost:portnumber/api/locations/{id}
         [HttpGet]
         [Route("{id:Guid}")]
+        // [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             // var location = dbContext.Locations.Find(id);
@@ -68,6 +76,7 @@ namespace AmericaWalksApi.Controllers
 
         [HttpPost] // With a post method you receive a body from the client. Annotate the Create parameter with the [FromBody] method
         [ValidateModel]
+        // [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddLocationRequestDto addLocationRequestDto)
         {
             // Map/Convert DTO To Domain Model
@@ -90,6 +99,7 @@ namespace AmericaWalksApi.Controllers
         [HttpPut]
         [Route("{id:Guid}")]
         [ValidateModel]
+        // [Authorize(Roles = "Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateLocationRequestDto updateLocationRequestDto)
         {
             // Map DTO to Domain Model
@@ -111,6 +121,8 @@ namespace AmericaWalksApi.Controllers
         // DELETE: https://localhost:portnumber/api/locations/{id}
         [HttpDelete]
         [Route("{id:Guid}")]
+        // Gives both the Reader and Writer authorization rather than it solely being access by the Writer
+        // [Authorize(Roles = "Writer,Reader")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {
             var locationDomModel = await locationRepository.DeleteAsync(id);

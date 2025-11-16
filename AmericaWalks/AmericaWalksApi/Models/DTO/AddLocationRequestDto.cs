@@ -1,5 +1,6 @@
 ﻿using AmericaWalksApi.Models.Domain;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace AmericaWalksApi.Models.DTO
 {
