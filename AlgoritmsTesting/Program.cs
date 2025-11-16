@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace AlgoritmsTesting
 {
@@ -14,10 +15,10 @@ namespace AlgoritmsTesting
 
             Console.ReadKey();
 
-            var greetings = new string[] { "hi", "hello", "hey", "howdy" };
+            var cities = new string[] { "Toronto", "Miami", "Houston", "Salt Lake", "Chicago", "Detroit", "Baltimore" };
 
-            var results = greetings.Select(
-                s => s[0].ToString().ToUpper() + s.Substring(1)
+            var results = cities.Select(
+                s => s[0].ToString().ToLower() + s.Substring(1)
             );
 
             foreach (var result in results)
@@ -25,6 +26,9 @@ namespace AlgoritmsTesting
                 Console.WriteLine(result);
             }
 
+            Console.WriteLine("Enter a Key");
+            int var1 = Console.Read();
+            Console.WriteLine($"ASCII Value of the Entered Key is: {var1}");
         }
     }
 }

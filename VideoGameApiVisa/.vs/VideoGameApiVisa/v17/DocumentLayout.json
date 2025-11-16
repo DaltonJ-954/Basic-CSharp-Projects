@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\videogameapivisa\\videogameapivisa\\features\\videogames\\deletegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|solutionrelative:videogameapivisa\\features\\videogames\\deletegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\videogameapivisa\\videogameapivisa\\entities\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|solutionrelative:videogameapivisa\\entities\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|c:\\users\\scall\\onedrive\\documents\\github\\basic-csharp-projects\\videogameapivisa\\videogameapivisa\\data\\videogamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1499E06F-CF64-4DB0-8292-BAECF1377679}|VideoGameApiVisa\\VideoGameApiVisa.csproj|solutionrelative:videogameapivisa\\data\\videogamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteGame.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Features\\VideoGames\\DeleteGame.cs",
+              "RelativeDocumentMoniker": "VideoGameApiVisa\\Features\\VideoGames\\DeleteGame.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Features\\VideoGames\\DeleteGame.cs",
+              "RelativeToolTip": "VideoGameApiVisa\\Features\\VideoGames\\DeleteGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T21:30:46.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VideoGameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Data\\VideoGameDbContext.cs",
+              "RelativeDocumentMoniker": "VideoGameApiVisa\\Data\\VideoGameDbContext.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Data\\VideoGameDbContext.cs",
+              "RelativeToolTip": "VideoGameApiVisa\\Data\\VideoGameDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T21:27:53.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGame.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Entities\\VideoGame.cs",
+              "RelativeDocumentMoniker": "VideoGameApiVisa\\Entities\\VideoGame.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\VideoGameApiVisa\\VideoGameApiVisa\\Entities\\VideoGame.cs",
+              "RelativeToolTip": "VideoGameApiVisa\\Entities\\VideoGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T21:27:49.764Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

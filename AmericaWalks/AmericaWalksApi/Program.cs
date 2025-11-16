@@ -1,15 +1,16 @@
                                                                                                                                                                                                            using AmericaWalksApi.Data;
 using AmericaWalksApi.Mappings;
+using AmericaWalksApi.Middlewares;
 using AmericaWalksApi.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Serilog;
-using AmericaWalksApi.Middlewares;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 

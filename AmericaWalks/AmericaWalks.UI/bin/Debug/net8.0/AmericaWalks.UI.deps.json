@@ -9,11 +9,68 @@
       "AmericaWalks.UI/1.0.0": {
         "dependencies": {
           "AmericaWalksApi": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.1.0",
+          "Anthropic.SDK": "5.4.1",
+          "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
           "Microsoft.Data.SqlClient": "5.2.3"
         },
         "runtime": {
           "AmericaWalks.UI.dll": {}
+        }
+      },
+      "Anthropic.SDK/5.4.1": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.5.0"
+        },
+        "runtime": {
+          "lib/net8.0/Anthropic.SDK.dll": {
+            "assemblyVersion": "5.4.1.0",
+            "fileVersion": "5.4.1.0"
+          }
+        }
+      },
+      "Asp.Versioning.Abstractions/8.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Abstractions.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31619"
+          }
+        }
+      },
+      "Asp.Versioning.Http/8.1.0": {
+        "dependencies": {
+          "Asp.Versioning.Abstractions": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Http.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31627"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc/8.1.0": {
+        "dependencies": {
+          "Asp.Versioning.Http": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31627"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/8.1.0": {
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.1.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.8851.31636"
+          }
         }
       },
       "AutoMapper/13.0.1": {
@@ -29,7 +86,7 @@
       },
       "Azure.Core/1.38.0": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
           "System.ClientModel": "1.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
           "System.Memory.Data": "1.0.2",
@@ -91,30 +148,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
-        "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
-            "assemblyVersion": "5.1.0.0",
-            "fileVersion": "5.1.8270.41513"
-          }
-        }
-      },
-      "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/5.1.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll": {
-            "assemblyVersion": "5.1.0.0",
-            "fileVersion": "5.1.8270.41534"
-          }
-        }
-      },
-      "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
+      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.20.21406"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
@@ -259,6 +297,14 @@
           "lib/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "assemblyVersion": "8.0.14.0",
             "fileVersion": "8.0.1425.11206"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.5.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.5.0.0",
+            "fileVersion": "9.500.25.26507"
           }
         }
       },
@@ -754,10 +800,11 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "AmericaWalksApi/1.0.0": {
         "dependencies": {
+          "Anthropic.SDK": "5.4.1",
+          "Asp.Versioning.Mvc.ApiExplorer": "8.1.0",
           "AutoMapper": "13.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.20",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.20",
-          "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "5.1.0",
           "Microsoft.Data.SqlClient": "5.2.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
           "Microsoft.IdentityModel.JsonWebTokens": "8.0.1",
@@ -784,6 +831,41 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Anthropic.SDK/5.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B6k3/p8bUAXdWNWTV9LZctcOlqaQ9RUZV5QiWXrxecjlG7ImxlgiypuaxUzHl9xZZGOa2xOPVUASoG+6xnSoZw==",
+      "path": "anthropic.sdk/5.4.1",
+      "hashPath": "anthropic.sdk.5.4.1.nupkg.sha512"
+    },
+    "Asp.Versioning.Abstractions/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpeNZyMdvrHztJwR1sXIUQ+3iioEU97YMBnFA9WLbsPOYhGwDJnqJMmEd8ny7kcmS9OjTHoEuX/bSXXY3brIFA==",
+      "path": "asp.versioning.abstractions/8.1.0",
+      "hashPath": "asp.versioning.abstractions.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Http/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xu4xF62Cu9JqYi/CTa2TiK5kyHoa4EluPynj/bPFWDmlTIPzuJQbBI5RgFYVRFHjFVvWMoA77acRaFu7i7Wzqg==",
+      "path": "asp.versioning.http/8.1.0",
+      "hashPath": "asp.versioning.http.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BMAJM2sGsTUw5FQ9upKQt6GFoldWksePgGpYjl56WSRvIuE3UxKZh0gAL+wDTIfLshUZm97VCVxlOGyrcjWz9Q==",
+      "path": "asp.versioning.mvc/8.1.0",
+      "hashPath": "asp.versioning.mvc.8.1.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a90gW/4TF/14Bjiwg9LqNtdKGC4G3gu02+uynq3bCISfQm48km5chny4Yg5J4hixQPJUwwJJ9Do1G+jM8L9h3g==",
+      "path": "asp.versioning.mvc.apiexplorer/8.1.0",
+      "hashPath": "asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512"
     },
     "AutoMapper/13.0.1": {
       "type": "package",
@@ -834,26 +916,12 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.20",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.20.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
+    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UX8w9BlCiZpr6Ox4YAve1w0CkI1CAovukGNzKd7v0+5pZc8lzuG5tRovucr1RWIKHs0E/Yx8563CN7KzaB3bpw==",
-      "path": "microsoft.aspnetcore.mvc.versioning/5.1.0",
-      "hashPath": "microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/5.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-p45pSXCJPbx+p9gFNNQPUC547KpqP5cRJke6aygq/M7UzCrJNmJNqD+65pIpY4muYbINqlgrC47h1oc0WbuP1g==",
-      "path": "microsoft.aspnetcore.mvc.versioning.apiexplorer/5.1.0",
-      "hashPath": "microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512"
-    },
-    "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.1",
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512"
+      "sha512": "sha512-3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
+      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.Memory/9.0.0": {
       "type": "package",
@@ -910,6 +978,13 @@
       "sha512": "sha512-DFgy5EEdyq00hNC/6GrEANeW0Rvx5qdcF8KZ2ArU7yVTfL5cL8Y2qduXxcuuLgIMdBXlAoG7CorKo5Iqjz0mHQ==",
       "path": "microsoft.entityframeworkcore.sqlserver/8.0.14",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.8.0.14.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y46j1S4zOPtLAHCUzhHIm1IhCMr7764754bLYupyc1JZcvLNXjUk+VC7H3Bou20S2hHgDJnfox7X/H/3BYEvzA==",
+      "path": "microsoft.extensions.ai.abstractions/9.5.0",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.5.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

@@ -24,7 +24,6 @@ namespace StudentInfo
 
                 if (true)
                 {
-                   
                 }
                 db.Dispose();
             }

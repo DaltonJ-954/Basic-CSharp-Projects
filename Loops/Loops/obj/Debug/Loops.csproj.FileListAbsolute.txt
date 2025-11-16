@@ -5,3 +5,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Loops\Loops\bin\D
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Loops\Loops\bin\Debug\Loops.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Loops\Loops\obj\Debug\Loops.exe
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Loops\Loops\obj\Debug\Loops.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Loops\Loops\obj\Debug\Loops.exe.config

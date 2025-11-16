@@ -7,10 +7,9 @@ namespace Practice
     {
         private static readonly Random random =  new();
 
-        public static List<int> LottoNumbers(int totalNumbers = 5, int maxNumber = 70)
+        public static List<int> LottoNumbers(int totalNumbers = 5, int maxNumber = 69)
         {
             List<int> poolOfNumbers = new();
-            List<int> bonusNumber = new(); 
             HashSet<int> uniqueNum = new();
 
             while (uniqueNum.Count < totalNumbers)
@@ -29,7 +28,7 @@ namespace Practice
         {
             List<int> poolOfNumbers = LottoNumbers();
             int bonusNumber = random.Next(1, 25);
-            Console.Write("Your lottery numbera are: " + string.Join(", ", poolOfNumbers)); Console.Write(" - " + string.Join(", ", bonusNumber + "\n"));
+            Console.Write("Your lottery numbera are: " + string.Join(" - ", poolOfNumbers)); Console.Write(" * Powerball (" + string.Join("- ", bonusNumber + ")\n"));
         }
     }
 }

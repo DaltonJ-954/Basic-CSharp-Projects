@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-using Anthropic.SDK.Extensions.MEAI;
+﻿using System.Text.Json.Serialization;
 
 namespace AmericaWalksApi.Models.Domain
 {
@@ -61,9 +59,12 @@ namespace AmericaWalksApi.Models.Domain
     public class Location
     {
         public Guid Id { get; set; }
+
         public string Code { get; set; }
+
         [JsonConverter(typeof(JsonStringEnumConverter))]
         public WalksByState WalkLocation { get; set; }
+
         public string? LocationImageUrl { get; set; }
     }
 }

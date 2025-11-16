@@ -1,24 +1,54 @@
 ﻿using System;
 
-namespace MethodEX
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main(string[] args)
+        int[] numbers = { 34, 12, 5, 66, 1, 98, 23, 7 };
+
+        Console.WriteLine("Original array:");
+        PrintArray(numbers);
+
+        BubbleSort(numbers);
+
+        Console.WriteLine("\nSorted array:");
+        PrintArray(numbers);
+    }
+
+    static void BubbleSort(int[] arr)
+    {
+        int n = arr.Length;
+        bool swapped;
+
+        for (int i = 0; i < n - 1; i++)
         {
-            Store mystore = new Store(); // Instantiate
-            Console.WriteLine("Enter two numbers, though second number is optional.");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            try // Attempts to run user provided numbers
+            swapped = false;
+
+            for (int j = 0; j < n - i - 1; j++)
             {
-                int num2 = Convert.ToInt32(Console.ReadLine()); // Will cause format exception if blank.
-                Console.WriteLine(mystore.clothes(num1, num2));
+                if (arr[j] > arr[j + 1])
+                {
+                    // Swap
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+
+                    swapped = true;
+                }
             }
-            catch
-            {
-                Console.WriteLine(mystore.clothes(num1)); // If try fails, run catch method
-            }
-            Console.ReadLine();
+
+            // If no two elements were swapped in the inner loop, array is sorted
+            if (!swapped)
+                break;
         }
+    }
+
+    static void PrintArray(int[] arr)
+    {
+        foreach (int num in arr)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
     }
 }

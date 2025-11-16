@@ -159,3 +159,10 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\Amer
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\bin\Debug\net8.0\Asp.Versioning.Http.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\bin\Debug\net8.0\Anthropic.SDK.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\bin\Debug\net8.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\AmericaWalks\AmericaWalksApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

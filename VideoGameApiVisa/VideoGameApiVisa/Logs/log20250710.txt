@@ -1,0 +1,29 @@
+2025-07-10 14:38:18.790 -04:00 [INF] Now listening on: https://localhost:50276
+2025-07-10 14:38:18.839 -04:00 [INF] Now listening on: http://localhost:50277
+2025-07-10 14:38:18.908 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 14:38:18.912 -04:00 [INF] Hosting environment: Development
+2025-07-10 14:38:18.915 -04:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa
+2025-07-10 14:38:20.176 -04:00 [INF] Request starting HTTP/2 GET https://localhost:50276/ - null null
+2025-07-10 14:38:20.631 -04:00 [INF] Request finished HTTP/2 GET https://localhost:50276/ - 404 0 null 467.1192ms
+2025-07-10 14:38:20.663 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:50276/, Response status code: 404
+2025-07-10 14:40:57.586 -04:00 [INF] Now listening on: https://localhost:50276
+2025-07-10 14:40:57.665 -04:00 [INF] Now listening on: http://localhost:50277
+2025-07-10 14:40:57.766 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-10 14:40:57.772 -04:00 [INF] Hosting environment: Development
+2025-07-10 14:40:57.775 -04:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa
+2025-07-10 14:40:58.434 -04:00 [INF] Request starting HTTP/2 GET https://localhost:50276/ - null null
+2025-07-10 14:40:58.764 -04:00 [INF] Request finished HTTP/2 GET https://localhost:50276/ - 404 0 null 338.3576ms
+2025-07-10 14:40:58.853 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:50276/, Response status code: 404
+2025-07-10 14:41:13.892 -04:00 [INF] Request starting HTTP/2 GET https://localhost:50276/api/games - null null
+2025-07-10 14:41:13.913 -04:00 [INF] Executing endpoint 'VideoGameApiVisa.Features.VideoGames.GetAllGamesController.GetAllGames (VideoGameApiVisa)'
+2025-07-10 14:41:13.965 -04:00 [INF] Route matched with {action = "GetAllGames", controller = "GetAllGames"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[VideoGameApiVisa.Features.VideoGames.GetAllGames+Response]]] GetAllGames() on controller VideoGameApiVisa.Features.VideoGames.GetAllGamesController (VideoGameApiVisa).
+2025-07-10 14:41:18.907 -04:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Genre], [v].[ReleaseYear], [v].[Title]
+FROM [VideoGames] AS [v]
+2025-07-10 14:41:19.029 -04:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+ListSelectIterator`2[[VideoGameApiVisa.Entities.VideoGame, VideoGameApiVisa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[VideoGameApiVisa.Features.VideoGames.GetAllGames+Response, VideoGameApiVisa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-10 14:41:19.053 -04:00 [INF] Executed action VideoGameApiVisa.Features.VideoGames.GetAllGamesController.GetAllGames (VideoGameApiVisa) in 5077.3081ms
+2025-07-10 14:41:19.061 -04:00 [INF] Executed endpoint 'VideoGameApiVisa.Features.VideoGames.GetAllGamesController.GetAllGames (VideoGameApiVisa)'
+2025-07-10 14:41:19.078 -04:00 [INF] Request finished HTTP/2 GET https://localhost:50276/api/games - 200 null application/json; charset=utf-8 5186.4299ms
+2025-07-10 14:41:19.421 -04:00 [INF] Request starting HTTP/2 GET https://localhost:50276/favicon.ico - null null
+2025-07-10 14:41:19.437 -04:00 [INF] Request finished HTTP/2 GET https://localhost:50276/favicon.ico - 404 0 null 14.9751ms
+2025-07-10 14:41:19.447 -04:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:50276/favicon.ico, Response status code: 404

@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverL
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\OverLoadApp\OverLoadApp\obj\Debug\netcoreapp3.1\OverLoadApp.sourcelink.json

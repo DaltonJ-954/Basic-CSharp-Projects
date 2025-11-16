@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\bin\Debug\net6.0\Delegates3.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\bin\Debug\net6.0\Delegates3.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\bin\Debug\net6.0\Delegates3.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\bin\Debug\net6.0\Delegates3.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\bin\Debug\net6.0\Delegates3.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\refint\Delegates3.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\Delegates3.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Delegates3\obj\Debug\net6.0\ref\Delegates3.dll

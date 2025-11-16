@@ -1,0 +1,10 @@
+2025-07-09 15:37:49.997 -04:00 [INF] Now listening on: https://localhost:50276
+2025-07-09 15:37:50.072 -04:00 [INF] Now listening on: http://localhost:50277
+2025-07-09 15:37:50.160 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 15:37:50.165 -04:00 [INF] Hosting environment: Development
+2025-07-09 15:37:50.175 -04:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa
+2025-07-09 15:40:09.356 -04:00 [INF] Now listening on: https://localhost:50276
+2025-07-09 15:40:09.438 -04:00 [INF] Now listening on: http://localhost:50277
+2025-07-09 15:40:09.511 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-09 15:40:09.541 -04:00 [INF] Hosting environment: Development
+2025-07-09 15:40:09.545 -04:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa

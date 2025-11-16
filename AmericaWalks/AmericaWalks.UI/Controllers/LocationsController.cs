@@ -16,9 +16,10 @@ namespace AmericaWalks.UI.Controllers
         }
 
         [HttpGet]
+
         public async Task<IActionResult> Index()
         {
-            List<LocationDto> response = [];
+            List<LocationDto> response = new List<LocationDto>();
 
             try
             {
@@ -31,14 +32,13 @@ namespace AmericaWalks.UI.Controllers
 
                 response.AddRange(await httpResponseMessage.Content.ReadFromJsonAsync<IEnumerable<LocationDto>>());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Log the exception
             }
 
             return View(response);
         }
-
 
 
         [HttpGet]
@@ -91,7 +91,7 @@ namespace AmericaWalks.UI.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> Edit(LocationDto request)
         {
             var client = httpClientFactory.CreateClient();
@@ -130,7 +130,7 @@ namespace AmericaWalks.UI.Controllers
 
                 return RedirectToAction("Index", "Locations");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Console
             }

@@ -1,33 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ConstVar
+namespace DataStructures2025
 {
     class Program
     {
-        public class Car
+        static void Main(string[] args)
         {
-            private string make;
-            private string model;
-            private int year;
-
-            public Car() : this("", "", 0) // This is a constructor
-            {
-            }
-
-            public Car(string make, string model, int year) // This is async second constructor
-            {
-                this.make = make;
-                this.model = model;
-                this.year = year;
-            }
-            static void Main(string[] args)
-            {
-                Car car1 = new Car(), car2 = new Car("Mercedes", "AMG 43", 2024); // These are two constructors instantiated and chained together.
-
-                Console.WriteLine("I have a {0} {1} that was made in the year {2}.", car2.make, car2.model, car2.year);
-                Console.ReadLine();
-            }
+                
         }
     }
 }

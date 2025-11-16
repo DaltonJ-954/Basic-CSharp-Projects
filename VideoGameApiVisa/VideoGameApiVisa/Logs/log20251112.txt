@@ -1,0 +1,16 @@
+2025-11-12 16:31:45.028 -05:00 [INF] Now listening on: https://localhost:50276
+2025-11-12 16:31:45.222 -05:00 [INF] Now listening on: http://localhost:50277
+2025-11-12 16:31:45.442 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 16:31:45.484 -05:00 [INF] Hosting environment: Development
+2025-11-12 16:31:45.499 -05:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa
+2025-11-12 16:31:46.936 -05:00 [INF] Request starting HTTP/2 GET https://localhost:50276/ - null null
+2025-11-12 16:31:47.758 -05:00 [INF] Request finished HTTP/2 GET https://localhost:50276/ - 404 0 null 849.5002ms
+2025-11-12 16:31:47.845 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:50276/, Response status code: 404
+2025-11-12 16:32:08.226 -05:00 [INF] Now listening on: https://localhost:50276
+2025-11-12 16:32:08.376 -05:00 [INF] Now listening on: http://localhost:50277
+2025-11-12 16:32:08.551 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-12 16:32:08.686 -05:00 [INF] Hosting environment: Development
+2025-11-12 16:32:08.694 -05:00 [INF] Content root path: C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\VideoGameApiVisa\VideoGameApiVisa
+2025-11-12 16:32:08.971 -05:00 [INF] Request starting HTTP/2 GET https://localhost:50276/ - null null
+2025-11-12 16:32:09.359 -05:00 [INF] Request finished HTTP/2 GET https://localhost:50276/ - 404 0 null 406.127ms
+2025-11-12 16:32:09.435 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:50276/, Response status code: 404

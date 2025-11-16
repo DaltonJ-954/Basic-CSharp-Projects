@@ -30,10 +30,10 @@ namespace BinaryData
 
             int[,] numberMatrix =
             {
-                { 1, 3, 5, 7, 9 },
-                { 2, 4, 6, 8, 10 },
-                { 5, 10, 15, 20, 25 }
-            };
+                    { 1, 3, 5, 7, 9 },
+                    { 2, 4, 6, 8, 10 },
+                    { 5, 10, 15, 20, 25 }
+                };
             Console.WriteLine(numberMatrix[1, 3]);
 
 

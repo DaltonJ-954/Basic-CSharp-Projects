@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "ujWrx3Tpnfg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TestAPI\\TestAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\scall\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TestAPI\\TestAPI.csproj",
+      "filePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TestAPI\\TestAPI.csproj",
+      "libraryId": "Microsoft.AspNetCore.OpenApi",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' doesn't exist.",
+      "projectPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TestAPI\\TestAPI.csproj",
+      "filePath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Basic-CSharp-Projects\\TestAPI\\TestAPI.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": []
+    }
+  ]
+}

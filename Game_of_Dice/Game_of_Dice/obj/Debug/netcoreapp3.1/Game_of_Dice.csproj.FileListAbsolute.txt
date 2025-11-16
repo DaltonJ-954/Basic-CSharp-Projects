@@ -1,0 +1,14 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.runtimeconfig.dev.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\bin\Debug\netcoreapp3.1\Game_of_Dice.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\Game_of_Dice\Game_of_Dice\obj\Debug\netcoreapp3.1\Game_of_Dice.csproj.AssemblyReference.cache

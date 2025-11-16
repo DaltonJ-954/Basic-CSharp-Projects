@@ -12,3 +12,4 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCa
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\TryCatchAge\TryCatchAge\obj\Debug\netcoreapp3.1\TryCatchAge.sourcelink.json

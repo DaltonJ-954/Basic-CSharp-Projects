@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\projects\\localatm\\localatm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\projects\\localatm\\localatm\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\atm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|c:\\users\\scall\\onedrive\\documents\\github\\projects\\localatm\\localatm\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0F0CFA-9EFF-41D3-B44D-25D627320921}|LocalATM\\LocalATM.csproj|solutionrelative:localatm\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 271,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\Client.cs",
+              "RelativeDocumentMoniker": "LocalATM\\Client.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\Client.cs",
+              "RelativeToolTip": "LocalATM\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T23:47:30.078Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ATM.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\ATM.cs",
+              "RelativeDocumentMoniker": "LocalATM\\ATM.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\ATM.cs",
+              "RelativeToolTip": "LocalATM\\ATM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:04:42.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\Program.cs",
+              "RelativeDocumentMoniker": "LocalATM\\Program.cs",
+              "ToolTip": "C:\\Users\\scall\\OneDrive\\Documents\\GitHub\\Projects\\LocalATM\\LocalATM\\Program.cs",
+              "RelativeToolTip": "LocalATM\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwBkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:04:20.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

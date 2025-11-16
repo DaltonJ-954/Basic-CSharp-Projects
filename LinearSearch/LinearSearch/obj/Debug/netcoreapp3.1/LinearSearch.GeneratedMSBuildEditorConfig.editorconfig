@@ -3,3 +3,6 @@ build_property.RootNamespace = LinearSearch
 build_property.ProjectDir = C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\LinearSearch\LinearSearch\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

@@ -10,8 +10,12 @@ namespace ArraySelector
         {
             Console.WriteLine("What is your weight?");
             int yourWeight = Convert.ToInt32(Console.ReadLine());
-            
-            if (yourWeight >= 200)
+
+            if (yourWeight > 275)
+            {
+                Console.WriteLine("Your weight is too heavy to compete.");
+            }
+            else if (yourWeight <= 265  || yourWeight > 170)
             {
                 Console.WriteLine("You are in the heavy-weight division.");
             }
@@ -23,10 +27,12 @@ namespace ArraySelector
             {
                 Console.WriteLine("You're in 3 lower weight classes that are below the weight of 170.");
             }
+            
             else
             {
                 Console.WriteLine("You do not qualify to participate in this event.");
             }
+            Console.ReadLine();
 
             Console.WriteLine("Select an index with the desired string array to the screen");
             // String array method is a C# method that's similar to an array of strings
@@ -46,7 +52,7 @@ namespace ArraySelector
 
 
             // Integer array method is a C# method that's similar to an array of integers.
-            Console.WriteLine("Select an index with the desired string array to the screen");
+            Console.WriteLine("Select an index with the desired int array to the screen");
             int[] numGroup = { 45, 100, 575, 3220, 3, 25, 15, 2023, 329 };
             int numSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -61,7 +67,7 @@ namespace ArraySelector
             Console.ReadLine();
 
             // List array method is a C# method that's similar to an array of a certain List<string>.
-            Console.WriteLine("Grab an array  from a List<string> method in the index with a result on screen");
+            Console.WriteLine("Grab an array from programs in the index with a result on screen");
             List<string> programs = new List<string>();
             programs.Add("coding");
             programs.Add("tech");
@@ -69,7 +75,7 @@ namespace ArraySelector
             programs.Add("JavaScript");
             int software = Convert.ToInt32(Console.ReadLine());
 
-            if (software < 0 || software > 4)
+            if (software < 0 || software > 3)
             {
                 Console.WriteLine("Out of range.");
             }
@@ -87,7 +93,8 @@ namespace ArraySelector
             stack.Push("Xbox 360");
             stack.Push("DreamCast");
 
-            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Contains("SNES"));
+            Console.WriteLine();
 
             Dictionary<String, String> States = new Dictionary<String, String>();
 
@@ -97,7 +104,15 @@ namespace ArraySelector
             States.Add("Hawaii", "Honolulu");
             States.Add("Arizona", "Phoenix");
 
-            Console.WriteLine(States);
+            // Convert to array
+            KeyValuePair<string, string>[] stateArray = States.ToArray();
+
+            // Print the array contents
+            foreach (var pair in stateArray)
+            {
+                Console.WriteLine($"State: {pair.Key}, Capital: {pair.Value}");
+            }
+
             Console.ReadKey();
         }
     }

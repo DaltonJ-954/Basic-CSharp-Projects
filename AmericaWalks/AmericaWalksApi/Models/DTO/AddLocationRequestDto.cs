@@ -12,6 +12,7 @@ namespace AmericaWalksApi.Models.DTO
         public string Code { get; set; }
 
         [Required]
+        [JsonConverter(typeof(JsonStringEnumConverter))]
         public WalksByState WalkLocation { get; set; }
 
         public string? LocationImageUrl { get; set; }

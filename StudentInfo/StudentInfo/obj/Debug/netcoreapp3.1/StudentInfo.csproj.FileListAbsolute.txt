@@ -65,7 +65,6 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\Stude
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentInfo.csproj.CopyComplete
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentInfo.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentInfo.pdb
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentInfo.genruntimeconfig.cache
@@ -79,3 +78,5 @@ C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\Stude
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentInfo.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\StudentInfo\StudentInfo\obj\Debug\netcoreapp3.1\StudentI.AB51F97D.Up2Date
