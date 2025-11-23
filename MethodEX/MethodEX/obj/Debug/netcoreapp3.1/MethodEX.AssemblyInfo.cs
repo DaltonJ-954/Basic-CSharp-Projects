@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MethodEX")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb4e8f7927162e6aa426d58a1b88bf21b4e34717")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+054c30296e0ab7ee64b41d8a9c67a4c7b371003c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MethodEX")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MethodEX")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
