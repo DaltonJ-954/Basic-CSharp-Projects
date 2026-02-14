@@ -58,6 +58,7 @@ namespace DataStructures
             }
 
             Console.WriteLine(columnIndex);
+            Console.ReadKey();
         }
     }
 }
