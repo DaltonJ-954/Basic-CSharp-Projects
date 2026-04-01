@@ -1,0 +1,15 @@
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\bin\Debug\net9.0\DailyNotesApp.exe
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\bin\Debug\net9.0\DailyNotesApp.deps.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\bin\Debug\net9.0\DailyNotesApp.runtimeconfig.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\bin\Debug\net9.0\DailyNotesApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\bin\Debug\net9.0\DailyNotesApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.AssemblyInfoInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.AssemblyInfo.cs
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.csproj.CoreCompileInputs.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.sourcelink.json
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\refint\DailyNotesApp.dll
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.pdb
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\DailyNotesApp.genruntimeconfig.cache
+C:\Users\scall\OneDrive\Documents\GitHub\Basic-CSharp-Projects\PersonalNotePad\DailyNotesApp\obj\Debug\net9.0\ref\DailyNotesApp.dll
