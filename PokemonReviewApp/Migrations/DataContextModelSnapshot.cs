@@ -10,7 +10,7 @@ using PokemonReviewApp.Data;
 
 namespace PokemonReviewApp.Migrations
 {
-    [DbContext(typeof(DataContext))]
+    [DbContext(typeof(PokemonDbContext))]
     partial class DataContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

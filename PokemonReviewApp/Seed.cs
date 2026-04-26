@@ -5,119 +5,100 @@ namespace PokemonReviewApp
 {
     public class Seed
     {
-        private readonly DataContext dataContext;
-        public Seed(DataContext context)
+        private readonly PokemonDbContext dataContext;
+
+        public Seed(PokemonDbContext context)
         {
-            this.dataContext = context;
-        }
-        public void SeedDataContext()
-        {
-            if (!dataContext.PokemonOwners.Any())
-            {
-                var pokemonOwners = new List<PokemonOwner>()
-                {
-                    new PokemonOwner()
-                    {
-                        Pokemon = new Pokemon()
-                        {
-                            Name = "Pikachu",
-                            BirthDate = new DateTime(1903,1,1),
-                            PokemonCategories = new List<PokemonCategory>()
-                            {
-                                new PokemonCategory { Category = new Category() { Name = "Electric"}}
-                            },
-                            Reviews = new List<Review>()
-                            {
-                                new Review { Title="Pikachu",Text = "Pickahu is the best pokemon, because it is electric", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Teddy", LastName = "Smith" } },
-                                new Review { Title="Pikachu", Text = "Pickachu is the best at killing rocks", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Taylor", LastName = "Jones" } },
-                                new Review { Title="Pikachu",Text = "Pickchu, pickachu, pikachu", Rating = 1,
-                                Reviewer = new Reviewer(){ FirstName = "Jessica", LastName = "McGregor" } },
-                            }
-                        },
-                        Owner = new Owner()
-                        {
-                            FirstName = "Jack",
-                            LastName = "London",
-                            Gym = "Brocks Gym",
-                            Country = new Country()
-                            {
-                                Name = "Kanto"
-                            }
-                        }
-                    },
-                    new PokemonOwner()
-                    {
-                        Pokemon = new Pokemon()
-                        {
-                            Name = "Squirtle",
-                            BirthDate = new DateTime(1903,1,1),
-                            PokemonCategories = new List<PokemonCategory>()
-                            {
-                                new PokemonCategory { Category = new Category() { Name = "Water"}}
-                            },
-                            Reviews = new List<Review>()
-                            {
-                                new Review { Title= "Squirtle", Text = "squirtle is the best pokemon, because it is electric", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Teddy", LastName = "Smith" } },
-                                new Review { Title= "Squirtle",Text = "Squirtle is the best a killing rocks", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Taylor", LastName = "Jones" } },
-                                new Review { Title= "Squirtle", Text = "squirtle, squirtle, squirtle", Rating = 1,
-                                Reviewer = new Reviewer(){ FirstName = "Jessica", LastName = "McGregor" } },
-                            }
-                        },
-                        Owner = new Owner()
-                        {
-                            FirstName = "Harry",
-                            LastName = "Potter",
-                            Gym = "Mistys Gym",
-                            Country = new Country()
-                            {
-                                Name = "Saffron City"
-                            }
-                        }
-                    },
-                                    new PokemonOwner()
-                    {
-                        Pokemon = new Pokemon()
-                        {
-                            Name = "Venasuar",
-                            BirthDate = new DateTime(1903,1,1),
-                            PokemonCategories = new List<PokemonCategory>()
-                            {
-                                new PokemonCategory { Category = new Category() { Name = "Leaf"}}
-                            },
-                            Reviews = new List<Review>()
-                            {
-                                new Review { Title="Veasaur",Text = "Venasuar is the best pokemon, because it is electric", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Teddy", LastName = "Smith" } },
-                                new Review { Title="Veasaur",Text = "Venasuar is the best a killing rocks", Rating = 5,
-                                Reviewer = new Reviewer(){ FirstName = "Taylor", LastName = "Jones" } },
-                                new Review { Title="Veasaur",Text = "Venasuar, Venasuar, Venasuar", Rating = 1,
-                                Reviewer = new Reviewer(){ FirstName = "Jessica", LastName = "McGregor" } },
-                            }
-                        },
-                        Owner = new Owner()
-                        {
-                            FirstName = "Ash",
-                            LastName = "Ketchum",
-                            Gym = "Ashs Gym",
-                            Country = new Country()
-                            {
-                                Name = "Millet Town"
-                            }
-                        }
-                    }
-                };
-                dataContext.PokemonOwners.AddRange(pokemonOwners);
-                dataContext.SaveChanges();
-            }
+            dataContext = context;
         }
 
-        public void SeedDateContext()
+        public void SeedDataContext()
         {
-            throw new NotImplementedException();
+            if (dataContext.PokemonOwners.Any())
+                return;
+
+            // Create base data
+            var categories = new List<Category>();
+            var countries = new List<Country>();
+            var owners = new List<Owner>();
+            var reviewers = new List<Reviewer>();
+
+            // 10 Categories
+            for (int i = 1; i <= 10; i++)
+            {
+                categories.Add(new Category { Name = $"Category {i}" });
+            }
+
+            // 10 Countries
+            for (int i = 1; i <= 10; i++)
+            {
+                countries.Add(new Country { Name = $"Region {i}" });
+            }
+
+            // 10 Owners
+            for (int i = 1; i <= 10; i++)
+            {
+                owners.Add(new Owner
+                {
+                    FirstName = $"OwnerFirst{i}",
+                    LastName = $"OwnerLast{i}",
+                    Gym = $"Gym {i}",
+                    Country = countries[i - 1]
+                });
+            }
+
+            // 10 Reviewers
+            for (int i = 1; i <= 10; i++)
+            {
+                reviewers.Add(new Reviewer
+                {
+                    FirstName = $"ReviewerFirst{i}",
+                    LastName = $"ReviewerLast{i}"
+                });
+            }
+
+            var pokemonOwners = new List<PokemonOwner>();
+
+            // 10 Pokémon
+            for (int i = 1; i <= 10; i++)
+            {
+                var pokemon = new Pokemon
+                {
+                    Name = $"Pokemon {i}",
+                    BirthDate = new DateTime(2000 + i, 1, 1),
+
+                    PokemonCategories = new List<PokemonCategory>
+                    {
+                        new PokemonCategory
+                        {
+                            Category = categories[i - 1]
+                        }
+                    },
+
+                    Reviews = new List<Review>()
+                };
+
+                // 3 Reviews per Pokémon
+                for (int j = 0; j < 3; j++)
+                {
+                    pokemon.Reviews.Add(new Review
+                    {
+                        Title = $"Pokemon {i} Review {j + 1}",
+                        Text = $"This is review {j + 1} for Pokemon {i}",
+                        Rating = (j % 5) + 1,
+                        Reviewer = reviewers[(i + j) % reviewers.Count]
+                    });
+                }
+
+                pokemonOwners.Add(new PokemonOwner
+                {
+                    Pokemon = pokemon,
+                    Owner = owners[i - 1]
+                });
+            }
+
+            dataContext.PokemonOwners.AddRange(pokemonOwners);
+            dataContext.SaveChanges();
         }
     }
 }

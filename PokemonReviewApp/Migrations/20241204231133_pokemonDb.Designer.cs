@@ -11,7 +11,7 @@ using PokemonReviewApp.Data;
 
 namespace PokemonReviewApp.Migrations
 {
-    [DbContext(typeof(DataContext))]
+    [DbContext(typeof(PokemonDbContext))]
     [Migration("20241204231133_pokemonDb")]
     partial class pokemonDb
     {

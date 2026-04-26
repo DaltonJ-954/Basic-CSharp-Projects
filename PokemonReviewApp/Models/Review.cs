@@ -4,11 +4,11 @@ namespace PokemonReviewApp.Models
     public class Review
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public string Text { get; set; }
-        public Reviewer Reviewer { get; set; }
-        public Pokemon Pokemon { get; set; }
+        public string Title { get; set; } = null!;
+        public string Description { get; set; } = null!;
+        public string Text { get; set; } = null!;
+        public Reviewer Reviewer { get; set; } = null!;
+        public Pokemon Pokemon { get; set; } = null!;
         public int Rating { get; set; }
     }
 }

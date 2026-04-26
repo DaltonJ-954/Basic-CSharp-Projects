@@ -1,45 +1,41 @@
 using Microsoft.EntityFrameworkCore;
-using PokemonReviewApp;
 using PokemonReviewApp.Data;
 
 namespace PokemonReviewApp
 {
     public class Program
     {
-        public static void Main(String[] args)
-
+        public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
+            // -----------------------
+            // Services
+            // -----------------------
             builder.Services.AddControllers();
-            builder.Services.AddTransient<Seed>(); // Will add the injection at the very beginning
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<DataContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-            });
+
+            builder.Services.AddDbContext<PokemonDbContext>(options =>
+                options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DefaultConnection")));
+
+            builder.Services.AddTransient<Seed>();
 
             var app = builder.Build();
 
+            // -----------------------
+            // Seed Data (IMPORTANT)
+            // -----------------------
             if (args.Length == 1 && args[0].ToLower() == "seeddata")
-                SeedData(app);
-
-            void SeedData(IHost app)
             {
-                var scopedFactory = app.Services.GetService<IServiceScopeFactory>();
-
-                using (var scope = scopedFactory.CreateScope())
-                {
-                    var service = scope.ServiceProvider.GetService<Seed>();
-                    service.SeedDateContext();
-                }
+                SeedData(app);
             }
 
-            // Configure the HTTP request pipeline.
+            // -----------------------
+            // Middleware
+            // -----------------------
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -50,10 +46,21 @@ namespace PokemonReviewApp
 
             app.UseAuthorization();
 
-
             app.MapControllers();
 
             app.Run();
+        }
+
+        // -----------------------
+        // Seed Method
+        // -----------------------
+        private static void SeedData(IHost app)
+        {
+            using var scope = app.Services.CreateScope();
+            var services = scope.ServiceProvider;
+
+            var seed = services.GetRequiredService<Seed>();
+            seed.SeedDataContext();
         }
     }
 }
